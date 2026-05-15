@@ -87,37 +87,35 @@ export function BottomPlayer({
         <span className="w-[46px] text-right">{formatTime(duration)}</span>
       </div>
 
-      <div className="mt-4 flex items-center justify-between">
-        {/* 中/英 */}
-        <ControlButton
-          icon={<Languages size={20} strokeWidth={1.8} />}
-          label={displayLabels[displayMode]}
-          onClick={onDisplayModeToggle}
-        />
+      <div className="mt-4 flex items-center">
+        {/* 左側三個按鈕 */}
+        <div className="flex flex-1 items-center justify-around">
+          <ControlButton
+            icon={<Languages size={20} strokeWidth={1.8} />}
+            label={displayLabels[displayMode]}
+            onClick={onDisplayModeToggle}
+          />
+          <button
+            type="button"
+            className="grid h-10 w-10 place-items-center transition active:scale-95"
+            aria-label={`Speed ${playbackRate.toFixed(1)}x`}
+            onClick={() => onPlaybackRateChange(nextPlaybackRate)}
+          >
+            <span className="text-[17px] font-semibold leading-none tabular-nums text-white/80">
+              {Number.isInteger(playbackRate) ? `${playbackRate}x` : `${playbackRate.toFixed(1)}x`}
+            </span>
+          </button>
+          <ControlButton
+            icon={<SkipBack size={25} strokeWidth={1.75} />}
+            label="上一頁"
+            onClick={onPreviousSlide}
+          />
+        </div>
 
-        {/* 倍速 */}
+        {/* 播放 / 暫停 — 絕對置中 */}
         <button
           type="button"
-          className="flex flex-col items-center gap-[3px] transition active:scale-95"
-          aria-label={`Speed ${playbackRate.toFixed(1)}x`}
-          onClick={() => onPlaybackRateChange(nextPlaybackRate)}
-        >
-          <span className="text-[17px] font-semibold leading-none tabular-nums text-white/80">
-            {Number.isInteger(playbackRate) ? `${playbackRate}x` : `${playbackRate.toFixed(1)}x`}
-          </span>
-        </button>
-
-        {/* 上一頁 */}
-        <ControlButton
-          icon={<SkipBack size={25} strokeWidth={1.75} />}
-          label="上一頁"
-          onClick={onPreviousSlide}
-        />
-
-        {/* 播放 / 暫停 */}
-        <button
-          type="button"
-          className="grid h-[54px] w-[54px] flex-none place-items-center rounded-full border border-white/92 bg-white text-[#071019] shadow-[0_14px_40px_rgba(255,255,255,0.18)] transition active:scale-95"
+          className="mx-3 grid h-[54px] w-[54px] flex-none place-items-center rounded-full border border-white/92 bg-white text-[#071019] shadow-[0_14px_40px_rgba(255,255,255,0.18)] transition active:scale-95"
           aria-label={isPlaying ? "暫停" : "播放"}
           onClick={onPlayPause}
         >
@@ -128,26 +126,24 @@ export function BottomPlayer({
           )}
         </button>
 
-        {/* 下一頁 */}
-        <ControlButton
-          icon={<SkipForward size={25} strokeWidth={1.75} />}
-          label="下一頁"
-          onClick={onNextSlide}
-        />
-
-        {/* 簡報全文 */}
-        <ControlButton
-          icon={<FileText size={20} strokeWidth={1.8} />}
-          label="簡報全文"
-          onClick={onOpenFullTranscript}
-        />
-
-        {/* 練習收藏 */}
-        <ControlButton
-          icon={<Star size={20} strokeWidth={1.8} />}
-          label="練習收藏"
-          onClick={onOpenFavorites}
-        />
+        {/* 右側三個按鈕 */}
+        <div className="flex flex-1 items-center justify-around">
+          <ControlButton
+            icon={<SkipForward size={25} strokeWidth={1.75} />}
+            label="下一頁"
+            onClick={onNextSlide}
+          />
+          <ControlButton
+            icon={<FileText size={20} strokeWidth={1.8} />}
+            label="簡報全文"
+            onClick={onOpenFullTranscript}
+          />
+          <ControlButton
+            icon={<Star size={20} strokeWidth={1.8} />}
+            label="練習收藏"
+            onClick={onOpenFavorites}
+          />
+        </div>
       </div>
     </footer>
   );
