@@ -103,7 +103,7 @@ export function BottomPlayer({
           onClick={() => onPlaybackRateChange(nextPlaybackRate)}
         >
           <span className="text-[17px] font-semibold leading-none tabular-nums text-white/80">
-            {playbackRate.toFixed(1)}x
+            {Number.isInteger(playbackRate) ? `${playbackRate}x` : `${playbackRate.toFixed(1)}x`}
           </span>
         </button>
 
