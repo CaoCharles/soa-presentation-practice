@@ -87,9 +87,9 @@ export function BottomPlayer({
         <span className="w-[46px] text-right">{formatTime(duration)}</span>
       </div>
 
-      <div className="mt-4 flex items-center">
+      <div className="mt-4 grid grid-cols-[1fr_auto_1fr] items-center">
         {/* 左側三個按鈕 */}
-        <div className="flex flex-1 items-center justify-around">
+        <div className="flex items-center justify-around">
           <ControlButton
             icon={<Languages size={20} strokeWidth={1.8} />}
             label={displayLabels[displayMode]}
@@ -115,7 +115,7 @@ export function BottomPlayer({
         {/* 播放 / 暫停 — 絕對置中 */}
         <button
           type="button"
-          className="mx-3 grid h-[54px] w-[54px] flex-none place-items-center rounded-full border border-white/92 bg-white text-[#071019] shadow-[0_14px_40px_rgba(255,255,255,0.18)] transition active:scale-95"
+          className="mx-auto grid h-[54px] w-[54px] place-items-center rounded-full border border-white/92 bg-white text-[#071019] shadow-[0_14px_40px_rgba(255,255,255,0.18)] transition active:scale-95"
           aria-label={isPlaying ? "暫停" : "播放"}
           onClick={onPlayPause}
         >
@@ -127,7 +127,7 @@ export function BottomPlayer({
         </button>
 
         {/* 右側三個按鈕 */}
-        <div className="flex flex-1 items-center justify-around">
+        <div className="flex items-center justify-around">
           <ControlButton
             icon={<SkipForward size={25} strokeWidth={1.75} />}
             label="下一頁"
