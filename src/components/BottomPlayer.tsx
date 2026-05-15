@@ -39,15 +39,12 @@ function ControlButton({
   return (
     <button
       type="button"
-      className="flex w-9 flex-col items-center justify-center gap-[3px] transition active:scale-95"
+      className="grid h-10 w-10 place-items-center transition active:scale-95"
       onClick={onClick}
       aria-label={label}
       aria-pressed={active}
     >
-      <span className={active ? "text-white" : "text-white/80"}>{icon}</span>
-      <span className={["w-full text-center text-[9px] font-medium leading-tight", active ? "text-white" : "text-white/55"].join(" ")}>
-        {label}
-      </span>
+      <span className={active ? "text-white" : "text-white/70"}>{icon}</span>
     </button>
   );
 }
@@ -108,7 +105,6 @@ export function BottomPlayer({
           <span className="text-[17px] font-semibold leading-none tabular-nums text-white/80">
             {playbackRate.toFixed(1)}x
           </span>
-          <span className="whitespace-nowrap text-[9.5px] font-medium leading-none text-white/55">倍速</span>
         </button>
 
         {/* 上一頁 */}
