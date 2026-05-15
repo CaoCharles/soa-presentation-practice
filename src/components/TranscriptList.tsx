@@ -30,19 +30,31 @@ export function TranscriptList({
   const scrollTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const prevSlidePageRef = useRef(visibleSlidePage);
 
-  // Detect manual scroll → update slide page to match visible content
+  // Detect user-initiated scroll via pointer events (not scroll event, which fires for programmatic scrolls too)
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+
+    const onPointerDown = () => {
+      userScrollingRef.current = true;
+      if (scrollTimerRef.current) clearTimeout(scrollTimerRef.current);
+      scrollTimerRef.current = setTimeout(() => {
+        userScrollingRef.current = false;
+      }, 2000);
+    };
+
+    el.addEventListener("pointerdown", onPointerDown, { passive: true });
+    return () => el.removeEventListener("pointerdown", onPointerDown);
+  }, []);
+
+  // Update slide indicator as user scrolls
   useEffect(() => {
     const el = containerRef.current;
     if (!el) return;
 
     const onScroll = () => {
-      userScrollingRef.current = true;
-      if (scrollTimerRef.current) clearTimeout(scrollTimerRef.current);
-      scrollTimerRef.current = setTimeout(() => {
-        userScrollingRef.current = false;
-      }, 4000);
+      if (!userScrollingRef.current) return;
 
-      // Find which slide page is most visible in the centre of the container
       const centerY = el.getBoundingClientRect().top + el.clientHeight / 2;
       let closest: SentenceSegment | null = null;
       let minDist = Infinity;
@@ -71,12 +83,15 @@ export function TranscriptList({
   useEffect(() => {
     const currentSegment = segments.find((s) => s.id === currentSegmentId);
     // If the current audio segment is already on this page, let the currentSegmentId effect handle it
-    if (currentSegment?.slidePage === visibleSlidePage) return;
+    if (currentSegment?.slidePage === visibleSlidePage) {
+      // Reset scroll lock so button navigation always wins over a prior manual scroll
+      userScrollingRef.current = false;
+      return;
+    }
 
     const firstSegment = segments.find((s) => s.slidePage === visibleSlidePage);
     if (!firstSegment) return;
 
-    // Override user scroll lock so slide navigation always wins
     userScrollingRef.current = false;
     prevSlidePageRef.current = visibleSlidePage;
 
