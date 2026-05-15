@@ -101,6 +101,16 @@ export default function App() {
   const isSlideSynced = visibleSlidePage === playbackSlidePage;
   const currentSlideUrl = useMemo(() => getSlideUrl(visibleSlidePage, mockProject.coverImageUrl), [visibleSlidePage]);
 
+  // Crossfade background: two layers alternate so opacity transition is GPU-composited
+  const [bgLayers, setBgLayers] = useState({ a: currentSlideUrl, b: currentSlideUrl, active: "a" as "a" | "b" });
+  useEffect(() => {
+    setBgLayers((prev) =>
+      prev.active === "a"
+        ? { a: prev.a, b: currentSlideUrl, active: "b" }
+        : { a: currentSlideUrl, b: prev.b, active: "a" },
+    );
+  }, [currentSlideUrl]);
+
   const favoritedIds = useMemo(() => new Set(favorites.map((f) => f.segmentId)), [favorites]);
 
   const syncTime = useCallback(() => {
@@ -270,10 +280,10 @@ export default function App() {
 
   return (
     <div className="min-h-[100dvh] overflow-hidden bg-[#050c12] text-textMain">
-      <div
-        className="pointer-events-none fixed inset-[-40px] scale-110 bg-cover bg-center opacity-35 blur-[44px]"
-        style={{ backgroundImage: `url(${currentSlideUrl})` }}
-      />
+      <div className="pointer-events-none fixed inset-[-40px] scale-110 blur-[44px]">
+        <div className="absolute inset-0 bg-cover bg-center transition-opacity duration-700" style={{ backgroundImage: `url(${bgLayers.a})`, opacity: bgLayers.active === "a" ? 0.35 : 0 }} />
+        <div className="absolute inset-0 bg-cover bg-center transition-opacity duration-700" style={{ backgroundImage: `url(${bgLayers.b})`, opacity: bgLayers.active === "b" ? 0.35 : 0 }} />
+      </div>
       <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(circle_at_16%_18%,rgba(18,74,112,0.38),transparent_34%),radial-gradient(circle_at_92%_16%,rgba(255,255,255,0.14),transparent_28%),linear-gradient(180deg,rgba(2,9,14,0.72)_0%,rgba(2,12,20,0.86)_46%,rgba(2,8,13,0.94)_100%)]" />
       <div className="pointer-events-none fixed inset-0 backdrop-blur-[16px]" />
       <div className="relative mx-auto flex h-[100dvh] w-full max-w-[430px] flex-col overflow-hidden">

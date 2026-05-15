@@ -1,4 +1,4 @@
-import { AudioLines, Star } from "lucide-react";
+import { Star } from "lucide-react";
 import type { DisplayMode, FavoriteItem, SentenceSegment } from "../types";
 import { formatTime } from "../utils/time";
 
@@ -42,18 +42,15 @@ export function TranscriptCard({
       <button
         type="button"
         className={[
-          "group relative w-full border-b border-white/10 py-3.5 pr-10 text-left transition active:scale-[0.998]",
+          "group relative w-full border-b border-white/10 py-3.5 pr-9 text-left transition active:scale-[0.998]",
           isLive && !isActive ? "opacity-40" : "",
           isActive ? "text-white" : "text-white/88",
         ].join(" ")}
         onClick={() => onClick(segment)}
       >
-        <div className="flex items-start justify-between gap-4">
-          <span className={["block font-medium tabular-nums", isLive ? "text-[13px]" : "text-[14px]", isActive ? "text-white/76" : "text-white/58"].join(" ")}>
-            {formatTime(segment.startTime)}
-          </span>
-          {isActive ? <AudioLines size={20} strokeWidth={1.8} className="mt-0.5 flex-none text-white/88 drop-shadow-[0_0_12px_rgba(255,255,255,0.18)]" /> : null}
-        </div>
+        <span className={["block font-medium tabular-nums", isLive ? "text-[13px]" : "text-[14px]", isActive ? "text-white/76" : "text-white/58"].join(" ")}>
+          {formatTime(segment.startTime)}
+        </span>
         {showEnglish ? (
           <p className={[
             "mt-2 pr-1 font-medium leading-snug",
