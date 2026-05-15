@@ -196,31 +196,35 @@ export default function App() {
     }
   }, []);
 
-  const handlePreviousSentence = useCallback(() => {
+  const handlePreviousSlide = useCallback(() => {
     const audio = audioRef.current;
     if (!audio) return;
 
-    const currentIdx = sentenceSegments.findIndex((s) => s.id === currentSegmentRef.current?.id);
-    const target = sentenceSegments[Math.max(0, currentIdx - 1)];
+    const currentPage = currentSegmentRef.current?.slidePage ?? availableSlidePages[0];
+    const targetPage = getAdjacentSlidePage(currentPage ?? availableSlidePages[0], -1, availableSlidePages);
+    const target = sentenceSegments.find((s) => s.slidePage === targetPage) ?? sentenceSegments[0];
     if (!target) return;
 
     audio.currentTime = target.startTime;
     setCurrentTime(target.startTime);
+    setManualSlidePage(null);
     currentSegmentRef.current = target;
-  }, [sentenceSegments]);
+  }, [availableSlidePages, sentenceSegments]);
 
-  const handleNextSentence = useCallback(() => {
+  const handleNextSlide = useCallback(() => {
     const audio = audioRef.current;
     if (!audio) return;
 
-    const currentIdx = sentenceSegments.findIndex((s) => s.id === currentSegmentRef.current?.id);
-    const target = sentenceSegments[Math.min(sentenceSegments.length - 1, currentIdx + 1)];
+    const currentPage = currentSegmentRef.current?.slidePage ?? availableSlidePages[0];
+    const targetPage = getAdjacentSlidePage(currentPage ?? availableSlidePages[0], 1, availableSlidePages);
+    const target = sentenceSegments.find((s) => s.slidePage === targetPage) ?? sentenceSegments[0];
     if (!target) return;
 
     audio.currentTime = target.startTime;
     setCurrentTime(target.startTime);
+    setManualSlidePage(null);
     currentSegmentRef.current = target;
-  }, [sentenceSegments]);
+  }, [availableSlidePages, sentenceSegments]);
 
   const handleToggleFavorite = useCallback((item: FavoriteItem) => {
     const exists = loadFavorites().some((f) => f.segmentId === item.segmentId);
@@ -315,8 +319,8 @@ export default function App() {
           displayMode={displayMode}
           onPlayPause={handlePlayPause}
           onSeek={handleSeek}
-          onPreviousSentence={handlePreviousSentence}
-          onNextSentence={handleNextSentence}
+          onPreviousSlide={handlePreviousSlide}
+          onNextSlide={handleNextSlide}
           onPlaybackRateChange={handlePlaybackRateChange}
           onDisplayModeToggle={() => setDisplayMode((v) => nextDisplayMode(v))}
           onOpenFullTranscript={() => setIsFullTranscriptOpen(true)}

@@ -11,8 +11,8 @@ type BottomPlayerProps = {
   displayMode: DisplayMode;
   onPlayPause: () => void;
   onSeek: (time: number) => void;
-  onPreviousSentence: () => void;
-  onNextSentence: () => void;
+  onPreviousSlide: () => void;
+  onNextSlide: () => void;
   onPlaybackRateChange: (rate: number) => void;
   onDisplayModeToggle: () => void;
   onOpenFullTranscript: () => void;
@@ -61,8 +61,8 @@ export function BottomPlayer({
   displayMode,
   onPlayPause,
   onSeek,
-  onPreviousSentence,
-  onNextSentence,
+  onPreviousSlide,
+  onNextSlide,
   onPlaybackRateChange,
   onDisplayModeToggle,
   onOpenFullTranscript,
@@ -111,11 +111,11 @@ export function BottomPlayer({
           <span className="whitespace-nowrap text-[9.5px] font-medium leading-none text-white/55">倍速</span>
         </button>
 
-        {/* 上一句 */}
+        {/* 上一頁 */}
         <ControlButton
           icon={<SkipBack size={25} strokeWidth={1.75} />}
-          label="上一句"
-          onClick={onPreviousSentence}
+          label="上一頁"
+          onClick={onPreviousSlide}
         />
 
         {/* 播放 / 暫停 */}
@@ -132,11 +132,11 @@ export function BottomPlayer({
           )}
         </button>
 
-        {/* 下一句 */}
+        {/* 下一頁 */}
         <ControlButton
           icon={<SkipForward size={25} strokeWidth={1.75} />}
-          label="下一句"
-          onClick={onNextSentence}
+          label="下一頁"
+          onClick={onNextSlide}
         />
 
         {/* 簡報全文 */}
