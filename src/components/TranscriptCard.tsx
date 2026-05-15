@@ -38,22 +38,49 @@ export function TranscriptCard({
   }
 
   return (
-    <div className="relative">
+    <div
+      className={[
+        "border-b border-white/10 py-3.5 transition active:scale-[0.998]",
+        isLive && !isActive ? "opacity-40" : "",
+        isActive ? "text-white" : "text-white/88",
+      ].join(" ")}
+    >
+      {/* Timestamp row + star on the same line */}
+      <div className="flex items-center justify-between">
+        <button
+          type="button"
+          className="flex-1 text-left"
+          onClick={() => onClick(segment)}
+        >
+          <span className={["block font-medium tabular-nums", isLive ? "text-[13px]" : "text-[14px]", isActive ? "text-white/76" : "text-white/58"].join(" ")}>
+            {formatTime(segment.startTime)}
+          </span>
+        </button>
+        {onToggleFavorite ? (
+          <button
+            type="button"
+            aria-label={isFavorited ? "取消收藏" : "加入收藏"}
+            className="grid h-8 w-8 flex-none place-items-center text-white/40 transition active:scale-95 hover:text-white/70"
+            onClick={handleStarClick}
+          >
+            <Star
+              size={16}
+              strokeWidth={1.8}
+              className={isFavorited ? "fill-yellow-400 text-yellow-400" : ""}
+            />
+          </button>
+        ) : null}
+      </div>
+
+      {/* Text content */}
       <button
         type="button"
-        className={[
-          "group relative w-full border-b border-white/10 py-3.5 pr-9 text-left transition active:scale-[0.998]",
-          isLive && !isActive ? "opacity-40" : "",
-          isActive ? "text-white" : "text-white/88",
-        ].join(" ")}
+        className="w-full text-left"
         onClick={() => onClick(segment)}
       >
-        <span className={["block font-medium tabular-nums", isLive ? "text-[13px]" : "text-[14px]", isActive ? "text-white/76" : "text-white/58"].join(" ")}>
-          {formatTime(segment.startTime)}
-        </span>
         {showEnglish ? (
           <p className={[
-            "mt-2 pr-1 font-medium leading-snug",
+            "mt-2 font-medium leading-snug",
             isLive && isActive ? "text-[19px]" : isLive ? "text-[15px]" : "text-[21px]",
           ].join(" ")}>
             {segment.textEn}
@@ -65,21 +92,6 @@ export function TranscriptCard({
           </p>
         ) : null}
       </button>
-
-      {onToggleFavorite ? (
-        <button
-          type="button"
-          aria-label={isFavorited ? "取消收藏" : "加入收藏"}
-          className="absolute right-0 top-5 grid h-9 w-9 place-items-center text-white/40 transition active:scale-95 hover:text-white/70"
-          onClick={handleStarClick}
-        >
-          <Star
-            size={18}
-            strokeWidth={1.8}
-            className={isFavorited ? "fill-yellow-400 text-yellow-400" : ""}
-          />
-        </button>
-      ) : null}
     </div>
   );
 }

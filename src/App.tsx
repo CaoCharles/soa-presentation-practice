@@ -61,7 +61,7 @@ export default function App() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(mockProject.duration);
-  const [playbackRate, setPlaybackRate] = useState(0.9);
+  const [playbackRate, setPlaybackRate] = useState(1.0);
   const [isSentenceLoopEnabled, setIsSentenceLoopEnabled] = useState(false);
   const [displayMode, setDisplayMode] = useState<DisplayMode>("both");
   const [isSlideExpanded, setIsSlideExpanded] = useState(true);
@@ -85,6 +85,14 @@ export default function App() {
       ).sort((a, b) => a - b),
     [],
   );
+
+  // Preload all slide images on mount so navigation is instant
+  useEffect(() => {
+    availableSlidePages.forEach((page) => {
+      const img = new Image();
+      img.src = getSlideUrl(page) ?? "";
+    });
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const currentSegment = useMemo(
     () => getCurrentSegment(sentenceSegments, currentTime),
