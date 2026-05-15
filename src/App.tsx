@@ -105,6 +105,11 @@ export default function App() {
 
   const playbackSlidePage = resolveSlidePage(currentSegment?.slidePage ?? availableSlidePages[0] ?? 1, availableSlidePages);
   const visibleSlidePage = manualSlidePage ?? playbackSlidePage;
+
+  const visibleSlidePageRef = useRef(visibleSlidePage);
+  useEffect(() => {
+    visibleSlidePageRef.current = visibleSlidePage;
+  }, [visibleSlidePage]);
   const visibleSlideIndex = Math.max(1, availableSlidePages.indexOf(visibleSlidePage) + 1);
   const isSlideSynced = visibleSlidePage === playbackSlidePage;
   const currentSlideUrl = useMemo(() => getSlideUrl(visibleSlidePage, mockProject.coverImageUrl), [visibleSlidePage]);
@@ -218,8 +223,8 @@ export default function App() {
     const audio = audioRef.current;
     if (!audio) return;
 
-    const currentPage = currentSegmentRef.current?.slidePage ?? availableSlidePages[0];
-    const targetPage = getAdjacentSlidePage(currentPage ?? availableSlidePages[0], -1, availableSlidePages);
+    const currentPage = visibleSlidePageRef.current ?? availableSlidePages[0];
+    const targetPage = getAdjacentSlidePage(currentPage, -1, availableSlidePages);
     const target = sentenceSegments.find((s) => s.slidePage === targetPage) ?? sentenceSegments[0];
     if (!target) return;
 
@@ -233,8 +238,8 @@ export default function App() {
     const audio = audioRef.current;
     if (!audio) return;
 
-    const currentPage = currentSegmentRef.current?.slidePage ?? availableSlidePages[0];
-    const targetPage = getAdjacentSlidePage(currentPage ?? availableSlidePages[0], 1, availableSlidePages);
+    const currentPage = visibleSlidePageRef.current ?? availableSlidePages[0];
+    const targetPage = getAdjacentSlidePage(currentPage, 1, availableSlidePages);
     const target = sentenceSegments.find((s) => s.slidePage === targetPage) ?? sentenceSegments[0];
     if (!target) return;
 
