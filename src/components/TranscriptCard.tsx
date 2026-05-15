@@ -42,7 +42,7 @@ export function TranscriptCard({
       <button
         type="button"
         className={[
-          "group relative w-full border-b border-white/10 py-5 pr-10 text-left transition active:scale-[0.998]",
+          "group relative w-full border-b border-white/10 py-3.5 pr-10 text-left transition active:scale-[0.998]",
           isLive && !isActive ? "opacity-40" : "",
           isActive ? "text-white" : "text-white/88",
         ].join(" ")}
@@ -56,14 +56,14 @@ export function TranscriptCard({
         </div>
         {showEnglish ? (
           <p className={[
-            "mt-3 pr-1 font-medium leading-snug",
-            isLive && isActive ? "text-[24px]" : isLive ? "text-[17px]" : "text-[21px]",
+            "mt-2 pr-1 font-medium leading-snug",
+            isLive && isActive ? "text-[19px]" : isLive ? "text-[15px]" : "text-[21px]",
           ].join(" ")}>
             {segment.textEn}
           </p>
         ) : null}
         {showChinese && (!isLive || isActive) ? (
-          <p className={["mt-3 leading-relaxed text-white/66", isLive && isActive ? "text-[16px]" : "text-[15px]"].join(" ")}>
+          <p className={["mt-1.5 leading-relaxed text-white/66", isLive && isActive ? "text-[14px]" : "text-[13px]"].join(" ")}>
             {segment.textZh}
           </p>
         ) : null}
