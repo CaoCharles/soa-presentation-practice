@@ -22,9 +22,11 @@ function getCurrentSegment(transcript: SentenceSegment[], currentTime: number) {
   return transcript[0] ?? null;
 }
 
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+
 function getSlideUrl(slidePage?: number, fallback?: string) {
   if (!slidePage) return fallback;
-  return `/slides/slide_${String(slidePage).padStart(2, "0")}.png`;
+  return `${BASE}/slides/slide_${String(slidePage).padStart(2, "0")}.png`;
 }
 
 function nextDisplayMode(mode: DisplayMode): DisplayMode {
@@ -302,6 +304,7 @@ export default function App() {
           favoritedIds={favoritedIds}
           onSegmentClick={handleSegmentClick}
           onToggleFavorite={handleToggleFavorite}
+          onSlidePageChange={(page) => setManualSlidePage(page)}
         />
         <BottomPlayer
           isPlaying={isPlaying}
@@ -321,7 +324,7 @@ export default function App() {
         />
         <audio
           ref={audioRef}
-          src={mockProject.audioUrl}
+          src={`${BASE}${mockProject.audioUrl}`}
           preload="metadata"
           onLoadedMetadata={handleLoadedMetadata}
           onTimeUpdate={() => {
