@@ -1886,7 +1886,7 @@ export const mockProject: Project = {
       "endTime": 1836.288,
       "textEn": "To close, let's come back to our title: beyond efficiency. Efficiency matters. Faster claims processing improves customer experience and reduces operational burden.",
       "textZh": "最後回到標題：beyond efficiency。",
-      "slidePage": 25
+      "slidePage": 24
     },
     {
       "id": "p07s04u02",
@@ -1894,7 +1894,7 @@ export const mockProject: Project = {
       "endTime": 1842.238,
       "textEn": "But for life insurers, the bigger opportunity is to build a claims ecosystem that actually learns.",
       "textZh": "效率很重要，但對壽險公司來說，更大的機會是建立會學習的理賠生態系。",
-      "slidePage": 25
+      "slidePage": 24
     },
     {
       "id": "p07s04u03",
@@ -1902,7 +1902,7 @@ export const mockProject: Project = {
       "endTime": 1850.45,
       "textEn": "Every claim contains information about customer needs, medical trends, product performance, operational risk, and emerging experience.",
       "textZh": "每一件理賠都包含關於客戶需求、醫療趨勢、商品表現、營運風險與新興經驗的資訊。",
-      "slidePage": 25
+      "slidePage": 24
     },
     {
       "id": "p07s04u04",
@@ -1910,7 +1910,7 @@ export const mockProject: Project = {
       "endTime": 1855.488,
       "textEn": "Historically, most of that information was locked inside unstructured documents.",
       "textZh": "過去，這些資訊大多封存於非結構化的文件之中。",
-      "slidePage": 25
+      "slidePage": 24
     },
     {
       "id": "p07s04u05",
@@ -1918,7 +1918,7 @@ export const mockProject: Project = {
       "endTime": 1865.438,
       "textEn": "Agentic AI gives us a practical way to unlock it — as long as we design the system with governance, explainability, and human oversight built in from the start.",
       "textZh": "Agentic AI 提供了一個實際的方式來解鎖這些資訊——只要我們從一開始就將治理、可解釋性與人工監督內建到系統架構中。",
-      "slidePage": 25
+      "slidePage": 24
     },
     {
       "id": "p07s04u06",
@@ -1926,7 +1926,7 @@ export const mockProject: Project = {
       "endTime": 1872.438,
       "textEn": "Our experience points to three takeaways. First, AI in claims should be designed as augmentation, not just automation.",
       "textZh": "我們的經驗指向三個重要啟示。第一，理賠中的 AI 應被設計為增強工具，而非只是自動化工具。",
-      "slidePage": 25
+      "slidePage": 24
     },
     {
       "id": "p07s04u07",
@@ -1934,7 +1934,7 @@ export const mockProject: Project = {
       "endTime": 1878.538,
       "textEn": "The goal is to help professionals make better decisions — not simply to remove human involvement.",
       "textZh": "目標是幫助專業人員做出更好的決策——而不是單純地移除人的參與。",
-      "slidePage": 25
+      "slidePage": 24
     },
     {
       "id": "p07s04u08",
@@ -1942,7 +1942,7 @@ export const mockProject: Project = {
       "endTime": 1882.825,
       "textEn": "Second, claims data should be treated as a strategic actuarial asset.",
       "textZh": "第二，理賠資料應被視為具有策略價值的精算資產。",
-      "slidePage": 25
+      "slidePage": 24
     },
     {
       "id": "p07s04u09",
@@ -1950,7 +1950,7 @@ export const mockProject: Project = {
       "endTime": 1892.725,
       "textEn": "When unstructured records become structured, traceable, and governed, they can strengthen experience studies, pricing assumptions, reserving analysis, and risk monitoring.",
       "textZh": "當非結構化紀錄變得結構化、可追溯且受治理，它們可以強化經驗研究、定價假設、準備金分析與風險監控。",
-      "slidePage": 25
+      "slidePage": 24
     },
     {
       "id": "p07s04u10",
@@ -1958,7 +1958,7 @@ export const mockProject: Project = {
       "endTime": 1897.688,
       "textEn": "Third, responsible AI isn't a separate compliance layer you bolt on at the end.",
       "textZh": "第三，負責任 AI 不是最後才附加上去的合規層次。",
-      "slidePage": 25
+      "slidePage": 24
     },
     {
       "id": "p07s04u11",
@@ -1966,7 +1966,7 @@ export const mockProject: Project = {
       "endTime": 1907.313,
       "textEn": "It has to be built into the architecture from day one: human-in-the-loop review, knowledge governance, data lineage, explainable reasoning, and auditability.",
       "textZh": "它必須從第一天起就內建在架構中：human-in-the-loop 審查、知識治理、資料血緣、可解釋推理與可稽核性。",
-      "slidePage": 25
+      "slidePage": 24
     },
     {
       "id": "p07s04u12",
@@ -1974,7 +1974,7 @@ export const mockProject: Project = {
       "endTime": 1916.463,
       "textEn": "As markets face aging populations, rising medical complexity, and post-IFRS 17 operational demands, actuaries have an important role to play.",
       "textZh": "面對高齡化社會、日益複雜的醫療環境與後 IFRS 17 的營運需求，精算師有重要的角色要扮演。",
-      "slidePage": 25
+      "slidePage": 24
     },
     {
       "id": "p07s04u13",
@@ -1982,7 +1982,7 @@ export const mockProject: Project = {
       "endTime": 1925.875,
       "textEn": "Actuaries can help connect AI capability with business value, risk management, governance, and long-term sustainability. Thank you so much for your time.",
       "textZh": "精算師可以幫助連結 AI 能力與商業價值、風險管理、治理與長期永續性。非常感謝各位的時間。",
-      "slidePage": 25
+      "slidePage": 24
     },
     {
       "id": "p07s04u14",
