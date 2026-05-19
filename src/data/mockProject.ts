@@ -69,7 +69,7 @@ export const mockProject: Project = {
       "startTime": 67.068,
       "endTime": 76.37,
       "textEn": "It can actually become a real source of actuarial insight.",
-      "textZh": "",
+      "textZh": "它實際上可以成為精算洞察的重要來源。",
       "slidePage": 1
     },
     {
@@ -149,7 +149,7 @@ export const mockProject: Project = {
       "startTime": 205.499,
       "endTime": 214.276,
       "textEn": "Agentic AI, by the way, is AI that can take initiative and carry out multi-step tasks on its own.",
-      "textZh": "",
+      "textZh": "順帶一提，Agentic AI 是指能夠主動採取行動、自主執行多步驟任務的 AI。",
       "slidePage": 4
     },
     {
@@ -205,7 +205,7 @@ export const mockProject: Project = {
       "startTime": 284.334,
       "endTime": 296.629,
       "textEn": "Life insurers are seeing more and more claims tied to chronic disease, dementia, long-term care, hospitalization, and post-treatment recovery.",
-      "textZh": "",
+      "textZh": "壽險業者正面臨越來越多與慢性病、失智症、長期照護、住院及術後恢復相關的理賠案件。",
       "slidePage": 5
     },
     {
@@ -221,7 +221,7 @@ export const mockProject: Project = {
       "startTime": 307.408,
       "endTime": 318.054,
       "textEn": "At the same time, rising healthcare costs are shifting more financial responsibility onto private insurance.",
-      "textZh": "",
+      "textZh": "與此同時，持續攀升的醫療費用正將更多財務責任轉移到私人保險。",
       "slidePage": 5
     },
     {
@@ -237,7 +237,7 @@ export const mockProject: Project = {
       "startTime": 328.154,
       "endTime": 339.471,
       "textEn": "On the slide, you can see the scale of that pressure: claim volume has grown by 56 percent.",
-      "textZh": "",
+      "textZh": "從這張投影片可以看到這股壓力的規模：理賠量已成長了 56%。",
       "slidePage": 5
     },
     {
@@ -253,7 +253,7 @@ export const mockProject: Project = {
       "startTime": 344.528,
       "endTime": 355.143,
       "textEn": "At Cathay Life, we are talking about more than 1.6 million claims a year, with more high-frequency, low-severity claims entering the workflow.",
-      "textZh": "",
+      "textZh": "以國泰人壽來說，每年的理賠案件超過 160 萬件，其中高頻次、低嚴重性的案件比例也持續增加。",
       "slidePage": 5
     },
     {
@@ -269,7 +269,7 @@ export const mockProject: Project = {
       "startTime": 360.966,
       "endTime": 370.624,
       "textEn": "But together they create real fragmentation, because every single case still needs document review, policy interpretation, data entry, and quality control.",
-      "textZh": "",
+      "textZh": "但這些問題合在一起卻造成嚴重的流程碎片化，因為每一件理賠仍需要文件審核、保單解讀、資料輸入與品質控管。",
       "slidePage": 5
     },
     {
@@ -365,7 +365,7 @@ export const mockProject: Project = {
       "startTime": 505.573,
       "endTime": 512.959,
       "textEn": "AI is no longer just a passive tool waiting for someone to ask it a question.",
-      "textZh": "",
+      "textZh": "AI 不再只是被動等待提問的工具。",
       "slidePage": 6
     },
     {
@@ -389,7 +389,7 @@ export const mockProject: Project = {
       "startTime": 536.188,
       "endTime": 555.358,
       "textEn": "If AI is becoming more active, how do we keep it explainable, controllable, auditable, and aligned with professional judgment?",
-      "textZh": "",
+      "textZh": "如果 AI 變得更加主動，我們如何確保它具備可解釋性、可控性、可稽核性，並與專業判斷保持一致？",
       "slidePage": 6
     },
     {
@@ -405,7 +405,7 @@ export const mockProject: Project = {
       "startTime": 563.119,
       "endTime": 572.975,
       "textEn": "It's human-in-the-loop agentic AI: AI does the structured analysis and prepares the evidence, while human reviewers keep the final decision authority.",
-      "textZh": "",
+      "textZh": "這就是「人在迴圈中」的 Agentic AI：AI 負責結構化分析並整理證據，而最終決策權仍保留在人類審核員手中。",
       "slidePage": 6
     },
     {
@@ -421,7 +421,7 @@ export const mockProject: Project = {
       "startTime": 589.755,
       "endTime": 604.168,
       "textEn": "Where does complexity enter the workflow, and where does valuable information start to disappear?",
-      "textZh": "",
+      "textZh": "流程中哪個環節最容易出現複雜情況？哪個環節的有價值資訊開始流失？",
       "slidePage": 6
     },
     {
@@ -437,7 +437,7 @@ export const mockProject: Project = {
       "startTime": 617.29,
       "endTime": 631.54,
       "textEn": "The slide breaks this into six steps: intake, registration and case creation, case assignment, review, decision, and finally closure and archiving.",
-      "textZh": "典型流程包含客戶提交文件、建立案件、確認保單資訊、檢視醫療文件、判斷是否承保、計算給付、做風險檢查，最後核付或拒付。",
+      "textZh": "這張投影片將流程分成六個步驟：受件、建立案件、分案、審查、決策，以及最後的結案與歸檔。",
       "slidePage": 7
     },
     {
@@ -445,7 +445,7 @@ export const mockProject: Project = {
       "startTime": 631.54,
       "endTime": 638.169,
       "textEn": "That sounds pretty straightforward — but in practice, many steps require a lot of interpretation.",
-      "textZh": "典型流程包含客戶提交文件、建立案件、確認保單資訊、檢視醫療文件、判斷是否承保、計算給付、做風險檢查，最後核付或拒付。",
+      "textZh": "這聽起來很直線，但實務上每個步驟都需要大量解讀。",
       "slidePage": 7
     },
     {
@@ -453,7 +453,7 @@ export const mockProject: Project = {
       "startTime": 638.169,
       "endTime": 650.836,
       "textEn": "A medical certificate might have free-text descriptions, abbreviations, different hospital formats, or Traditional Chinese medical terminology.",
-      "textZh": "",
+      "textZh": "診斷書可能包含自由文字描述、縮寫、不同醫院的格式，或是繁體中文醫學術語。",
       "slidePage": 7
     },
     {
@@ -461,7 +461,7 @@ export const mockProject: Project = {
       "startTime": 650.836,
       "endTime": 659.665,
       "textEn": "A diagnosis might need to be mapped to an internal disease category.",
-      "textZh": "這聽起來很直線，但實務上需要大量解讀。",
+      "textZh": "診斷結果可能需要對應到內部疾病分類。",
       "slidePage": 7
     },
     {
@@ -469,7 +469,7 @@ export const mockProject: Project = {
       "startTime": 659.665,
       "endTime": 668.454,
       "textEn": "A procedure or hospitalization period might need to be checked against policy definitions, exclusions, deductibles, or benefit limits.",
-      "textZh": "",
+      "textZh": "某項醫療程序或住院期間，可能需要對照保單定義、除外條款、自付額或給付上限進行核對。",
       "slidePage": 7
     },
     {
@@ -477,7 +477,7 @@ export const mockProject: Project = {
       "startTime": 668.454,
       "endTime": 678.036,
       "textEn": "And here's the key challenge: most of the most valuable information isn't born in a structured format.",
-      "textZh": "這聽起來很直線，但實務上需要大量解讀。",
+      "textZh": "而這裡有個關鍵挑戰：最有價值的資訊，大多不是以結構化格式生成的。",
       "slidePage": 7
     },
     {
@@ -485,7 +485,7 @@ export const mockProject: Project = {
       "startTime": 678.036,
       "endTime": 690.04,
       "textEn": "If we only capture the final outcome — approved or declined, or the final payment amount — we lose a huge amount of explanatory information along the way.",
-      "textZh": "醫療證明可能有自由文字、縮寫、不同醫院格式或繁體中文醫療用語；診斷要對應內部分類，手術或住院期間也要對照條款、除外、扣除額與限制。",
+      "textZh": "如果我們只記錄最終結果——核准或拒絕、或最終給付金額——就會在過程中失去大量解釋性資訊。",
       "slidePage": 7
     },
     {
@@ -493,7 +493,7 @@ export const mockProject: Project = {
       "startTime": 690.04,
       "endTime": 702.293,
       "textEn": "For operations, that means more manual work. For actuaries, it means weaker data granularity.",
-      "textZh": "醫療證明可能有自由文字、縮寫、不同醫院格式或繁體中文醫療用語；診斷要對應內部分類，手術或住院期間也要對照條款、除外、扣除額與限制。",
+      "textZh": "對作業面來說，這意味著更多人工；對精算師來說，這意味著資料粒度較差。",
       "slidePage": 7
     },
     {
@@ -501,7 +501,7 @@ export const mockProject: Project = {
       "startTime": 702.293,
       "endTime": 715.209,
       "textEn": "We might know the claim result, but we may not fully know the cause, the medical pathway, the detailed risk factors, or what evidence was behind the decision.",
-      "textZh": "醫療證明可能有自由文字、縮寫、不同醫院格式或繁體中文醫療用語；診斷要對應內部分類，手術或住院期間也要對照條款、除外、扣除額與限制。",
+      "textZh": "我們可能知道理賠結果，卻未必完全了解原因、醫療路徑、詳細風險因子，或決策背後的依據。",
       "slidePage": 7
     },
     {
@@ -509,7 +509,7 @@ export const mockProject: Project = {
       "startTime": 715.209,
       "endTime": 726.286,
       "textEn": "That's why we believe the claims process needs to be redesigned — not just as a payment workflow, but as a data transformation workflow too.",
-      "textZh": "若只留下最後是否核付與給付金額，就會失去很多解釋性資訊。",
+      "textZh": "這就是為什麼我們認為理賠流程需要重新設計——不只是付款流程，也是資料轉換流程。",
       "slidePage": 7
     },
     {
@@ -517,7 +517,7 @@ export const mockProject: Project = {
       "startTime": 726.286,
       "endTime": 742.007,
       "textEn": "If we look at it through that lens, the first question becomes: how early can we capture useful information, and how much structure can we create before the case even reaches a human reviewer?",
-      "textZh": "若只留下最後是否核付與給付金額，就會失去很多解釋性資訊。",
+      "textZh": "從這個角度來看，第一個問題是：我們能多早擷取有用的資訊？在案件到達人工審查員之前，能建立多少結構？",
       "slidePage": 7
     },
     {
@@ -533,7 +533,7 @@ export const mockProject: Project = {
       "startTime": 750.829,
       "endTime": 765.029,
       "textEn": "As the app screens show, customers can start a claims application, upload documents, check claims results, and review application details directly through the mobile app.",
-      "textZh": "",
+      "textZh": "如畫面所示，客戶可以直接透過 App 發起理賠申請、上傳文件、查詢理賠結果，並查看申請詳情。",
       "slidePage": 8
     },
     {
@@ -565,7 +565,7 @@ export const mockProject: Project = {
       "startTime": 793.962,
       "endTime": 799.934,
       "textEn": "It gets us the documents faster, but it doesn't automatically create analytical value.",
-      "textZh": "因此我們還需要把文件轉成結構化、可靠、可解釋的資料。",
+      "textZh": "它讓我們更快拿到文件，但不會自動產生分析價值。",
       "slidePage": 8
     },
     {
@@ -589,7 +589,7 @@ export const mockProject: Project = {
       "startTime": 822.291,
       "endTime": 831.462,
       "textEn": "OCR converts images to machine-readable text; LLMs understand the meaning of what's in those documents.",
-      "textZh": "",
+      "textZh": "OCR 將影像轉換為機器可讀的文字；LLM 則理解這些文件內容的意涵。",
       "slidePage": 8
     },
     {
@@ -597,7 +597,7 @@ export const mockProject: Project = {
       "startTime": 831.462,
       "endTime": 849.991,
       "textEn": "But once documents arrive digitally, we still face a second question: can AI understand what's inside those documents well enough to support the decisions that come next?",
-      "textZh": "OCR、大型語言模型與 agentic AI 就是在這裡開始發揮作用。",
+      "textZh": "但當文件以數位方式送達後，我們仍面臨第二個問題：AI 能否充分理解文件內容，以支援後續的決策？",
       "slidePage": 8
     },
     {
@@ -605,7 +605,7 @@ export const mockProject: Project = {
       "startTime": 849.991,
       "endTime": 861.677,
       "textEn": "After submission, the next step is case registration. Traditionally, staff would review documents and manually type key fields into the claims system.",
-      "textZh": "案件建立階段，AI 驅動的結構化擷取可以取代部分人工輸入。",
+      "textZh": "提交後的下一步是建立案件。傳統上，人員會審閱文件並手動將關鍵欄位輸入理賠系統。",
       "slidePage": 9
     },
     {
@@ -629,7 +629,7 @@ export const mockProject: Project = {
       "startTime": 879.912,
       "endTime": 886.383,
       "textEn": "But we don't treat extraction as a simple copy-and-paste task.",
-      "textZh": "OCR 先把影像轉成可讀文字，LLM 再辨識診斷、治療日期、醫院、手術資訊、理賠金額等欄位。",
+      "textZh": "但我們不把擷取視為單純的複製貼上工作。",
       "slidePage": 9
     },
     {
@@ -637,7 +637,7 @@ export const mockProject: Project = {
       "startTime": 886.383,
       "endTime": 904.901,
       "textEn": "The AI needs to distinguish past medical history from the current claim event, a suspected diagnosis from a confirmed one, and one hospital's document style from another.",
-      "textZh": "OCR 先把影像轉成可讀文字，LLM 再辨識診斷、治療日期、醫院、手術資訊、理賠金額等欄位。",
+      "textZh": "AI 必須區分既往病史與本次理賠事故、疑似診斷與確診，以及不同醫院的文件風格差異。",
       "slidePage": 9
     },
     {
@@ -653,7 +653,7 @@ export const mockProject: Project = {
       "startTime": 912.747,
       "endTime": 925.868,
       "textEn": "The language is very domain-specific, and the same clinical concept can show up in completely different wording across different hospitals.",
-      "textZh": "",
+      "textZh": "這些語言高度專業，同一個臨床概念在不同醫院可能以完全不同的措辭呈現。",
       "slidePage": 9
     },
     {
@@ -661,7 +661,7 @@ export const mockProject: Project = {
       "startTime": 925.868,
       "endTime": 935.355,
       "textEn": "By structuring this information early, we create a much better foundation for downstream triage, review, risk analysis, and actuarial use.",
-      "textZh": "但擷取不是單純複製貼上，AI 必須理解脈絡，例如區分既往病史與本次事故、疑似診斷與確診，以及不同醫院的文件風格。",
+      "textZh": "透過早期結構化資訊，我們為後續的分流、審查、風險分析與精算使用奠定更好的基礎。",
       "slidePage": 9
     },
     {
@@ -669,7 +669,7 @@ export const mockProject: Project = {
       "startTime": 935.355,
       "endTime": 946.846,
       "textEn": "Once that foundation is in place, the workflow can move from simple case creation to something more decision-oriented: which cases need more attention, and why?",
-      "textZh": "繁體中文醫療文件尤其需要這種脈絡理解。",
+      "textZh": "有了這個基礎，流程就能從單純的建立案件，轉向更以決策為導向的模式：哪些案件需要更多關注，以及為什麼？",
       "slidePage": 9
     },
     {
@@ -685,7 +685,7 @@ export const mockProject: Project = {
       "startTime": 958.067,
       "endTime": 969.151,
       "textEn": "Low-risk, straightforward cases can go through a more streamlined workflow, while complex or suspicious cases get sent to experienced reviewers for a deeper look.",
-      "textZh": "機器學習模型可以評估風險並支援案件路由，低風險案件走簡化流程，複雜或可疑案件交給資深審查員。",
+      "textZh": "低風險、單純的案件可走較簡化的流程，而複雜或可疑的案件則轉給資深審查員進行深入審核。",
       "slidePage": 10
     },
     {
@@ -693,7 +693,7 @@ export const mockProject: Project = {
       "startTime": 969.151,
       "endTime": 980.275,
       "textEn": "This kind of triage helps operations allocate human expertise more effectively. But there's an important limitation: a risk score by itself isn't enough.",
-      "textZh": "機器學習模型可以評估風險並支援案件路由，低風險案件走簡化流程，複雜或可疑案件交給資深審查員。",
+      "textZh": "這種分流有助於更有效地分配人力專業。但有一個重要限制：風險分數本身是不夠的。",
       "slidePage": 10
     },
     {
@@ -709,7 +709,7 @@ export const mockProject: Project = {
       "startTime": 991.512,
       "endTime": 1005.592,
       "textEn": "Is the risk coming from a diagnosis inconsistency? Repeated claims? A provider pattern? Unusual timing? Policy duration? Medical history? Or a document inconsistency?",
-      "textZh": "如果模型說風險分數是 82，審查員仍需要知道原因：是診斷不一致？",
+      "textZh": "風險來自診斷不一致？重複理賠？醫療院所模式？時間異常？保單期間？病史？還是文件不一致？",
       "slidePage": 10
     },
     {
@@ -717,7 +717,7 @@ export const mockProject: Project = {
       "startTime": 1005.592,
       "endTime": 1015.277,
       "textEn": "This is where traditional machine learning and agentic AI can work together. Machine learning is great at spotting patterns at scale.",
-      "textZh": "重複理賠？",
+      "textZh": "這正是傳統機器學習與 agentic AI 可以互補的地方。機器學習擅長大規模發現模式。",
       "slidePage": 10
     },
     {
@@ -733,7 +733,7 @@ export const mockProject: Project = {
       "startTime": 1023.606,
       "endTime": 1030.289,
       "textEn": "The goal isn't to hand a reviewer a black-box score and walk away.",
-      "textZh": "",
+      "textZh": "我們的目標不是給審核員一個黑箱分數就了事。",
       "slidePage": 10
     },
     {
@@ -741,7 +741,7 @@ export const mockProject: Project = {
       "startTime": 1030.289,
       "endTime": 1040.219,
       "textEn": "The goal is to help them make faster, better-informed, more consistent decisions. This leads naturally to the next design question.",
-      "textZh": "還是文件不一致？",
+      "textZh": "目標是幫助他們做出更快、更有依據、更一致的決策。這自然帶出了下一個設計問題。",
       "slidePage": 10
     },
     {
@@ -749,7 +749,7 @@ export const mockProject: Project = {
       "startTime": 1040.219,
       "endTime": 1055.012,
       "textEn": "If a case is routed to a human reviewer, what should that review environment look like — so that human expertise is used where it actually matters most?",
-      "textZh": "這也是傳統機器學習與 agentic AI 可以互補的地方。",
+      "textZh": "如果案件被路由到人工審查員，審查環境應該如何設計——才能讓人類專業在最需要的地方發揮作用？",
       "slidePage": 10
     },
     {
@@ -765,7 +765,7 @@ export const mockProject: Project = {
       "startTime": 1062.612,
       "endTime": 1075.999,
       "textEn": "The idea is to bring multi-source data into one review workbench, so reviewers don't have to jump between systems, documents, policy references, customer records, risk tags, and decision notes.",
-      "textZh": "對需要人工審查的案件，我們提供整合式智慧理賠平台，把多來源資料放在同一個工作台中。",
+      "textZh": "核心概念是將多來源資料整合到單一審查工作台，讓審查員不必在系統、文件、保單條款、客戶紀錄、風險標籤與決策備註之間來回切換。",
       "slidePage": 11
     },
     {
@@ -773,7 +773,7 @@ export const mockProject: Project = {
       "startTime": 1075.999,
       "endTime": 1084.306,
       "textEn": "Everything is in one place: claims information, risk detection results, quick access to related documents, and decision support.",
-      "textZh": "審查員不用在系統、文件、保單條款、客戶資料、風險標籤和決策註記之間來回切換。",
+      "textZh": "所有資訊都在同一處：理賠資訊、風險偵測結果、相關文件快速存取，以及決策支援。",
       "slidePage": 11
     },
     {
@@ -781,7 +781,7 @@ export const mockProject: Project = {
       "startTime": 1084.306,
       "endTime": 1093.242,
       "textEn": "This matters because operational efficiency isn't only about automating tasks. It's also about reducing cognitive load.",
-      "textZh": "審查員不用在系統、文件、保單條款、客戶資料、風險標籤和決策註記之間來回切換。",
+      "textZh": "這很重要，因為作業效率不只是自動化任務，也關乎降低審查員的認知負擔。",
       "slidePage": 11
     },
     {
@@ -789,7 +789,7 @@ export const mockProject: Project = {
       "startTime": 1093.242,
       "endTime": 1101.083,
       "textEn": "When information is scattered across systems, reviewers spend a lot of time just searching, comparing, and reconciling.",
-      "textZh": "審查員不用在系統、文件、保單條款、客戶資料、風險標籤和決策註記之間來回切換。",
+      "textZh": "當資訊分散在各系統中，審查員會花大量時間在搜尋、比對與核對上。",
       "slidePage": 11
     },
     {
@@ -797,7 +797,7 @@ export const mockProject: Project = {
       "startTime": 1101.083,
       "endTime": 1106.822,
       "textEn": "When it's organized, they can spend more time on actual professional judgment.",
-      "textZh": "",
+      "textZh": "當資訊被整理好之後，他們就能把更多時間放在真正的專業判斷上。",
       "slidePage": 11
     },
     {
@@ -805,7 +805,7 @@ export const mockProject: Project = {
       "startTime": 1106.822,
       "endTime": 1117.157,
       "textEn": "In other words, the system shouldn't just process data. It should create a better decision environment for experts.",
-      "textZh": "這不只是提升效率，也是降低認知負擔。",
+      "textZh": "換句話說，系統不只是處理資料，它應該為專家創造更好的決策環境。",
       "slidePage": 11
     },
     {
@@ -813,7 +813,7 @@ export const mockProject: Project = {
       "startTime": 1117.157,
       "endTime": 1128.677,
       "textEn": "Once the reviewer is in that environment, AI support has to appear at the right moment. The question isn't just \"Can AI analyze this case?\"",
-      "textZh": "當資訊被整理好，專家就能把更多時間放在真正需要判斷的地方。",
+      "textZh": "一旦審查員進入這個環境，AI 支援必須在對的時機出現。問題不只是 AI 能自動化多少——",
       "slidePage": 11
     },
     {
@@ -821,7 +821,7 @@ export const mockProject: Project = {
       "startTime": 1128.677,
       "endTime": 1138.31,
       "textEn": "It's \"Can AI help the reviewer think more clearly about this case?\"",
-      "textZh": "當資訊被整理好，專家就能把更多時間放在真正需要判斷的地方。",
+      "textZh": "而是什麼樣的 AI 協助能真正提升專業判斷的品質？",
       "slidePage": 11
     },
     {
@@ -829,7 +829,7 @@ export const mockProject: Project = {
       "startTime": 1138.31,
       "endTime": 1148.692,
       "textEn": "Inside the review workbench, we embed several AI-assisted features. The first is risk tagging.",
-      "textZh": "在工作台內，我們嵌入多種 AI 輔助功能。",
+      "textZh": "在審查工作台內，我們嵌入了多項 AI 輔助功能。第一是風險標籤。",
       "slidePage": 12
     },
     {
@@ -837,7 +837,7 @@ export const mockProject: Project = {
       "startTime": 1148.692,
       "endTime": 1161.253,
       "textEn": "AI highlights risk indicators and helps reviewers understand which parts of the case deserve attention. The second is decision support.",
-      "textZh": "在工作台內，我們嵌入多種 AI 輔助功能。",
+      "textZh": "AI 標示風險指標，幫助審查員了解案件中哪些部分需要特別關注。第二是決策支援。",
       "slidePage": 12
     },
     {
@@ -845,7 +845,7 @@ export const mockProject: Project = {
       "startTime": 1161.253,
       "endTime": 1180.402,
       "textEn": "AI summarizes the relevant medical facts, policy terms, and claim conditions, then organizes them into a review-ready format. The third is relationship graph analysis.",
-      "textZh": "在工作台內，我們嵌入多種 AI 輔助功能。",
+      "textZh": "AI 彙整相關醫療事實、保單條款與理賠條件，整理成審查就緒的格式。第三是關係圖分析。",
       "slidePage": 12
     },
     {
@@ -861,7 +861,7 @@ export const mockProject: Project = {
       "startTime": 1191.478,
       "endTime": 1202.695,
       "textEn": "These features aren't separate from the claims workflow. They're embedded right where the reviewer is already working.",
-      "textZh": "風險標籤會指出需要注意的指標；決策支援會整理醫療事實、保單條款與理賠條件；關係圖分析則協助查看被保人、醫療院所、業務員、過往理賠或相關實體之間的關係。",
+      "textZh": "這些功能不是獨立於理賠流程之外，而是嵌入在審查員原本工作的介面中。",
       "slidePage": 12
     },
     {
@@ -869,7 +869,7 @@ export const mockProject: Project = {
       "startTime": 1202.695,
       "endTime": 1211.72,
       "textEn": "This matters because AI adoption isn't just a modeling problem.",
-      "textZh": "",
+      "textZh": "這一點很重要，因為 AI 導入不只是一個建模問題。",
       "slidePage": 12
     },
     {
@@ -877,7 +877,7 @@ export const mockProject: Project = {
       "startTime": 1211.72,
       "endTime": 1220.961,
       "textEn": "It's also a workflow design problem. If AI output appears somewhere outside the normal workflow, people may just ignore it.",
-      "textZh": "風險標籤會指出需要注意的指標；決策支援會整理醫療事實、保單條款與理賠條件；關係圖分析則協助查看被保人、醫療院所、業務員、過往理賠或相關實體之間的關係。",
+      "textZh": "也是一個工作流程設計問題。如果 AI 輸出出現在正常流程之外，人們可能只是忽略它。",
       "slidePage": 12
     },
     {
@@ -893,7 +893,7 @@ export const mockProject: Project = {
       "startTime": 1231.582,
       "endTime": 1241.702,
       "textEn": "That's the point where AI stops being just a feature inside a system and starts becoming part of the actual decision architecture.",
-      "textZh": "AI 必須出現在審查員工作的正確時刻，並提供正確證據，才會真正進入決策流程。",
+      "textZh": "這就是 AI 不再只是系統功能，而是真正成為決策架構一部分的轉折點。",
       "slidePage": 12
     },
     {
@@ -901,7 +901,7 @@ export const mockProject: Project = {
       "startTime": 1241.702,
       "endTime": 1246.78,
       "textEn": "And that brings us to the bigger question on this slide.",
-      "textZh": "AI 必須出現在審查員工作的正確時刻，並提供正確證據，才會真正進入決策流程。",
+      "textZh": "而這也引出了這張投影片上更大的問題。",
       "slidePage": 12
     },
     {
@@ -917,7 +917,7 @@ export const mockProject: Project = {
       "startTime": 1263.587,
       "endTime": 1274.373,
       "textEn": "In the early stage, AI works like a query tool. A user asks a question, and AI responds.",
-      "textZh": "這裡來到簡報的關鍵轉折：AI 如何從工具演進為協作式決策系統？",
+      "textZh": "在早期階段，AI 就像一個查詢工具——使用者提問，AI 回應。",
       "slidePage": 13
     },
     {
@@ -933,7 +933,7 @@ export const mockProject: Project = {
       "startTime": 1284.549,
       "endTime": 1294.071,
       "textEn": "In the next stage, AI becomes more like a digital specialist.",
-      "textZh": "",
+      "textZh": "在下一個階段，AI 更像是一位數位專科顧問。",
       "slidePage": 13
     },
     {
@@ -949,7 +949,7 @@ export const mockProject: Project = {
       "startTime": 1303.771,
       "endTime": 1328.021,
       "textEn": "And in the most advanced stage, AI becomes more like an intelligent team: one agent extracts medical information, another interprets policy terms, another checks benefit rules or risk indicators, and another prepares the explanation and decision report.",
-      "textZh": "下一階段 AI 變得更主動，可以偵測缺漏、辨識不一致、建議下一步。",
+      "textZh": "在最進階的階段，AI 更像一個智能團隊：一個 agent 擷取醫療資訊，另一個解讀保單條款，另一個核查給付規則或風險指標，還有一個準備說明與決策報告。",
       "slidePage": 13
     },
     {
@@ -957,7 +957,7 @@ export const mockProject: Project = {
       "startTime": 1328.021,
       "endTime": 1338.55,
       "textEn": "This multi-agent design makes sense because claims adjudication isn't a single task. It's a sequence of specialized reasoning steps.",
-      "textZh": "更進一步則是多代理協作：不同 agent 各自負責醫療擷取、保單解讀、給付規則、風險指標與報告產生。",
+      "textZh": "這種多代理設計有其道理，因為理賠核定不是單一任務，而是一系列專業推理步驟。",
       "slidePage": 13
     },
     {
@@ -965,7 +965,7 @@ export const mockProject: Project = {
       "startTime": 1338.55,
       "endTime": 1349.154,
       "textEn": "But we should be careful with the word \"collaborative.\" We don't mean that AI has the same authority as a human claims professional.",
-      "textZh": "更進一步則是多代理協作：不同 agent 各自負責醫療擷取、保單解讀、給付規則、風險指標與報告產生。",
+      "textZh": "但我們要謹慎使用「協作」這個詞。",
       "slidePage": 13
     },
     {
@@ -973,7 +973,7 @@ export const mockProject: Project = {
       "startTime": 1349.154,
       "endTime": 1360.681,
       "textEn": "We mean that AI collaborates by doing evidence preparation, consistency checking, and structured reasoning — while humans provide the judgment, the accountability, and the final sign-off.",
-      "textZh": "所謂協作不是讓 AI 擁有人類權限，而是讓 AI 準備證據與推理，人類負責判斷、責任與最後決策。",
+      "textZh": "我們所說的協作，是 AI 負責準備證據、核查一致性與結構化推理——而人類提供判斷、承擔責任並做最終決策。",
       "slidePage": 13
     },
     {
@@ -981,7 +981,7 @@ export const mockProject: Project = {
       "startTime": 1360.681,
       "endTime": 1368.531,
       "textEn": "This is the foundation of our human-in-the-loop design. And it's also where trust becomes the central issue.",
-      "textZh": "所謂協作不是讓 AI 擁有人類權限，而是讓 AI 準備證據與推理，人類負責判斷、責任與最後決策。",
+      "textZh": "這是我們 human-in-the-loop 設計的基礎，也是信任成為核心議題的地方。",
       "slidePage": 13
     },
     {
@@ -989,7 +989,7 @@ export const mockProject: Project = {
       "startTime": 1368.531,
       "endTime": 1387.886,
       "textEn": "If AI is going to be part of a decision, how do we design the workflow so that people can question it, verify it, and still be accountable for the final outcome?",
-      "textZh": "所謂協作不是讓 AI 擁有人類權限，而是讓 AI 準備證據與推理，人類負責判斷、責任與最後決策。",
+      "textZh": "如果 AI 將成為決策的一部分，我們如何設計流程，讓人們能質疑它、驗證它，並仍對最終結果負責？",
       "slidePage": 13
     },
     {
@@ -1005,7 +1005,7 @@ export const mockProject: Project = {
       "startTime": 1398.488,
       "endTime": 1410.439,
       "textEn": "The distinction between pre-adjudication and adjudication is really important here. We're not saying AI independently approves or rejects complex claims.",
-      "textZh": "Human-in-the-loop 的理賠預審概念是：agentic AI 提供分析與建議，人類審查員做最後決策。",
+      "textZh": "預審與正式核定的區別在這裡非常重要。我們不是說 AI 獨立核准或拒絕複雜理賠。",
       "slidePage": 14
     },
     {
@@ -1013,7 +1013,7 @@ export const mockProject: Project = {
       "startTime": 1410.439,
       "endTime": 1421.027,
       "textEn": "Instead, AI prepares a pre-assessment: the reviewed documents, extracted facts, relevant policy terms, supporting evidence, things that need attention, and a suggested recommendation.",
-      "textZh": "Human-in-the-loop 的理賠預審概念是：agentic AI 提供分析與建議，人類審查員做最後決策。",
+      "textZh": "而是 AI 準備預審：審閱文件、擷取事實、相關保單條款、支持證據、需要關注的事項，以及建議的決策方向。",
       "slidePage": 14
     },
     {
@@ -1021,7 +1021,7 @@ export const mockProject: Project = {
       "startTime": 1421.027,
       "endTime": 1431.099,
       "textEn": "The human reviewer then evaluates the evidence and the recommendation. If the output is complete, the reviewer can move faster.",
-      "textZh": "這裡的預審不是讓 AI 獨立核准或拒絕複雜理賠，而是整理文件、擷取事實、找出相關條款、列出證據、提示待注意事項並提出建議。",
+      "textZh": "人工審查員接著評估證據與建議。若輸出完整，審查員可以更快完成審核。",
       "slidePage": 14
     },
     {
@@ -1029,7 +1029,7 @@ export const mockProject: Project = {
       "startTime": 1431.099,
       "endTime": 1444.099,
       "textEn": "If something looks off or inconsistent, the reviewer can challenge it, correct it, or ask for more investigation. This design gives us two real benefits.",
-      "textZh": "這裡的預審不是讓 AI 獨立核准或拒絕複雜理賠，而是整理文件、擷取事實、找出相關條款、列出證據、提示待注意事項並提出建議。",
+      "textZh": "若有疑問或不一致，審查員可以質疑、修正或要求進一步調查。這個設計帶來兩個實質效益。",
       "slidePage": 14
     },
     {
@@ -1045,7 +1045,7 @@ export const mockProject: Project = {
       "startTime": 1454.228,
       "endTime": 1469.516,
       "textEn": "The reviewer can see not just the recommendation, but the basis for that recommendation. In regulated insurance operations, explainability isn't a nice-to-have.",
-      "textZh": "若輸出完整，審查員可更快處理；若有疑問或不一致，審查員可以挑戰、修正或要求補充調查。",
+      "textZh": "審查員不只能看到建議，還能看到建議背後的依據。在受監理的保險營運中，可解釋性不是加分項。",
       "slidePage": 14
     },
     {
@@ -1061,7 +1061,7 @@ export const mockProject: Project = {
       "startTime": 1485.22,
       "endTime": 1490.179,
       "textEn": "The reviewer needs to see the reasoning pathway behind it.",
-      "textZh": "在受監理的保險業，解釋性不是加分項，而是信任的前提。",
+      "textZh": "審查員需要看到建議背後的推理路徑。",
       "slidePage": 14
     },
     {
@@ -1069,7 +1069,7 @@ export const mockProject: Project = {
       "startTime": 1490.179,
       "endTime": 1503.558,
       "textEn": "And the bottom of this slide hints at why this matters for actuaries too: better risk identification, more precise rate setting, stronger product design, and more controllable loss costs.",
-      "textZh": "",
+      "textZh": "這張投影片下方也暗示了這對精算師的意義：更精準的風險識別、更精確的費率釐定、更強健的商品設計，以及更可控的損失成本。",
       "slidePage": 14
     },
     {
@@ -1093,7 +1093,7 @@ export const mockProject: Project = {
       "startTime": 1524.944,
       "endTime": 1542.112,
       "textEn": "For each case, AI should be able to show what information it used, how it interpreted that information, which policy terms were relevant, where it spotted inconsistencies, and why it made the recommendation it did.",
-      "textZh": "單純的 LLM 答案不夠，如果系統只說『這件應該給付』，審查員無法依賴它。",
+      "textZh": "針對每個案件，AI 應能說明它使用了哪些資訊、如何解讀、哪些保單條款相關、在哪裡發現不一致，以及為何做出這樣的建議。",
       "slidePage": 15
     },
     {
@@ -1109,7 +1109,7 @@ export const mockProject: Project = {
       "startTime": 1552.416,
       "endTime": 1559.156,
       "textEn": "The AI checks the medical facts against policy terms and medical guidelines.",
-      "textZh": "",
+      "textZh": "AI 會將醫療事實與保單條款及醫療準則進行比對核查。",
       "slidePage": 15
     },
     {
@@ -1117,7 +1117,7 @@ export const mockProject: Project = {
       "startTime": 1559.156,
       "endTime": 1575.767,
       "textEn": "It can recognize that ESWL is usually an outpatient procedure, recommend that the surgical benefit is payable, and still flag the hospitalization for manual review, with a 92 percent confidence score shown in the reasoning output.",
-      "textZh": "系統必須說明用了哪些資訊、如何解讀、哪些條款相關、在哪裡偵測到不一致，以及為什麼做出建議。",
+      "textZh": "系統可以辨識 ESWL 通常是門診手術，建議外科給付可以核付，同時仍標記住院部分供人工審查，並顯示 92% 的信心分數。",
       "slidePage": 15
     },
     {
@@ -1125,7 +1125,7 @@ export const mockProject: Project = {
       "startTime": 1575.767,
       "endTime": 1590.667,
       "textEn": "For claims reviewers, it supports faster and more consistent decisions. For risk managers, it provides structured indicators for fraud and anomaly detection.",
-      "textZh": "這對理賠員、風險管理者與精算人員都有價值：它支援一致決策、詐欺與異常偵測，也產生更細緻的理賠原因資料。",
+      "textZh": "對理賠審查員來說，它支援更快、更一致的決策。對風險管理者來說，它提供詐欺與異常偵測的結構化指標。",
       "slidePage": 15
     },
     {
@@ -1133,7 +1133,7 @@ export const mockProject: Project = {
       "startTime": 1590.667,
       "endTime": 1599.914,
       "textEn": "And for actuaries, it creates more granular data about the cause and characteristics of claims.",
-      "textZh": "這對理賠員、風險管理者與精算人員都有價值：它支援一致決策、詐欺與異常偵測，也產生更細緻的理賠原因資料。",
+      "textZh": "對精算師來說，它創造了關於理賠原因與特性更細緻的資料。",
       "slidePage": 15
     },
     {
@@ -1141,7 +1141,7 @@ export const mockProject: Project = {
       "startTime": 1599.914,
       "endTime": 1608.231,
       "textEn": "With these requirements clear, we can now introduce the system we built to pull all the pieces together.",
-      "textZh": "這對理賠員、風險管理者與精算人員都有價值：它支援一致決策、詐欺與異常偵測，也產生更細緻的理賠原因資料。",
+      "textZh": "釐清這些需求後，我們可以介紹我們建立的系統——將所有部分整合在一起。",
       "slidePage": 15
     },
     {
@@ -1157,7 +1157,7 @@ export const mockProject: Project = {
       "startTime": 1615.62,
       "endTime": 1625.792,
       "textEn": "CAELIA is designed to transform claims adjudication into an explainable, evidence-driven decision process. The name matters because this isn't just a model.",
-      "textZh": "為了把這些要求整合起來，我們發展了 CAELIA，也就是 Cathay AI Engine for Life Insurance Adjudication。",
+      "textZh": "CAELIA 的設計目的是將理賠核定轉化為可解釋、以證據為驅動的決策流程。這個名稱很重要，因為這不只是一個模型。",
       "slidePage": 16
     },
     {
@@ -1165,7 +1165,7 @@ export const mockProject: Project = {
       "startTime": 1625.792,
       "endTime": 1634.083,
       "textEn": "It's an engine that combines document understanding, knowledge retrieval, policy interpretation, multi-agent reasoning, decision reporting, and human review.",
-      "textZh": "為了把這些要求整合起來，我們發展了 CAELIA，也就是 Cathay AI Engine for Life Insurance Adjudication。",
+      "textZh": "它是一個結合文件理解、知識檢索、保單解讀、多代理推理、決策報告與人工審查的引擎。",
       "slidePage": 16
     },
     {
@@ -1173,7 +1173,7 @@ export const mockProject: Project = {
       "startTime": 1634.083,
       "endTime": 1639.904,
       "textEn": "The objective isn't to make AI look impressive.",
-      "textZh": "",
+      "textZh": "目標不是讓 AI 看起來很厲害。",
       "slidePage": 16
     },
     {
@@ -1181,7 +1181,7 @@ export const mockProject: Project = {
       "startTime": 1639.904,
       "endTime": 1651.466,
       "textEn": "The objective is to make the claims decision process more transparent, more consistent, and more analytically useful.",
-      "textZh": "它不只是一個模型，而是一個引擎，結合文件理解、知識檢索、保單解讀、多代理推理、決策報告與人工審查。",
+      "textZh": "目標是讓理賠決策流程更透明、更一致、更具分析價值。",
       "slidePage": 16
     },
     {
@@ -1189,7 +1189,7 @@ export const mockProject: Project = {
       "startTime": 1651.466,
       "endTime": 1664.256,
       "textEn": "In practice, CAELIA reads claim documents, extracts medical and claims information, retrieves relevant policy knowledge, checks benefit conditions, identifies potential inconsistencies, and produces a pre-assessment decision report.",
-      "textZh": "它不只是一個模型，而是一個引擎，結合文件理解、知識檢索、保單解讀、多代理推理、決策報告與人工審查。",
+      "textZh": "在實務中，CAELIA 讀取理賠文件、擷取醫療與理賠資訊、檢索相關保單知識、核查給付條件、辨識潛在不一致，並產出預審決策報告。",
       "slidePage": 16
     },
     {
@@ -1197,7 +1197,7 @@ export const mockProject: Project = {
       "startTime": 1664.256,
       "endTime": 1673.959,
       "textEn": "The reviewer stays in control — but they're starting from a much richer, better-organized evidence package. The next question is about architecture.",
-      "textZh": "目標不是讓 AI 看起來很厲害，而是讓理賠決策更透明、更一致、更具分析價值。",
+      "textZh": "審查員仍掌控全局——但他們的起點是更豐富、更有條理的證據包。下一個問題關乎架構。",
       "slidePage": 16
     },
     {
@@ -1205,7 +1205,7 @@ export const mockProject: Project = {
       "startTime": 1673.959,
       "endTime": 1688.016,
       "textEn": "If claims adjudication is made up of many specialized reasoning tasks, should one model try to do everything?",
-      "textZh": "目標不是讓 AI 看起來很厲害，而是讓理賠決策更透明、更一致、更具分析價值。",
+      "textZh": "如果理賠核定由許多專業推理任務組成，應該由單一模型嘗試做所有事情嗎？",
       "slidePage": 16
     },
     {
@@ -1213,7 +1213,7 @@ export const mockProject: Project = {
       "startTime": 1688.016,
       "endTime": 1699.048,
       "textEn": "Or should different agents each take responsibility for different parts of the work?",
-      "textZh": "",
+      "textZh": "還是應該讓不同的 Agent 各自負責不同部分的工作？",
       "slidePage": 16
     },
     {
@@ -1229,7 +1229,7 @@ export const mockProject: Project = {
       "startTime": 1707.816,
       "endTime": 1716.941,
       "textEn": "A document extraction agent picks out structured fields from medical records and claim forms.",
-      "textZh": "CAELIA 採用多代理架構。",
+      "textZh": "文件擷取 agent 從醫療記錄與理賠表格中識別結構化欄位。",
       "slidePage": 17
     },
     {
@@ -1237,7 +1237,7 @@ export const mockProject: Project = {
       "startTime": 1716.941,
       "endTime": 1727.274,
       "textEn": "A medical understanding agent interprets diagnoses, treatments, hospitalization details, and clinical context.",
-      "textZh": "",
+      "textZh": "醫療理解 Agent 負責解讀診斷、治療方式、住院細節與臨床背景。",
       "slidePage": 17
     },
     {
@@ -1245,7 +1245,7 @@ export const mockProject: Project = {
       "startTime": 1727.274,
       "endTime": 1740.194,
       "textEn": "A policy interpretation agent retrieves relevant policy terms, benefit definitions, exclusions, and claim conditions. A risk analysis agent reviews risk indicators and flags possible inconsistencies.",
-      "textZh": "文件擷取 agent 從醫療記錄與申請文件中辨識欄位；醫療理解 agent 解讀診斷、治療、住院與臨床脈絡；保單解讀 agent 擷取條款、給付定義、除外與條件；風險分析 agent 檢視風險指標與不一致；推理報告 agent 則整合證據並產出預審報告。",
+      "textZh": "保單解讀 agent 檢索相關保單條款、給付定義、除外條款與理賠條件；風險分析 agent 審查風險指標並標記可能的不一致。",
       "slidePage": 17
     },
     {
@@ -1253,7 +1253,7 @@ export const mockProject: Project = {
       "startTime": 1740.194,
       "endTime": 1751.281,
       "textEn": "And a reasoning and report agent combines all the evidence and produces a structured pre-assessment report. This modular design has a few key advantages.",
-      "textZh": "文件擷取 agent 從醫療記錄與申請文件中辨識欄位；醫療理解 agent 解讀診斷、治療、住院與臨床脈絡；保單解讀 agent 擷取條款、給付定義、除外與條件；風險分析 agent 檢視風險指標與不一致；推理報告 agent 則整合證據並產出預審報告。",
+      "textZh": "推理與報告 agent 整合所有證據，產出結構化的預審報告。這種模組化設計有幾個關鍵優勢。",
       "slidePage": 17
     },
     {
@@ -1261,7 +1261,7 @@ export const mockProject: Project = {
       "startTime": 1751.281,
       "endTime": 1755.637,
       "textEn": "First, it's easier to govern.",
-      "textZh": "",
+      "textZh": "首先，它更容易被監管與治理。",
       "slidePage": 17
     },
     {
@@ -1269,7 +1269,7 @@ export const mockProject: Project = {
       "startTime": 1755.637,
       "endTime": 1767.055,
       "textEn": "If there's an issue with policy interpretation or medical extraction, we can evaluate that component on its own. Second, it supports explainability.",
-      "textZh": "文件擷取 agent 從醫療記錄與申請文件中辨識欄位；醫療理解 agent 解讀診斷、治療、住院與臨床脈絡；保單解讀 agent 擷取條款、給付定義、除外與條件；風險分析 agent 檢視風險指標與不一致；推理報告 agent 則整合證據並產出預審報告。",
+      "textZh": "如果保單解讀或醫療擷取出現問題，我們可以獨立評估該元件。第二，它支援可解釋性。",
       "slidePage": 17
     },
     {
@@ -1277,7 +1277,7 @@ export const mockProject: Project = {
       "startTime": 1767.055,
       "endTime": 1774.539,
       "textEn": "Each agent contributes a specific piece of the reasoning pathway. Third, it supports continuous improvement.",
-      "textZh": "文件擷取 agent 從醫療記錄與申請文件中辨識欄位；醫療理解 agent 解讀診斷、治療、住院與臨床脈絡；保單解讀 agent 擷取條款、給付定義、除外與條件；風險分析 agent 檢視風險指標與不一致；推理報告 agent 則整合證據並產出預審報告。",
+      "textZh": "每個 agent 貢獻推理路徑中的特定一環。第三，它支援持續改善。",
       "slidePage": 17
     },
     {
@@ -1285,7 +1285,7 @@ export const mockProject: Project = {
       "startTime": 1774.539,
       "endTime": 1784.693,
       "textEn": "As policy knowledge, medical terminology, or fraud patterns evolve, we can update the relevant components without having to redesign the whole system.",
-      "textZh": "這讓系統更容易治理、解釋與持續改善。",
+      "textZh": "隨著保單知識、醫療術語或詐欺模式的演進，我們可以更新相關元件，而無需重新設計整個系統。",
       "slidePage": 17
     },
     {
@@ -1293,7 +1293,7 @@ export const mockProject: Project = {
       "startTime": 1784.693,
       "endTime": 1797.046,
       "textEn": "But architecture only becomes useful when it changes the reviewer's day-to-day work. So let's look at the practical output of this multi-agent process.",
-      "textZh": "這讓系統更容易治理、解釋與持續改善。",
+      "textZh": "但架構只有在改變審查員的日常工作時才真正有用。讓我們看看這個多代理流程的實際輸出。",
       "slidePage": 17
     },
     {
@@ -1309,7 +1309,7 @@ export const mockProject: Project = {
       "startTime": 1803.863,
       "endTime": 1811.711,
       "textEn": "This report is designed to take raw claims data and turn it into a traceable decision recommendation.",
-      "textZh": "",
+      "textZh": "這份報告的設計目的，是將原始的理賠資料轉化為可追溯的決策建議。",
       "slidePage": 18
     },
     {
@@ -1317,7 +1317,7 @@ export const mockProject: Project = {
       "startTime": 1811.711,
       "endTime": 1825.697,
       "textEn": "A good report should answer several practical questions for the reviewer. What's the claim event? What medical facts were extracted? What policy benefits might apply?",
-      "textZh": "好的報告要回答審查員的實務問題：理賠事件是什麼？",
+      "textZh": "好的報告應回答審查員幾個實際問題：理賠事件是什麼？擷取到哪些醫療事實？可能適用哪些保單給付？",
       "slidePage": 18
     },
     {
@@ -1325,7 +1325,7 @@ export const mockProject: Project = {
       "startTime": 1825.697,
       "endTime": 1842.064,
       "textEn": "What evidence supports the recommendation? What's still uncertain? And what should the human reviewer check before making the final call?",
-      "textZh": "擷取到哪些醫療事實？可能適用哪些給付？",
+      "textZh": "哪些證據支持建議？還有哪些不確定？人工審查員在做最終決定前應檢查什麼？",
       "slidePage": 18
     },
     {
@@ -1333,7 +1333,7 @@ export const mockProject: Project = {
       "startTime": 1842.064,
       "endTime": 1856.818,
       "textEn": "In the example, the report shows confidence scores for different parts of the case, such as 92 percent for surgical benefit, 90 percent for hospitalization, and 85 percent for the overall recommendation.",
-      "textZh": "支持建議的證據是什麼？還有哪些不確定？",
+      "textZh": "在範例中，報告顯示案件不同部分的信心分數：外科給付 92%、住院 90%，以及整體建議 85%。",
       "slidePage": 18
     },
     {
@@ -1341,7 +1341,7 @@ export const mockProject: Project = {
       "startTime": 1856.818,
       "endTime": 1869.902,
       "textEn": "This is especially important when AI is used in regulated financial services. We need to be able to show that AI output isn't arbitrary.",
-      "textZh": "人類審查員在最後決策前應該檢查什麼？",
+      "textZh": "這在受監理的金融服務中使用 AI 時尤其重要。我們需要能夠證明 AI 輸出不是任意的。",
       "slidePage": 18
     },
     {
@@ -1349,7 +1349,7 @@ export const mockProject: Project = {
       "startTime": 1869.902,
       "endTime": 1880.522,
       "textEn": "It has to be grounded in evidence, policy knowledge, and human oversight. Up to this point, we've mostly talked about operations and governance.",
-      "textZh": "報告也支援稽核，讓組織日後能回溯當時可用資訊、推理方式與決策脈絡。",
+      "textZh": "它必須以證據、保單知識與人工監督為基礎。到目前為止，我們主要談的是營運與治理。",
       "slidePage": 18
     },
     {
@@ -1357,7 +1357,7 @@ export const mockProject: Project = {
       "startTime": 1880.522,
       "endTime": 1893.608,
       "textEn": "Now I'd like to shift the lens and ask: what does all this mean for actuaries?",
-      "textZh": "報告也支援稽核，讓組織日後能回溯當時可用資訊、推理方式與決策脈絡。",
+      "textZh": "現在我想換個角度問：這一切對精算師來說意味著什麼？",
       "slidePage": 18
     },
     {
@@ -1373,7 +1373,7 @@ export const mockProject: Project = {
       "startTime": 1909.135,
       "endTime": 1919.753,
       "textEn": "But if we structure them properly, they become actuarial-ready data. This is one of the most important points we want to make today.",
-      "textZh": "理賠記錄常被視為營運副產品，因為我們需要付款才產生它。",
+      "textZh": "但如果我們妥善結構化，它們就會變成精算就緒的資料。這是我們今天想表達的最重要觀點之一。",
       "slidePage": 19
     },
     {
@@ -1381,7 +1381,7 @@ export const mockProject: Project = {
       "startTime": 1919.753,
       "endTime": 1931.294,
       "textEn": "The structured output has three layers. The first is the result layer: what was approved, denied, or left pending, and what benefit item was involved.",
-      "textZh": "但如果能妥善結構化，它就會變成 actuarial-ready data。",
+      "textZh": "結構化輸出有三個層次。第一是結果層：核准、拒絕或待決的內容，以及涉及哪個給付項目。",
       "slidePage": 19
     },
     {
@@ -1389,7 +1389,7 @@ export const mockProject: Project = {
       "startTime": 1931.294,
       "endTime": 1944.744,
       "textEn": "The second is the policy and decision layer: which policy terms applied, whether the benefit condition matched, and whether exclusions were triggered.",
-      "textZh": "但如果能妥善結構化，它就會變成 actuarial-ready data。",
+      "textZh": "第二是保單與決策層：適用哪些保單條款、給付條件是否符合，以及除外條款是否被觸發。",
       "slidePage": 19
     },
     {
@@ -1397,7 +1397,7 @@ export const mockProject: Project = {
       "startTime": 1944.744,
       "endTime": 1953.862,
       "textEn": "The third is the medical assessment layer: diagnosis codes, procedures, treatment information, medical necessity, and clinical justification.",
-      "textZh": "傳統系統常記錄理賠類型、金額、決策狀態、給付代碼與處理日期，但不一定能解釋為什麼發生理賠。",
+      "textZh": "第三是醫療評估層：診斷代碼、手術、治療資訊、醫療必要性與臨床理由。",
       "slidePage": 19
     },
     {
@@ -1405,7 +1405,7 @@ export const mockProject: Project = {
       "startTime": 1953.862,
       "endTime": 1966.192,
       "textEn": "With proper governance, this information can support pricing, reserving, experience studies, risk segmentation, and product monitoring.",
-      "textZh": "傳統系統常記錄理賠類型、金額、決策狀態、給付代碼與處理日期，但不一定能解釋為什麼發生理賠。",
+      "textZh": "在適當的治理下，這些資訊可以支援定價、準備金、經驗研究、風險分群與商品監控。",
       "slidePage": 19
     },
     {
@@ -1413,7 +1413,7 @@ export const mockProject: Project = {
       "startTime": 1966.192,
       "endTime": 1972.581,
       "textEn": "In other words, AI doesn't just make claims operations faster.",
-      "textZh": "",
+      "textZh": "換句話說，AI 不只是讓理賠作業變得更快。",
       "slidePage": 19
     },
     {
@@ -1421,7 +1421,7 @@ export const mockProject: Project = {
       "startTime": 1972.581,
       "endTime": 1982.266,
       "textEn": "It expands the data available for actuarial analysis. And this is especially valuable under IFRS 17 and modern risk management frameworks.",
-      "textZh": "Agentic AI 可以從非結構文件中擷取診斷、病程、治療型態、住院原因、照護需求與決策證據，支援定價、準備金、經驗研究、風險分群與商品監控。",
+      "textZh": "它擴展了可供精算分析的資料。在 IFRS 17 與現代風險管理框架下，這尤其有價值。",
       "slidePage": 19
     },
     {
@@ -1429,7 +1429,7 @@ export const mockProject: Project = {
       "startTime": 1982.266,
       "endTime": 1993.444,
       "textEn": "Insurers need faster feedback loops between actual claims experience and their assumptions. If claims data stays unstructured, that feedback loop is slow.",
-      "textZh": "Agentic AI 可以從非結構文件中擷取診斷、病程、治療型態、住院原因、照護需求與決策證據，支援定價、準備金、經驗研究、風險分群與商品監控。",
+      "textZh": "保險公司需要在實際理賠經驗與精算假設之間建立更快的回饋迴路。如果理賠資料保持非結構化，這個迴路就會很慢。",
       "slidePage": 19
     },
     {
@@ -1437,7 +1437,7 @@ export const mockProject: Project = {
       "startTime": 1993.444,
       "endTime": 2003.275,
       "textEn": "But if claims data becomes structured earlier in the process, actuaries can respond more quickly to emerging experience.",
-      "textZh": "Agentic AI 可以從非結構文件中擷取診斷、病程、治療型態、住院原因、照護需求與決策證據，支援定價、準備金、經驗研究、風險分群與商品監控。",
+      "textZh": "但如果理賠資料在流程中更早結構化，精算師就能更快速地回應新興的經驗趨勢。",
       "slidePage": 19
     },
     {
@@ -1445,7 +1445,7 @@ export const mockProject: Project = {
       "startTime": 2003.275,
       "endTime": 2017.14,
       "textEn": "This brings us to a familiar actuarial question — but now with a much better data foundation: are we only measuring what happened, or are we also learning why it happened?",
-      "textZh": "Agentic AI 可以從非結構文件中擷取診斷、病程、治療型態、住院原因、照護需求與決策證據，支援定價、準備金、經驗研究、風險分群與商品監控。",
+      "textZh": "這帶我們回到一個精算師熟悉的問題——但現在有了更好的資料基礎：我們只是在衡量發生了什麼，還是也在學習為什麼發生？",
       "slidePage": 19
     },
     {
@@ -1469,7 +1469,7 @@ export const mockProject: Project = {
       "startTime": 2041.558,
       "endTime": 2045.801,
       "textEn": "Why did incidence change?",
-      "textZh": "",
+      "textZh": "為什麼發生率改變了？",
       "slidePage": 20
     },
     {
@@ -1477,7 +1477,7 @@ export const mockProject: Project = {
       "startTime": 2045.801,
       "endTime": 2055.017,
       "textEn": "Was it driven by aging? Product mix? Changes in medical practice? Customer behavior? Provider behavior? Fraud patterns? Or benefit design?",
-      "textZh": "這些問題很重要，但保險公司也越來越需要知道原因。",
+      "textZh": "是由高齡化、商品組合、醫療行為改變、客戶行為、院所行為、詐欺模式，還是給付設計所驅動？",
       "slidePage": 20
     },
     {
@@ -1485,7 +1485,7 @@ export const mockProject: Project = {
       "startTime": 2055.017,
       "endTime": 2067.284,
       "textEn": "Are there early signals that assumptions need to be updated?",
-      "textZh": "",
+      "textZh": "是否有早期訊號顯示假設需要更新？",
       "slidePage": 20
     },
     {
@@ -1501,7 +1501,7 @@ export const mockProject: Project = {
       "startTime": 2078.631,
       "endTime": 2091.636,
       "textEn": "Traditional analysis might count this simply as one accidental death case.",
-      "textZh": "",
+      "textZh": "傳統分析可能只是將此歸類為一件意外死亡案件。",
       "slidePage": 20
     },
     {
@@ -1509,7 +1509,7 @@ export const mockProject: Project = {
       "startTime": 2091.636,
       "endTime": 2105.027,
       "textEn": "But cause-based analysis asks a deeper question: was this a pure external accident, or did an underlying medical condition, such as degeneration or poor balance, contribute to the fall?",
-      "textZh": "發生率變化是高齡化、商品組合、醫療行為、客戶行為、院所行為、詐欺模式，還是給付設計造成的？",
+      "textZh": "但以原因為基礎的分析會問更深的問題：這是純粹的外部意外，還是潛在健康狀況——例如退化或平衡不良——也是跌倒的原因？",
       "slidePage": 20
     },
     {
@@ -1517,7 +1517,7 @@ export const mockProject: Project = {
       "startTime": 2105.027,
       "endTime": 2114.539,
       "textEn": "That distinction changes how we estimate incidence, how we segment risk, and how clean the experience study population becomes.",
-      "textZh": "CAELIA 透過更細緻的醫療與理賠資訊，把經驗分析從 outcome-based 推向 cause-based。",
+      "textZh": "這個區分改變了我們估計發生率、分群風險，以及讓經驗研究群體更乾淨的方式。",
       "slidePage": 20
     },
     {
@@ -1525,7 +1525,7 @@ export const mockProject: Project = {
       "startTime": 2114.539,
       "endTime": 2122.389,
       "textEn": "It helps us ask better questions, spot emerging trends earlier, and communicate findings more clearly to management.",
-      "textZh": "CAELIA 透過更細緻的醫療與理賠資訊，把經驗分析從 outcome-based 推向 cause-based。",
+      "textZh": "它幫助我們提出更好的問題、更早發現新興趨勢，並更清楚地向管理層溝通研究發現。",
       "slidePage": 20
     },
     {
@@ -1533,7 +1533,7 @@ export const mockProject: Project = {
       "startTime": 2122.389,
       "endTime": 2138.779,
       "textEn": "Once we understand causes more clearly, the natural next question is how those insights can feed into product and pricing discussions — without turning this talk into a pricing disclosure.",
-      "textZh": "CAELIA 透過更細緻的醫療與理賠資訊，把經驗分析從 outcome-based 推向 cause-based。",
+      "textZh": "一旦我們更清楚地理解原因，下一個自然的問題是：這些洞察如何能進入商品與定價討論——同時又不讓這場演講變成定價揭露。",
       "slidePage": 20
     },
     {
@@ -1549,7 +1549,7 @@ export const mockProject: Project = {
       "startTime": 2146.252,
       "endTime": 2152.724,
       "textEn": "To be clear: this talk isn't about disclosing pricing strategy or specific product pricing.",
-      "textZh": "",
+      "textZh": "需要澄清的是：本次分享並非關於揭露定價策略或具體商品費率。",
       "slidePage": 21
     },
     {
@@ -1565,7 +1565,7 @@ export const mockProject: Project = {
       "startTime": 2165.813,
       "endTime": 2174.143,
       "textEn": "This supports three pricing applications shown on the slide: refined assumptions, segmented pricing, and policy or benefit design.",
-      "textZh": "這裡不是揭露具體定價策略，而是討論分析能力。",
+      "textZh": "這支援投影片上顯示的三個定價應用：精修假設、分群定價，以及保單或給付設計。",
       "slidePage": 21
     },
     {
@@ -1581,7 +1581,7 @@ export const mockProject: Project = {
       "startTime": 2187.827,
       "endTime": 2200.758,
       "textEn": "But cause analysis can separate 70 standard treatment cases from 20 high-intensity treatment cases and 10 borderline cases where the treatment pattern or policy alignment needs closer review.",
-      "textZh": "更細緻的理賠資料能幫助定價團隊理解風險因子如何影響頻率與嚴重度，支援風險分群、商品設計檢視、給付結構評估與假設設定。",
+      "textZh": "但原因分析可以將 70 件標準治療案件、20 件高強度治療案件，與 10 件治療模式或保單適用性需要更仔細審查的邊界案件區分開來。",
       "slidePage": 21
     },
     {
@@ -1589,7 +1589,7 @@ export const mockProject: Project = {
       "startTime": 2200.758,
       "endTime": 2209.55,
       "textEn": "That difference really matters. Without cause analysis, management might only see a financial result.",
-      "textZh": "更細緻的理賠資料能幫助定價團隊理解風險因子如何影響頻率與嚴重度，支援風險分群、商品設計檢視、給付結構評估與假設設定。",
+      "textZh": "這個差異非常重要。沒有原因分析，管理層可能只看到財務結果。",
       "slidePage": 21
     },
     {
@@ -1605,7 +1605,7 @@ export const mockProject: Project = {
       "startTime": 2220.16,
       "endTime": 2232.568,
       "textEn": "This is the connection between claims AI and risk-based pricing.",
-      "textZh": "沒有 cause analysis，管理層可能只看到損率升高；有 cause analysis，才有機會評估應該更新假設、調整核保、強化理賠審查或改善商品設計。",
+      "textZh": "這就是理賠 AI 與風險定價之間的連結。",
       "slidePage": 21
     },
     {
@@ -1613,7 +1613,7 @@ export const mockProject: Project = {
       "startTime": 2232.568,
       "endTime": 2242.958,
       "textEn": "AI helps convert claims documents into structured evidence, and structured evidence makes risk segmentation more precise.",
-      "textZh": "",
+      "textZh": "AI 幫助將理賠文件轉化為結構化證據，而結構化證據則使風險分群更加精準。",
       "slidePage": 21
     },
     {
@@ -1621,7 +1621,7 @@ export const mockProject: Project = {
       "startTime": 2242.958,
       "endTime": 2251.531,
       "textEn": "Better experience analysis supports more informed pricing and risk management decisions.",
-      "textZh": "沒有 cause analysis，管理層可能只看到損率升高；有 cause analysis，才有機會評估應該更新假設、調整核保、強化理賠審查或改善商品設計。",
+      "textZh": "更好的經驗分析支援更有依據的定價與風險管理決策。",
       "slidePage": 21
     },
     {
@@ -1629,7 +1629,7 @@ export const mockProject: Project = {
       "startTime": 2251.531,
       "endTime": 2262.581,
       "textEn": "Of course, none of this works if the AI is reasoning from unstable or poorly managed knowledge.",
-      "textZh": "",
+      "textZh": "當然，如果 AI 的推理依賴不穩定或管理不善的知識庫，這一切都將失效。",
       "slidePage": 21
     },
     {
@@ -1637,7 +1637,7 @@ export const mockProject: Project = {
       "startTime": 2262.581,
       "endTime": 2268.65,
       "textEn": "So the next layer is the knowledge foundation that supports every decision.",
-      "textZh": "沒有 cause analysis，管理層可能只看到損率升高；有 cause analysis，才有機會評估應該更新假設、調整核保、強化理賠審查或改善商品設計。",
+      "textZh": "因此，下一層是支撐每個決策的知識基礎。",
       "slidePage": 21
     },
     {
@@ -1645,7 +1645,7 @@ export const mockProject: Project = {
       "startTime": 2268.65,
       "endTime": 2283.15,
       "textEn": "To make all of this work, CAELIA needs a strong knowledge foundation from three sources: claims operations policies, product terms and benefit rules, and a medical knowledge and disease library.",
-      "textZh": "要做到這些，CAELIA 需要穩固的知識基礎，包括保單條款、給付定義、除外、理賠規則、監理要求、作業準則與領域知識。",
+      "textZh": "要讓這一切運作，CAELIA 需要來自三個來源的穩固知識基礎：理賠作業準則、商品條款與給付規則，以及醫療知識與疾病庫。",
       "slidePage": 22
     },
     {
@@ -1653,7 +1653,7 @@ export const mockProject: Project = {
       "startTime": 2283.15,
       "endTime": 2292.329,
       "textEn": "This knowledge has to be structured and governed.",
-      "textZh": "要做到這些，CAELIA 需要穩固的知識基礎，包括保單條款、給付定義、除外、理賠規則、監理要求、作業準則與領域知識。",
+      "textZh": "這些知識必須被結構化並受到妥善治理。",
       "slidePage": 22
     },
     {
@@ -1661,7 +1661,7 @@ export const mockProject: Project = {
       "startTime": 2292.329,
       "endTime": 2302.456,
       "textEn": "If the knowledge base is incomplete or out of date, the AI might retrieve the wrong information or apply the wrong rule.",
-      "textZh": "",
+      "textZh": "如果知識庫不完整或已過時，AI 可能會擷取錯誤的資訊或套用錯誤的規則。",
       "slidePage": 22
     },
     {
@@ -1669,7 +1669,7 @@ export const mockProject: Project = {
       "startTime": 2302.456,
       "endTime": 2314.956,
       "textEn": "We also need traceability and data privacy controls.",
-      "textZh": "這些知識必須被結構化並治理，否則 AI 可能取用錯誤資訊或套用錯誤規則。",
+      "textZh": "我們也需要可追溯性與資料隱私控管。",
       "slidePage": 22
     },
     {
@@ -1677,7 +1677,7 @@ export const mockProject: Project = {
       "startTime": 2314.956,
       "endTime": 2328.439,
       "textEn": "When AI uses a policy clause or a medical fact, the system should be able to trace where that came from.",
-      "textZh": "",
+      "textZh": "當 AI 引用保單條款或醫療事實時，系統應能追溯其來源出處。",
       "slidePage": 22
     },
     {
@@ -1685,7 +1685,7 @@ export const mockProject: Project = {
       "startTime": 2328.439,
       "endTime": 2338.616,
       "textEn": "Reviewers should be able to see the source of any piece of information. This is especially important for explainability.",
-      "textZh": "這些知識必須被結構化並治理，否則 AI 可能取用錯誤資訊或套用錯誤規則。",
+      "textZh": "審查員應能看到任何資訊的來源。這對可解釋性尤其重要。",
       "slidePage": 22
     },
     {
@@ -1701,7 +1701,7 @@ export const mockProject: Project = {
       "startTime": 2352.515,
       "endTime": 2365.289,
       "textEn": "We need to say: here's the document, here's the extracted fact, here's the relevant policy term, here's the reasoning, and here's what's still uncertain.",
-      "textZh": "我們也需要資料血緣，讓系統能追溯 AI 使用的條款或醫療事實來源。",
+      "textZh": "我們需要說明：這是文件、這是擷取的事實、這是相關保單條款、這是推理過程，以及這是仍不確定的部分。",
       "slidePage": 22
     },
     {
@@ -1709,7 +1709,7 @@ export const mockProject: Project = {
       "startTime": 2365.289,
       "endTime": 2376.83,
       "textEn": "The knowledge foundation is what makes the AI system controllable. It anchors AI reasoning in approved business knowledge, rather than letting the model improvise freely.",
-      "textZh": "知識基礎讓 AI 推理受到核准的業務知識約束，而不是自由發揮。",
+      "textZh": "知識基礎是讓 AI 系統可控的關鍵。它將 AI 推理錨定在核准的業務知識中，而不是讓模型自由發揮。",
       "slidePage": 22
     },
     {
@@ -1717,7 +1717,7 @@ export const mockProject: Project = {
       "startTime": 2376.83,
       "endTime": 2386.531,
       "textEn": "The clearest example of this is policy interpretation — because in claims, a small difference in wording can completely change the decision.",
-      "textZh": "知識基礎讓 AI 推理受到核准的業務知識約束，而不是自由發揮。",
+      "textZh": "最清楚的例子是保單解讀——因為在理賠中，措辭上的細微差異可能完全改變決策結果。",
       "slidePage": 22
     },
     {
@@ -1733,7 +1733,7 @@ export const mockProject: Project = {
       "startTime": 2396.685,
       "endTime": 2402.34,
       "textEn": "Policies contain definitions, benefit conditions, exclusions, waiting periods, limits, and special rules.",
-      "textZh": "",
+      "textZh": "保單包含定義、給付條件、除外條款、等待期、給付上限及特殊規定。",
       "slidePage": 23
     },
     {
@@ -1749,7 +1749,7 @@ export const mockProject: Project = {
       "startTime": 2413.867,
       "endTime": 2425.367,
       "textEn": "The agent workflow has four steps: understand the claim, determine policy applicability, identify exclusions, and produce a structured output.",
-      "textZh": "保單包含定義、給付條件、除外、等待期、限額與特殊規則，理賠決策常取決於精確解讀。",
+      "textZh": "agent 工作流程有四個步驟：理解理賠內容、確定保單適用性、辨識除外條款，以及產出結構化輸出。",
       "slidePage": 23
     },
     {
@@ -1757,7 +1757,7 @@ export const mockProject: Project = {
       "startTime": 2425.367,
       "endTime": 2440.597,
       "textEn": "For example, if a claim involves hospitalization benefits, the system can pull up the relevant policy clauses, compare the required conditions against the extracted medical facts, and highlight anything that's missing or conflicting.",
-      "textZh": "CAELIA 讓相關保單邏輯更可見、更容易審查。",
+      "textZh": "例如，若理賠涉及住院給付，系統可以調出相關保單條款，將所需條件與擷取的醫療事實對比，並標示缺漏或衝突之處。",
       "slidePage": 23
     },
     {
@@ -1765,7 +1765,7 @@ export const mockProject: Project = {
       "startTime": 2440.597,
       "endTime": 2454.084,
       "textEn": "The reviewer can then focus on judgment. Does the medical evidence really satisfy the policy definition? Is additional documentation needed? Is there an exception?",
-      "textZh": "CAELIA 讓相關保單邏輯更可見、更容易審查。",
+      "textZh": "審查員可以專注於判斷：醫療證據是否真正符合保單定義？是否需要補充文件？是否有例外情況？",
       "slidePage": 23
     },
     {
@@ -1773,7 +1773,7 @@ export const mockProject: Project = {
       "startTime": 2454.084,
       "endTime": 2459.161,
       "textEn": "Does the case need to be escalated? This approach improves consistency.",
-      "textZh": "以住院給付為例，系統可以抓出相關條款，把條件與醫療事實比對，並提示缺漏或衝突資訊，讓審查員專注於專業判斷。",
+      "textZh": "案件是否需要升級處理？這種方法改善了決策一致性。",
       "slidePage": 23
     },
     {
@@ -1781,7 +1781,7 @@ export const mockProject: Project = {
       "startTime": 2459.161,
       "endTime": 2466.113,
       "textEn": "The output should clearly show applicable coverage, coverage determination, exclusion determination, and the decision rationale.",
-      "textZh": "以住院給付為例，系統可以抓出相關條款，把條件與醫療事實比對，並提示缺漏或衝突資訊，讓審查員專注於專業判斷。",
+      "textZh": "輸出應清楚顯示適用的承保範圍、承保確定、除外確定，以及決策依據。",
       "slidePage": 23
     },
     {
@@ -1789,7 +1789,7 @@ export const mockProject: Project = {
       "startTime": 2466.113,
       "endTime": 2476.289,
       "textEn": "If we step back from the individual components, we can now summarize the value this creates across the organization.",
-      "textZh": "以住院給付為例，系統可以抓出相關條款，把條件與醫療事實比對，並提示缺漏或衝突資訊，讓審查員專注於專業判斷。",
+      "textZh": "如果退一步從整體看，我們現在可以總結這在整個組織中創造的價值。",
       "slidePage": 23
     },
     {
@@ -1805,7 +1805,7 @@ export const mockProject: Project = {
       "startTime": 2485.759,
       "endTime": 2496.369,
       "textEn": "For operations, CAELIA reduces manual document review, speeds up evidence preparation, and helps reviewers focus on complex judgment rather than repetitive information gathering.",
-      "textZh": "總結價值，可以分成四個面向：營運、風險控管、治理與精算。",
+      "textZh": "在營運方面，CAELIA 減少人工文件審查、加速證據準備，並幫助審查員專注於複雜判斷，而非重複的資料收集。",
       "slidePage": 24
     },
     {
@@ -1813,7 +1813,7 @@ export const mockProject: Project = {
       "startTime": 2496.369,
       "endTime": 2508.636,
       "textEn": "In practical terms, the impact can extend across a claims organization of around 300 FTEs, with an estimated 30 percent reduction in review time per case.",
-      "textZh": "總結價值，可以分成四個面向：營運、風險控管、治理與精算。",
+      "textZh": "在實務上，影響可延伸至約 300 名全職人員的理賠組織，估計每件案件的審查時間可縮短約 30%。",
       "slidePage": 24
     },
     {
@@ -1821,7 +1821,7 @@ export const mockProject: Project = {
       "startTime": 2508.636,
       "endTime": 2518.661,
       "textEn": "For risk control, the system supports earlier identification of inconsistencies, anomaly patterns, and fraud indicators.",
-      "textZh": "總結價值，可以分成四個面向：營運、風險控管、治理與精算。",
+      "textZh": "在風險控管方面，系統支援更早發現不一致、異常模式與詐欺指標。",
       "slidePage": 24
     },
     {
@@ -1829,7 +1829,7 @@ export const mockProject: Project = {
       "startTime": 2518.661,
       "endTime": 2530.186,
       "textEn": "For governance, human-in-the-loop review, traceable reasoning, structured knowledge, and data lineage help make AI output explainable and auditable. That's essential for responsible AI in insurance.",
-      "textZh": "營運上，CAELIA 減少人工文件審查並加速證據準備；風險控管上，它更早發現不一致、異常與詐欺指標；治理上，human-in-the-loop、可追溯推理、結構化知識與資料血緣讓 AI 可解釋、可稽核；精算上，理賠資料變得更結構化且有意義，支援經驗研究、發生率檢視、假設更新、準備金分析與商品監控。",
+      "textZh": "在治理方面，human-in-the-loop 審查、可追溯推理、結構化知識與資料血緣，有助於使 AI 輸出可解釋且可稽核——這對保險業的負責任 AI 至關重要。",
       "slidePage": 24
     },
     {
@@ -1837,7 +1837,7 @@ export const mockProject: Project = {
       "startTime": 2530.186,
       "endTime": 2538.485,
       "textEn": "And for actuarial work, the most strategic benefit is that claims data becomes more structured and more meaningful.",
-      "textZh": "營運上，CAELIA 減少人工文件審查並加速證據準備；風險控管上，它更早發現不一致、異常與詐欺指標；治理上，human-in-the-loop、可追溯推理、結構化知識與資料血緣讓 AI 可解釋、可稽核；精算上，理賠資料變得更結構化且有意義，支援經驗研究、發生率檢視、假設更新、準備金分析與商品監控。",
+      "textZh": "在精算工作方面，最具策略價值的效益是理賠資料變得更加結構化且更有意義。",
       "slidePage": 24
     },
     {
@@ -1845,7 +1845,7 @@ export const mockProject: Project = {
       "startTime": 2538.485,
       "endTime": 2551.129,
       "textEn": "Instead of only getting final payment results, actuaries can access richer information about diagnoses, treatments, causes, severity drivers, and the rationale behind decisions.",
-      "textZh": "營運上，CAELIA 減少人工文件審查並加速證據準備；風險控管上，它更早發現不一致、異常與詐欺指標；治理上，human-in-the-loop、可追溯推理、結構化知識與資料血緣讓 AI 可解釋、可稽核；精算上，理賠資料變得更結構化且有意義，支援經驗研究、發生率檢視、假設更新、準備金分析與商品監控。",
+      "textZh": "精算師不再只能取得最終給付結果，而能存取關於診斷、治療、原因、嚴重度驅動因子與決策依據的更豐富資訊。",
       "slidePage": 24
     },
     {
@@ -1853,7 +1853,7 @@ export const mockProject: Project = {
       "startTime": 2551.129,
       "endTime": 2559.469,
       "textEn": "This supports experience studies, incidence rate reviews, assumption updates, reserve analysis, and product monitoring.",
-      "textZh": "營運上，CAELIA 減少人工文件審查並加速證據準備；風險控管上，它更早發現不一致、異常與詐欺指標；治理上，human-in-the-loop、可追溯推理、結構化知識與資料血緣讓 AI 可解釋、可稽核；精算上，理賠資料變得更結構化且有意義，支援經驗研究、發生率檢視、假設更新、準備金分析與商品監控。",
+      "textZh": "這支援經驗研究、發生率審查、假設更新、準備金分析與商品監控。",
       "slidePage": 24
     },
     {
@@ -1861,7 +1861,7 @@ export const mockProject: Project = {
       "startTime": 2559.469,
       "endTime": 2571.927,
       "textEn": "The broader lesson here is that AI value shouldn't be measured only by time saved.",
-      "textZh": "營運上，CAELIA 減少人工文件審查並加速證據準備；風險控管上，它更早發現不一致、異常與詐欺指標；治理上，human-in-the-loop、可追溯推理、結構化知識與資料血緣讓 AI 可解釋、可稽核；精算上，理賠資料變得更結構化且有意義，支援經驗研究、發生率檢視、假設更新、準備金分析與商品監控。",
+      "textZh": "更廣泛的啟示是，AI 價值不應只以節省的時間衡量。",
       "slidePage": 24
     },
     {
@@ -1869,7 +1869,7 @@ export const mockProject: Project = {
       "startTime": 2571.927,
       "endTime": 2583.457,
       "textEn": "In insurance, AI value should also be measured by the quality of decisions, the strength of governance, and the improvement in how the organization learns.",
-      "textZh": "營運上，CAELIA 減少人工文件審查並加速證據準備；風險控管上，它更早發現不一致、異常與詐欺指標；治理上，human-in-the-loop、可追溯推理、結構化知識與資料血緣讓 AI 可解釋、可稽核；精算上，理賠資料變得更結構化且有意義，支援經驗研究、發生率檢視、假設更新、準備金分析與商品監控。",
+      "textZh": "在保險業，AI 價值也應以決策品質、治理強度，以及組織學習方式的改善來衡量。",
       "slidePage": 24
     },
     {
@@ -1877,7 +1877,7 @@ export const mockProject: Project = {
       "startTime": 2583.457,
       "endTime": 2598.23,
       "textEn": "So as we wrap up, I want to come back to the question we asked at the beginning: are claims records simply evidence for payment — or can they become evidence for learning?",
-      "textZh": "營運上，CAELIA 減少人工文件審查並加速證據準備；風險控管上，它更早發現不一致、異常與詐欺指標；治理上，human-in-the-loop、可追溯推理、結構化知識與資料血緣讓 AI 可解釋、可稽核；精算上，理賠資料變得更結構化且有意義，支援經驗研究、發生率檢視、假設更新、準備金分析與商品監控。",
+      "textZh": "在結束之前，我想回到我們一開始提出的問題：理賠紀錄只是付款證據，還是也能成為學習的證據？",
       "slidePage": 24
     },
     {
@@ -1901,7 +1901,7 @@ export const mockProject: Project = {
       "startTime": 2619.486,
       "endTime": 2632.247,
       "textEn": "Every claim contains information about customer needs, medical trends, product performance, operational risk, and emerging experience.",
-      "textZh": "效率很重要，但對壽險公司來說，更大的機會是建立會學習的理賠生態系。",
+      "textZh": "每一件理賠都包含關於客戶需求、醫療趨勢、商品表現、營運風險與新興經驗的資訊。",
       "slidePage": 25
     },
     {
@@ -1909,7 +1909,7 @@ export const mockProject: Project = {
       "startTime": 2632.247,
       "endTime": 2645.212,
       "textEn": "Historically, most of that information was locked inside unstructured documents.",
-      "textZh": "",
+      "textZh": "過去，這些資訊大多封存於非結構化的文件之中。",
       "slidePage": 25
     },
     {
@@ -1917,7 +1917,7 @@ export const mockProject: Project = {
       "startTime": 2645.212,
       "endTime": 2658.118,
       "textEn": "Agentic AI gives us a practical way to unlock it — as long as we design the system with governance, explainability, and human oversight built in from the start.",
-      "textZh": "每一件理賠都包含客戶需求、醫療趨勢、商品表現、營運風險與新興經驗。",
+      "textZh": "Agentic AI 提供了一個實際的方式來解鎖這些資訊——只要我們從一開始就將治理、可解釋性與人工監督內建到系統架構中。",
       "slidePage": 25
     },
     {
@@ -1925,7 +1925,7 @@ export const mockProject: Project = {
       "startTime": 2658.118,
       "endTime": 2666.434,
       "textEn": "Our experience points to three takeaways. First, AI in claims should be designed as augmentation, not just automation.",
-      "textZh": "Agentic AI 可以解鎖這些資訊，但前提是從一開始就把治理、可解釋性與人工監督納入架構。",
+      "textZh": "我們的經驗指向三個重要啟示。第一，理賠中的 AI 應被設計為增強工具，而非只是自動化工具。",
       "slidePage": 25
     },
     {
@@ -1933,7 +1933,7 @@ export const mockProject: Project = {
       "startTime": 2666.434,
       "endTime": 2676.829,
       "textEn": "The goal is to help professionals make better decisions — not simply to remove human involvement.",
-      "textZh": "Agentic AI 可以解鎖這些資訊，但前提是從一開始就把治理、可解釋性與人工監督納入架構。",
+      "textZh": "目標是幫助專業人員做出更好的決策——而不是單純地移除人的參與。",
       "slidePage": 25
     },
     {
@@ -1941,7 +1941,7 @@ export const mockProject: Project = {
       "startTime": 2676.829,
       "endTime": 2689.723,
       "textEn": "Second, claims data should be treated as a strategic actuarial asset.",
-      "textZh": "",
+      "textZh": "第二，理賠資料應被視為具有策略價值的精算資產。",
       "slidePage": 25
     },
     {
@@ -1949,7 +1949,7 @@ export const mockProject: Project = {
       "startTime": 2689.723,
       "endTime": 2704.714,
       "textEn": "When unstructured records become structured, traceable, and governed, they can strengthen experience studies, pricing assumptions, reserving analysis, and risk monitoring.",
-      "textZh": "Agentic AI 可以解鎖這些資訊，但前提是從一開始就把治理、可解釋性與人工監督納入架構。",
+      "textZh": "當非結構化紀錄變得結構化、可追溯且受治理，它們可以強化經驗研究、定價假設、準備金分析與風險監控。",
       "slidePage": 25
     },
     {
@@ -1957,7 +1957,7 @@ export const mockProject: Project = {
       "startTime": 2704.714,
       "endTime": 2714.088,
       "textEn": "Third, responsible AI isn't a separate compliance layer you bolt on at the end.",
-      "textZh": "三個 takeaway 是：AI 應該被設計為 augmentation；理賠資料應被視為 strategic actuarial asset；負責任 AI 必須內建在架構裡，而不是最後才加上去。",
+      "textZh": "第三，負責任 AI 不是最後才附加上去的合規層次。",
       "slidePage": 25
     },
     {
@@ -1965,7 +1965,7 @@ export const mockProject: Project = {
       "startTime": 2714.088,
       "endTime": 2723.785,
       "textEn": "It has to be built into the architecture from day one: human-in-the-loop review, knowledge governance, data lineage, explainable reasoning, and auditability.",
-      "textZh": "三個 takeaway 是：AI 應該被設計為 augmentation；理賠資料應被視為 strategic actuarial asset；負責任 AI 必須內建在架構裡，而不是最後才加上去。",
+      "textZh": "它必須從第一天起就內建在架構中：human-in-the-loop 審查、知識治理、資料血緣、可解釋推理與可稽核性。",
       "slidePage": 25
     },
     {
@@ -1973,7 +1973,7 @@ export const mockProject: Project = {
       "startTime": 2723.785,
       "endTime": 2737.489,
       "textEn": "As markets face aging populations, rising medical complexity, and post-IFRS 17 operational demands, actuaries have an important role to play.",
-      "textZh": "三個 takeaway 是：AI 應該被設計為 augmentation；理賠資料應被視為 strategic actuarial asset；負責任 AI 必須內建在架構裡，而不是最後才加上去。",
+      "textZh": "面對高齡化社會、日益複雜的醫療環境與後 IFRS 17 的營運需求，精算師有重要的角色要扮演。",
       "slidePage": 25
     },
     {
@@ -1981,7 +1981,7 @@ export const mockProject: Project = {
       "startTime": 2737.489,
       "endTime": 2750.389,
       "textEn": "Actuaries can help connect AI capability with business value, risk management, governance, and long-term sustainability. Thank you so much for your time.",
-      "textZh": "三個 takeaway 是：AI 應該被設計為 augmentation；理賠資料應被視為 strategic actuarial asset；負責任 AI 必須內建在架構裡，而不是最後才加上去。",
+      "textZh": "精算師可以幫助連結 AI 能力與商業價值、風險管理、治理與長期永續性。非常感謝各位的時間。",
       "slidePage": 25
     },
     {
@@ -1989,7 +1989,7 @@ export const mockProject: Project = {
       "startTime": 2750.389,
       "endTime": 2754.189,
       "textEn": "We'd love to take your questions.",
-      "textZh": "三個 takeaway 是：AI 應該被設計為 augmentation；理賠資料應被視為 strategic actuarial asset；負責任 AI 必須內建在架構裡，而不是最後才加上去。",
+      "textZh": "非常歡迎各位提問。",
       "slidePage": 25
     }
   ]
