@@ -518,6 +518,6 @@
 
 **[p07s04u12]** As markets face aging populations, rising medical complexity, and post-IFRS 17 operational demands, actuaries have an important role to play.
 
-**[p07s04u13]** Actuaries can help connect AI capability with business value, risk management, governance, and long-term sustainability. Thank you so much for your time.
+**[p07s04u13]** Actuaries can help connect AI capability with business value, risk management, governance, and long-term sustainability.
 
-**[p07s04u14]** We'd love to take your questions.
+**[p07s04u14]** Thank you so much for your time.

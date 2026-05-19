@@ -5,7 +5,7 @@ export const mockProject: Project = {
   "title": "Beyond Efficiency",
   "subtitle": "SOA Presentation Practice",
   "audioUrl": "/audio/final.mp3",
-  "duration": 1927.363,
+  "duration": 1925.463,
   "coverImageUrl": "/slides/slide_01.png",
   "transcript": [
     {
@@ -1979,17 +1979,17 @@ export const mockProject: Project = {
     {
       "id": "p07s04u13",
       "startTime": 1916.463,
-      "endTime": 1925.875,
-      "textEn": "Actuaries can help connect AI capability with business value, risk management, governance, and long-term sustainability. Thank you so much for your time.",
-      "textZh": "精算師可以幫助連結 AI 能力與商業價值、風險管理、治理與長期永續性。非常感謝各位的時間。",
+      "endTime": 1923.85,
+      "textEn": "Actuaries can help connect AI capability with business value, risk management, governance, and long-term sustainability.",
+      "textZh": "精算師可以幫助連結 AI 能力與商業價值、風險管理、治理與長期永續性。",
       "slidePage": 24
     },
     {
       "id": "p07s04u14",
-      "startTime": 1925.875,
-      "endTime": 1927.363,
-      "textEn": "We'd love to take your questions.",
-      "textZh": "非常歡迎各位提問。",
+      "startTime": 1923.85,
+      "endTime": 1925.463,
+      "textEn": "Thank you so much for your time.",
+      "textZh": "非常感謝各位的時間。",
       "slidePage": 25
     }
   ]

@@ -45,7 +45,7 @@ export function SlideCover({
   };
 
   return (
-    <section className="relative px-6 pb-4">
+    <section className="relative px-6 pb-2">
       <div className={["transition-all", isExpanded ? "" : "rounded-[22px] border border-white/10 bg-white/10 px-4 py-3 backdrop-blur-2xl"].join(" ")}>
         {!isSynced ? (
           <button

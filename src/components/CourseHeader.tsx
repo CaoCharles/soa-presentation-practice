@@ -21,7 +21,7 @@ export function CourseHeader({
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="relative grid grid-cols-[44px_1fr_44px] items-center px-6 pb-5 pt-7">
+    <header className="relative grid grid-cols-[44px_1fr_44px] items-center px-6 pb-3 pt-4">
       <button
         type="button"
         className="grid h-11 w-11 place-items-center rounded-full text-white/90 transition active:scale-95"
