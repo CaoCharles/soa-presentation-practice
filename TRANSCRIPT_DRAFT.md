@@ -4,7 +4,7 @@
 ---
 
 ## Slide 1
-**[p01s01u01]** Good morning, everyone. Thanks so much for being here.
+**[p01s01u01]** Good afternoon, everyone. Thanks so much for being here.
 
 **[p01s01u02]** My name is Li Yu Tsao, and joining me today is my colleague Yu Chung Wu from Cathay Life Insurance in Taiwan.
 
