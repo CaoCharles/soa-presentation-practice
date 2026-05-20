@@ -19,7 +19,6 @@ const TAB_LABELS: Record<Tab, string> = {
   zh: "中文全文",
 };
 
-
 export function FullTranscriptSheet({
   isOpen,
   segments,
@@ -87,6 +86,7 @@ export function FullTranscriptSheet({
         <div className="min-h-0 flex-1 overflow-y-auto">
           {activeTab === "slide" && (
             <SlideView
+              isOpen={isOpen}
               segments={segments}
               availableSlidePages={availableSlidePages}
               currentSegmentId={currentSegmentId}
@@ -106,11 +106,13 @@ export function FullTranscriptSheet({
 }
 
 function SlideView({
+  isOpen,
   segments,
   availableSlidePages,
   currentSegmentId,
   onSegmentClick,
 }: {
+  isOpen: boolean;
   segments: SentenceSegment[];
   availableSlidePages: number[];
   currentSegmentId: string | null;
@@ -128,17 +130,33 @@ function SlideView({
   const activePillRef = useRef<HTMLButtonElement | null>(null);
   const sectionRefs = useRef<Map<number, HTMLDivElement>>(new Map());
 
-  // Auto-scroll pill strip to keep active pill visible when slide changes
+  // When sheet opens: instantly jump content + pill strip to current slide
   useEffect(() => {
+    if (!isOpen) return;
+    // Wait for slide-up animation (300ms) before jumping
+    const timer = setTimeout(() => {
+      if (currentSlidePage == null) return;
+      sectionRefs.current.get(currentSlidePage)?.scrollIntoView({ behavior: "instant", block: "start" });
+      const pill = activePillRef.current;
+      const strip = pillStripRef.current;
+      if (pill && strip) {
+        strip.scrollTo({ left: Math.max(0, pill.offsetLeft - strip.clientWidth / 2 + pill.offsetWidth / 2), behavior: "instant" });
+      }
+    }, 320);
+    return () => clearTimeout(timer);
+  }, [isOpen]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // While sheet is open: keep pill strip centered on active pill as slide changes
+  useEffect(() => {
+    if (!isOpen || currentSlidePage == null) return;
     const pill = activePillRef.current;
     const strip = pillStripRef.current;
     if (!pill || !strip) return;
-    const pillLeft = pill.offsetLeft;
-    const pillWidth = pill.offsetWidth;
-    const stripWidth = strip.clientWidth;
-    const targetScroll = pillLeft - stripWidth / 2 + pillWidth / 2;
-    strip.scrollTo({ left: Math.max(0, targetScroll), behavior: "smooth" });
-  }, [currentSlidePage]);
+    strip.scrollTo({
+      left: Math.max(0, pill.offsetLeft - strip.clientWidth / 2 + pill.offsetWidth / 2),
+      behavior: "smooth",
+    });
+  }, [currentSlidePage, isOpen]);
 
   const scrollToSection = (page: number) => {
     sectionRefs.current.get(page)?.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -146,8 +164,8 @@ function SlideView({
 
   return (
     <div>
-      {/* Sticky pill navigation strip */}
-      <div className="sticky top-0 z-10 border-b border-white/8 bg-[#0d1620]/98 px-4 py-2.5 backdrop-blur-xl">
+      {/* Sticky pill navigation strip — no border, solid bg */}
+      <div className="sticky top-0 z-10 bg-[#0d1620]/98 px-4 py-2.5 backdrop-blur-xl">
         <div
           ref={pillStripRef}
           className="flex gap-1.5 overflow-x-auto"
@@ -164,7 +182,7 @@ function SlideView({
                 className={[
                   "flex-none rounded-full px-3 py-1 text-[12px] font-bold tracking-wide transition-all duration-200",
                   isActive
-                    ? "bg-white/20 text-white ring-1 ring-white/50 backdrop-blur-sm"
+                    ? "bg-white/20 text-white"
                     : "bg-white/8 text-white/46 hover:bg-white/15 hover:text-white/75",
                 ].join(" ")}
               >
@@ -176,7 +194,7 @@ function SlideView({
       </div>
 
       {/* Slide sections */}
-      <div className="px-5 pb-10 pt-5">
+      <div className="px-5 pb-10 pt-4">
         {availableSlidePages.map((page) => {
           const pageSegments = segments.filter((s) => s.slidePage === page);
           if (pageSegments.length === 0) return null;
@@ -194,7 +212,8 @@ function SlideView({
                 if (el) sectionRefs.current.set(page, el);
                 else sectionRefs.current.delete(page);
               }}
-              className="mb-10"
+              // scroll-mt accounts for the sticky pill strip (~44px)
+              className="mb-10 scroll-mt-[44px]"
             >
               {/* Slide label */}
               <div className="mb-3 flex items-center gap-2">
@@ -221,9 +240,7 @@ function SlideView({
                       type="button"
                       className={[
                         "w-full rounded-xl px-4 py-3 text-left transition-all duration-150 active:scale-[0.998]",
-                        isActive
-                          ? "bg-white/10 ring-1 ring-white/20"
-                          : "hover:bg-white/5",
+                        isActive ? "bg-white/10" : "hover:bg-white/5",
                       ].join(" ")}
                       onClick={() => onSegmentClick(seg)}
                     >
