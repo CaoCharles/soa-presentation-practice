@@ -19,11 +19,6 @@ const TAB_LABELS: Record<Tab, string> = {
   zh: "中文全文",
 };
 
-const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
-
-function getSlideImageUrl(page: number) {
-  return `${BASE}/slides/slide_${String(page).padStart(2, "0")}.png`;
-}
 
 export function FullTranscriptSheet({
   isOpen,
@@ -169,8 +164,8 @@ function SlideView({
                 className={[
                   "flex-none rounded-full px-3 py-1 text-[12px] font-bold tracking-wide transition-all duration-200",
                   isActive
-                    ? "bg-white text-[#0d1620] shadow-sm"
-                    : "bg-white/10 text-white/50 hover:bg-white/18 hover:text-white/80",
+                    ? "bg-white/20 text-white ring-1 ring-white/50 backdrop-blur-sm"
+                    : "bg-white/8 text-white/46 hover:bg-white/15 hover:text-white/75",
                 ].join(" ")}
               >
                 S{page}
@@ -206,7 +201,7 @@ function SlideView({
                 <span
                   className={[
                     "rounded-full px-2.5 py-0.5 text-[11px] font-bold tracking-widest uppercase transition-colors",
-                    isCurrentSlide ? "bg-white/20 text-white" : "bg-white/6 text-white/30",
+                    isCurrentSlide ? "bg-white/15 text-white" : "bg-white/6 text-white/30",
                   ].join(" ")}
                 >
                   Slide {page}
@@ -216,18 +211,8 @@ function SlideView({
                 )}
               </div>
 
-              {/* Slide thumbnail */}
-              <div className="mb-4 overflow-hidden rounded-xl border border-white/10">
-                <img
-                  src={getSlideImageUrl(page)}
-                  alt={`Slide ${page}`}
-                  className="w-full object-cover"
-                  loading="lazy"
-                />
-              </div>
-
               {/* Transcript segments */}
-              <div className="space-y-4">
+              <div className="space-y-3">
                 {unique.map((seg) => {
                   const isActive = seg.id === currentSegmentId;
                   return (
