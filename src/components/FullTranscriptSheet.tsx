@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { FileText, X } from "lucide-react";
 import type { SentenceSegment } from "../types";
 
@@ -18,6 +18,12 @@ const TAB_LABELS: Record<Tab, string> = {
   en: "英文全文",
   zh: "中文全文",
 };
+
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+function getSlideImageUrl(page: number) {
+  return `${BASE}/slides/slide_${String(page).padStart(2, "0")}.png`;
+}
 
 export function FullTranscriptSheet({
   isOpen,
@@ -115,43 +121,146 @@ function SlideView({
   currentSegmentId: string | null;
   onSegmentClick: (segment: SentenceSegment) => void;
 }) {
+  // Which slide page is currently playing
+  const currentSlidePage = useMemo(() => {
+    if (!currentSegmentId) return availableSlidePages[0] ?? null;
+    const seg = segments.find((s) => s.id === currentSegmentId);
+    return seg?.slidePage ?? availableSlidePages[0] ?? null;
+  }, [currentSegmentId, segments, availableSlidePages]);
+
+  // Refs for pill strip scroll + each slide section
+  const pillStripRef = useRef<HTMLDivElement>(null);
+  const activePillRef = useRef<HTMLButtonElement | null>(null);
+  const sectionRefs = useRef<Map<number, HTMLDivElement>>(new Map());
+
+  // Auto-scroll pill strip to keep active pill visible when slide changes
+  useEffect(() => {
+    const pill = activePillRef.current;
+    const strip = pillStripRef.current;
+    if (!pill || !strip) return;
+    const pillLeft = pill.offsetLeft;
+    const pillWidth = pill.offsetWidth;
+    const stripWidth = strip.clientWidth;
+    const targetScroll = pillLeft - stripWidth / 2 + pillWidth / 2;
+    strip.scrollTo({ left: Math.max(0, targetScroll), behavior: "smooth" });
+  }, [currentSlidePage]);
+
+  const scrollToSection = (page: number) => {
+    sectionRefs.current.get(page)?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
   return (
-    <div className="px-6 py-5">
-      {availableSlidePages.map((page) => {
-        const pageSegments = segments.filter((s) => s.slidePage === page);
-        if (pageSegments.length === 0) return null;
+    <div>
+      {/* Sticky pill navigation strip */}
+      <div className="sticky top-0 z-10 border-b border-white/8 bg-[#0d1620]/98 px-4 py-2.5 backdrop-blur-xl">
+        <div
+          ref={pillStripRef}
+          className="flex gap-1.5 overflow-x-auto"
+          style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+        >
+          {availableSlidePages.map((page) => {
+            const isActive = page === currentSlidePage;
+            return (
+              <button
+                key={page}
+                type="button"
+                ref={isActive ? activePillRef : undefined}
+                onClick={() => scrollToSection(page)}
+                className={[
+                  "flex-none rounded-full px-3 py-1 text-[12px] font-bold tracking-wide transition-all duration-200",
+                  isActive
+                    ? "bg-white text-[#0d1620] shadow-sm"
+                    : "bg-white/10 text-white/50 hover:bg-white/18 hover:text-white/80",
+                ].join(" ")}
+              >
+                S{page}
+              </button>
+            );
+          })}
+        </div>
+      </div>
 
-        // Deduplicate by parentSegmentId so we show each paragraph once
-        const unique = pageSegments.filter(
-          (s, i, arr) => arr.findIndex((x) => x.parentSegmentId === s.parentSegmentId) === i,
-        );
+      {/* Slide sections */}
+      <div className="px-5 pb-10 pt-5">
+        {availableSlidePages.map((page) => {
+          const pageSegments = segments.filter((s) => s.slidePage === page);
+          if (pageSegments.length === 0) return null;
 
-        return (
-          <div key={page} className="mb-8">
-            <p className="mb-4 text-[11px] font-bold uppercase tracking-[0.12em] text-white/30">
-              Slide {page}
-            </p>
-            {unique.map((seg) => {
-              const isActive = seg.id === currentSegmentId;
-              return (
-                <button
-                  key={seg.id}
-                  type="button"
-                  className="mb-4 w-full text-left transition active:scale-[0.998]"
-                  onClick={() => onSegmentClick(seg)}
+          // Deduplicate by parentSegmentId so we show each original segment once
+          const unique = pageSegments.filter(
+            (s, i, arr) => arr.findIndex((x) => x.parentSegmentId === s.parentSegmentId) === i,
+          );
+          const isCurrentSlide = page === currentSlidePage;
+
+          return (
+            <div
+              key={page}
+              ref={(el) => {
+                if (el) sectionRefs.current.set(page, el);
+                else sectionRefs.current.delete(page);
+              }}
+              className="mb-10"
+            >
+              {/* Slide label */}
+              <div className="mb-3 flex items-center gap-2">
+                <span
+                  className={[
+                    "rounded-full px-2.5 py-0.5 text-[11px] font-bold tracking-widest uppercase transition-colors",
+                    isCurrentSlide ? "bg-white/20 text-white" : "bg-white/6 text-white/30",
+                  ].join(" ")}
                 >
-                  <p className={["text-[16px] font-medium leading-snug", isActive ? "text-white" : "text-white/80"].join(" ")}>
-                    {seg.textEn}
-                  </p>
-                  <p className="mt-1.5 text-[13px] leading-relaxed text-white/46">
-                    {seg.textZh}
-                  </p>
-                </button>
-              );
-            })}
-          </div>
-        );
-      })}
+                  Slide {page}
+                </span>
+                {isCurrentSlide && (
+                  <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-green-400" />
+                )}
+              </div>
+
+              {/* Slide thumbnail */}
+              <div className="mb-4 overflow-hidden rounded-xl border border-white/10">
+                <img
+                  src={getSlideImageUrl(page)}
+                  alt={`Slide ${page}`}
+                  className="w-full object-cover"
+                  loading="lazy"
+                />
+              </div>
+
+              {/* Transcript segments */}
+              <div className="space-y-4">
+                {unique.map((seg) => {
+                  const isActive = seg.id === currentSegmentId;
+                  return (
+                    <button
+                      key={seg.id}
+                      type="button"
+                      className={[
+                        "w-full rounded-xl px-4 py-3 text-left transition-all duration-150 active:scale-[0.998]",
+                        isActive
+                          ? "bg-white/10 ring-1 ring-white/20"
+                          : "hover:bg-white/5",
+                      ].join(" ")}
+                      onClick={() => onSegmentClick(seg)}
+                    >
+                      <p
+                        className={[
+                          "text-[15px] font-medium leading-snug",
+                          isActive ? "text-white" : "text-white/78",
+                        ].join(" ")}
+                      >
+                        {seg.textEn}
+                      </p>
+                      <p className="mt-1.5 text-[12px] leading-relaxed text-white/40">
+                        {seg.textZh}
+                      </p>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }
