@@ -258,10 +258,10 @@
 
 **[p04s02u10]** This is the foundation of our human-in-the-loop design. And it's also where trust becomes the central issue.
 
-**[p04s02u11]** If AI is going to be part of a decision, how do we design the workflow so that people can question it, verify it, and still be accountable for the final outcome?
+**[p04s02u11]** For that trust to hold, the people using this system must be able to question its output, verify the reasoning behind it, and remain fully accountable for every decision they make.
 
 ## Slide 14
-**[p04s03u01]** This slide shows the concept of human-in-the-loop claims pre-adjudication. Agentic AI provides the analysis and decision recommendations. Human reviewers make the final calls.
+**[p04s03u01]** That accountability requirement is exactly why we designed this workflow as human-in-the-loop pre-adjudication: agentic AI provides the analysis and recommendations, while human reviewers retain the final call.
 
 **[p04s03u02]** The distinction between pre-adjudication and adjudication is really important here. We're not saying AI independently approves or rejects complex claims.
 
@@ -279,10 +279,10 @@
 
 **[p04s03u09]** The reviewer needs to see the reasoning pathway behind it.
 
-**[p04s03u10]** And the bottom of this slide hints at why this matters for actuaries too: better risk identification, more precise rate setting, stronger product design, and more controllable loss costs.
+**[p04s03u10]** You'll notice four actuarial benefits at the bottom of this slide — better risk identification, more precise rate setting, stronger product design, and more controllable loss costs. But every one of those benefits depends on a single condition: the AI's recommendations must be explainable enough to genuinely trust.
 
 ## Slide 15
-**[p05s01u01]** The AI reasoning pathway is designed to support explainable, trustworthy claims decision-making. A simple LLM answer just isn't enough for claims adjudication.
+**[p05s01u01]** So how does the AI actually reason through a case — and how can a reviewer trust that reasoning?
 
 **[p05s01u02]** If the system simply says, "This claim should be paid" — the reviewer can't rely on that. We need a traceable reasoning pathway.
 
@@ -298,10 +298,10 @@
 
 **[p05s01u08]** And for actuaries, it creates more granular data about the cause and characteristics of claims.
 
-**[p05s01u09]** With these requirements clear, we can now introduce the system we built to pull all the pieces together.
+**[p05s01u09]** These requirements define what a real claims AI system needs to deliver — and building to those requirements is exactly what we set out to do.
 
 ## Slide 16
-**[p05s02u01]** To bring these ideas together, we developed CAELIA — the Cathay AI Engine for Life Insurance Adjudication.
+**[p05s02u01]** To operationalize this reasoning pathway, we built CAELIA — the Cathay AI Engine for Life Insurance Adjudication.
 
 **[p05s02u02]** CAELIA is designed to transform claims adjudication into an explainable, evidence-driven decision process. The name matters because this isn't just a model.
 
@@ -313,14 +313,14 @@
 
 **[p05s02u06]** In practice, CAELIA reads claim documents, extracts medical and claims information, retrieves relevant policy knowledge, checks benefit conditions, identifies potential inconsistencies, and produces a pre-assessment decision report.
 
-**[p05s02u07]** The reviewer stays in control — but they're starting from a much richer, better-organized evidence package. The next question is about architecture.
+**[p05s02u07]** The reviewer stays in control — but they're starting from a much richer, better-organized evidence package.
 
-**[p05s02u08]** If claims adjudication is made up of many specialized reasoning tasks, should one model try to do everything?
+**[p05s02u08]** The design question then becomes: can one model realistically handle every specialized reasoning task that claims adjudication requires?
 
-**[p05s02u09]** Or should different agents each take responsibility for different parts of the work?
+**[p05s02u09]** Or should different agents each own a different part of the work?
 
 ## Slide 17
-**[p05s03u01]** At a high level, CAELIA uses a multi-agent architecture. Different agents are responsible for different parts of the workflow.
+**[p05s03u01]** Our answer is a multi-agent architecture, where each agent owns a specific part of the reasoning.
 
 **[p05s03u02]** A document extraction agent picks out structured fields from medical records and claim forms.
 
@@ -338,10 +338,10 @@
 
 **[p05s03u09]** As policy knowledge, medical terminology, or fraud patterns evolve, we can update the relevant components without having to redesign the whole system.
 
-**[p05s03u10]** But architecture only becomes useful when it changes the reviewer's day-to-day work. So let's look at the practical output of this multi-agent process.
+**[p05s03u10]** Architecture only matters when it changes the reviewer's actual experience — so let's look at what this architecture produces in practice.
 
 ## Slide 18
-**[p06s01u01]** The output of CAELIA is an AI pre-assessment decision report.
+**[p06s01u01]** The most visible result of that architecture is the AI pre-assessment decision report.
 
 **[p06s01u02]** This report is designed to take raw claims data and turn it into a traceable decision recommendation.
 
@@ -353,14 +353,14 @@
 
 **[p06s01u06]** This is especially important when AI is used in regulated financial services. We need to be able to show that AI output isn't arbitrary.
 
-**[p06s01u07]** It has to be grounded in evidence, policy knowledge, and human oversight. Up to this point, we've mostly talked about operations and governance.
+**[p06s01u07]** It has to be grounded in evidence, policy knowledge, and human oversight.
 
-**[p06s01u08]** Now I'd like to shift the lens and ask: what does all this mean for actuaries?
+**[p06s01u08]** That's the operational and governance case. But once claims records are this structured and traceable, something more fundamental becomes possible for the organization.
 
 ## Slide 19
-**[p06s02u01]** Let's move beyond operations and talk about actuarial value. Claims records are often treated like operational byproducts. They exist because we need to pay claims.
+**[p06s02u01]** Claims records stop being just operational evidence — records that exist because claims need to be paid. They become analytical evidence, structured and governed well enough to support actuarial work.
 
-**[p06s02u02]** But if we structure them properly, they become actuarial-ready data. This is one of the most important points we want to make today.
+**[p06s02u02]** And this is one of the most important points we want to make today.
 
 **[p06s02u03]** The structured output has three layers. The first is the result layer: what was approved, denied, or left pending, and what benefit item was involved.
 
@@ -378,10 +378,10 @@
 
 **[p06s02u10]** But if claims data becomes structured earlier in the process, actuaries can respond more quickly to emerging experience.
 
-**[p06s02u11]** This brings us to a familiar actuarial question — but now with a much better data foundation: are we only measuring what happened, or are we also learning why it happened?
+**[p06s02u11]** The question becomes whether that richer foundation can help us move from measuring outcomes to understanding what actually drives them.
 
 ## Slide 20
-**[p06s03u01]** Experience analysis usually starts with outcomes. How many claims happened? How much did we pay? What was the incidence rate? What was the severity?
+**[p06s03u01]** Traditional experience analysis tells us what happened. A stronger claims data foundation helps us understand why.
 
 **[p06s03u02]** How did actual experience compare to what we expected? These are essential questions. But more and more, insurers also need to understand the causes.
 
@@ -401,12 +401,12 @@
 
 **[p06s03u10]** It helps us ask better questions, spot emerging trends earlier, and communicate findings more clearly to management.
 
-**[p06s03u11]** Once we understand causes more clearly, the natural next question is how those insights can feed into product and pricing discussions — without turning this talk into a pricing disclosure.
+**[p06s03u11]** Cause-based analysis is what makes that level of understanding possible — and once we have it, it can begin to inform pricing and product discussions.
 
 ## Slide 21
-**[p06s04u01]** Once experience analysis becomes more cause-based, it can also support pricing applications.
+**[p06s04u01]** Once we understand the why behind experience, those insights can begin to inform pricing and product discussions.
 
-**[p06s04u02]** To be clear: this talk isn't about disclosing pricing strategy or specific product pricing.
+**[p06s04u02]** To be clear: we're talking about analytical capability here, not disclosing specific pricing strategy.
 
 **[p06s04u03]** We're talking about the analytical capability. When claims data becomes more granular, pricing teams can better understand how risk drivers affect claim frequency and severity.
 
@@ -426,12 +426,12 @@
 
 **[p06s04u11]** Better experience analysis supports more informed pricing and risk management decisions.
 
-**[p06s04u12]** Of course, none of this works if the AI is reasoning from unstable or poorly managed knowledge.
+**[p06s04u12]** But none of these applications hold if the AI underneath is reasoning from an unstable or poorly governed knowledge base.
 
-**[p06s04u13]** So the next layer is the knowledge foundation that supports every decision.
+**[p06s04u13]** That brings us to the foundation that sits underneath every decision CAELIA makes.
 
 ## Slide 22
-**[p07s01u01]** To make all of this work, CAELIA needs a strong knowledge foundation from three sources: claims operations policies, product terms and benefit rules, and a medical knowledge and disease library.
+**[p07s01u01]** None of the pricing, reserving, or risk segmentation capabilities we just described are reliable without a well-structured, governed knowledge base. For CAELIA, that base comes from three sources: claims operations policies, product terms and benefit rules, and a medical knowledge and disease library.
 
 **[p07s01u02]** This knowledge has to be structured and governed.
 
@@ -449,10 +449,10 @@
 
 **[p07s01u09]** The knowledge foundation is what makes the AI system controllable. It anchors AI reasoning in approved business knowledge, rather than letting the model improvise freely.
 
-**[p07s01u10]** The clearest example of this is policy interpretation — because in claims, a small difference in wording can completely change the decision.
+**[p07s01u10]** And there is no harder test of that foundation than policy interpretation — where a single word in a contract clause can change the entire outcome of a case.
 
 ## Slide 23
-**[p07s02u01]** Policy interpretation is one of the most important and most challenging parts of claims adjudication.
+**[p07s02u01]** That is why policy interpretation becomes one of the most critical tests of the system.
 
 **[p07s02u02]** Policies contain definitions, benefit conditions, exclusions, waiting periods, limits, and special rules.
 
@@ -468,10 +468,10 @@
 
 **[p07s02u08]** The output should clearly show applicable coverage, coverage determination, exclusion determination, and the decision rationale.
 
-**[p07s02u09]** If we step back from the individual components, we can now summarize the value this creates across the organization.
+**[p07s02u09]** When we step back from these individual components — document extraction, multi-agent reasoning, and policy interpretation — the organizational value they create together becomes clear.
 
 ## Slide 24
-**[p07s03u01]** Let's bring the benefits together. We see four major benefit areas: operations, risk control, governance, and actuarial insight.
+**[p07s03u01]** When we bring these components together, the organizational value appears in four areas.
 
 **[p07s03u02]** For operations, CAELIA reduces manual document review, speeds up evidence preparation, and helps reviewers focus on complex judgment rather than repetitive information gathering.
 
@@ -491,10 +491,10 @@
 
 **[p07s03u10]** In insurance, AI value should also be measured by the quality of decisions, the strength of governance, and the improvement in how the organization learns.
 
-**[p07s03u11]** So as we wrap up, I want to come back to the question we asked at the beginning: are claims records simply evidence for payment — or can they become evidence for learning?
+**[p07s03u11]** Actuaries are well positioned to lead that work — translating AI capability into business value, connecting technical performance with risk management and governance, and helping organizations build resilience that lasts.
 
 ## Slide 25
-**[p07s04u01]** To close, let's come back to our title: beyond efficiency. Efficiency matters. Faster claims processing improves customer experience and reduces operational burden.
+**[p07s04u01]** Thank you for staying with us. To close, let's come back to our title: beyond efficiency. Efficiency matters — faster claims processing improves customer experience and reduces operational burden.
 
 **[p07s04u02]** But for life insurers, the bigger opportunity is to build a claims ecosystem that actually learns.
 
@@ -520,4 +520,4 @@
 
 **[p07s04u13]** Actuaries can help connect AI capability with business value, risk management, governance, and long-term sustainability.
 
-**[p07s04u14]** Thank you so much for your time.
+**[p07s04u14]** Thank you so much for your time — we'd love to take your questions.
