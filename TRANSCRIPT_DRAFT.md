@@ -26,7 +26,7 @@
 
 **[p01s01u11]** As you listen today, I'd invite you to keep one question in mind: in your own organization, are claims records mainly treated as evidence for payment — or also as evidence for learning?
 
-## Slide 4
+## Slide 2
 **[p01s02u01]** Let me briefly introduce the two of us.
 
 **[p01s02u02]** My work focuses on applying AI and machine learning to insurance operations — especially natural language processing and large language models, which we call LLMs, for claims and medical documentation.
@@ -45,7 +45,7 @@
 
 **[p01s02u09]** With that framing in place, let's start with the pressures that made this work necessary in the first place.
 
-## Slide 5
+## Slide 3
 **[p01s03u01]** Let's start with the business context.
 
 **[p01s03u02]** Claims operations in Taiwan are under structural pressure from three directions: rising external pressure, a growing internal workload, and emerging constraints around talent and organization.
@@ -82,7 +82,7 @@
 
 **[p01s03u18]** Before we get into the technology, it's worth stepping back and asking: how did claims adjudication get to this point, and why aren't the old tools enough anymore?
 
-## Slide 6
+## Slide 4
 **[p02s01u01]** Claims processing has always evolved alongside the available technology. But each stage solved one problem while leaving another one behind.
 
 **[p02s01u02]** In the IBM AS/400 era, claims processing was mostly data-entry driven. The main goal was to record claims accurately and get payments out.
@@ -111,7 +111,7 @@
 
 **[p02s01u14]** Where does complexity enter the workflow, and where does valuable information start to disappear?
 
-## Slide 7
+## Slide 5
 **[p02s02u01]** Before we explain the new framework, let's look at the traditional claims review process. In a typical flow, a customer submits their claim documents.
 
 **[p02s02u02]** The slide breaks this into six steps: intake, registration and case creation, case assignment, review, decision, and finally closure and archiving.
@@ -136,7 +136,7 @@
 
 **[p02s02u12]** If we look at it through that lens, the first question becomes: how early can we capture useful information, and how much structure can we create before the case even reaches a human reviewer?
 
-## Slide 8
+## Slide 6
 **[p02s03u01]** The first step is digital claims submission.
 
 **[p02s03u02]** As the app screens show, customers can start a claims application, upload documents, check claims results, and review application details directly through the mobile app.
@@ -157,7 +157,7 @@
 
 **[p02s03u10]** But once documents arrive digitally, we still face a second question: can AI understand what's inside those documents well enough to support the decisions that come next?
 
-## Slide 9
+## Slide 7
 **[p03s01u01]** After submission, the next step is case registration. Traditionally, staff would review documents and manually type key fields into the claims system.
 
 **[p03s01u02]** AI-driven structured data extraction changes that step. In our framework, OCR first converts document images into machine-readable text.
@@ -176,7 +176,7 @@
 
 **[p03s01u09]** Once that foundation is in place, the workflow can move from simple case creation to something more decision-oriented: which cases need more attention, and why?
 
-## Slide 10
+## Slide 8
 **[p03s02u01]** Once case data is structured, we can move into claims triage. Machine learning models can assess claim risk and help route cases.
 
 **[p03s02u02]** Low-risk, straightforward cases can go through a more streamlined workflow, while complex or suspicious cases get sent to experienced reviewers for a deeper look.
@@ -197,7 +197,7 @@
 
 **[p03s02u10]** If a case is routed to a human reviewer, what should that review environment look like — so that human expertise is used where it actually matters most?
 
-## Slide 11
+## Slide 9
 **[p03s03u01]** For cases that need human review, we built a unified smart claims platform.
 
 **[p03s03u02]** The idea is to bring multi-source data into one review workbench, so reviewers don't have to jump between systems, documents, policy references, customer records, risk tags, and decision notes.
@@ -216,7 +216,7 @@
 
 **[p03s03u09]** It's "Can AI help the reviewer think more clearly about this case?"
 
-## Slide 12
+## Slide 10
 **[p04s01u01]** Inside the review workbench, we embed several AI-assisted features. The first is risk tagging.
 
 **[p04s01u02]** AI highlights risk indicators and helps reviewers understand which parts of the case deserve attention. The second is decision support.
@@ -237,7 +237,7 @@
 
 **[p04s01u10]** And that brings us to the bigger question on this slide.
 
-## Slide 13
+## Slide 11
 **[p04s02u01]** Now we're at a key turning point in our presentation. How does AI evolve from a tool into a collaborative decision-making system?
 
 **[p04s02u02]** In the early stage, AI works like a query tool. A user asks a question, and AI responds.
@@ -260,7 +260,7 @@
 
 **[p04s02u11]** For that trust to hold, the people using this system must be able to question its output, verify the reasoning behind it, and remain fully accountable for every decision they make.
 
-## Slide 14
+## Slide 12
 **[p04s03u01]** That accountability requirement is exactly why we designed this workflow as human-in-the-loop pre-adjudication: agentic AI provides the analysis and recommendations, while human reviewers retain the final call.
 
 **[p04s03u02]** The distinction between pre-adjudication and adjudication is really important here. We're not saying AI independently approves or rejects complex claims.
@@ -281,7 +281,7 @@
 
 **[p04s03u10]** You'll notice four actuarial benefits at the bottom of this slide — better risk identification, more precise rate setting, stronger product design, and more controllable loss costs. But every one of those benefits depends on a single condition: the AI's recommendations must be explainable enough to genuinely trust.
 
-## Slide 15
+## Slide 13
 **[p05s01u01]** So how does the AI actually reason through a case — and how can a reviewer trust that reasoning?
 
 **[p05s01u02]** If the system simply says, "This claim should be paid" — the reviewer can't rely on that. We need a traceable reasoning pathway.
@@ -300,7 +300,7 @@
 
 **[p05s01u09]** These requirements define what a real claims AI system needs to deliver — and building to those requirements is exactly what we set out to do.
 
-## Slide 16
+## Slide 14
 **[p05s02u01]** To operationalize this reasoning pathway, we built CAELIA — the Cathay AI Engine for Life Insurance Adjudication.
 
 **[p05s02u02]** CAELIA is designed to transform claims adjudication into an explainable, evidence-driven decision process. The name matters because this isn't just a model.
@@ -319,7 +319,7 @@
 
 **[p05s02u09]** Or should different agents each own a different part of the work?
 
-## Slide 17
+## Slide 15
 **[p05s03u01]** Our answer is a multi-agent architecture, where each agent owns a specific part of the reasoning.
 
 **[p05s03u02]** A document extraction agent picks out structured fields from medical records and claim forms.
@@ -340,7 +340,7 @@
 
 **[p05s03u10]** Architecture only matters when it changes the reviewer's actual experience — so let's look at what this architecture produces in practice.
 
-## Slide 18
+## Slide 16
 **[p06s01u01]** The most visible result of that architecture is the AI pre-assessment decision report.
 
 **[p06s01u02]** This report is designed to take raw claims data and turn it into a traceable decision recommendation.
@@ -357,7 +357,7 @@
 
 **[p06s01u08]** That's the operational and governance case. But once claims records are this structured and traceable, something more fundamental becomes possible for the organization.
 
-## Slide 19
+## Slide 17
 **[p06s02u01]** Claims records stop being just operational evidence — records that exist because claims need to be paid. They become analytical evidence, structured and governed well enough to support actuarial work.
 
 **[p06s02u02]** And this is one of the most important points we want to make today.
@@ -380,7 +380,7 @@
 
 **[p06s02u11]** The question becomes whether that richer foundation can help us move from measuring outcomes to understanding what actually drives them.
 
-## Slide 20
+## Slide 18
 **[p06s03u01]** Traditional experience analysis tells us what happened. A stronger claims data foundation helps us understand why.
 
 **[p06s03u02]** How did actual experience compare to what we expected? These are essential questions. But more and more, insurers also need to understand the causes.
@@ -403,7 +403,7 @@
 
 **[p06s03u11]** Cause-based analysis is what makes that level of understanding possible — and once we have it, it can begin to inform pricing and product discussions.
 
-## Slide 21
+## Slide 19
 **[p06s04u01]** Once we understand the why behind experience, those insights can begin to inform pricing and product discussions.
 
 **[p06s04u02]** To be clear: we're talking about analytical capability here, not disclosing specific pricing strategy.
@@ -430,7 +430,7 @@
 
 **[p06s04u13]** That brings us to the foundation that sits underneath every decision CAELIA makes.
 
-## Slide 22
+## Slide 20
 **[p07s01u01]** None of the pricing, reserving, or risk segmentation capabilities we just described are reliable without a well-structured, governed knowledge base. For CAELIA, that base comes from three sources: claims operations policies, product terms and benefit rules, and a medical knowledge and disease library.
 
 **[p07s01u02]** This knowledge has to be structured and governed.
@@ -451,7 +451,7 @@
 
 **[p07s01u10]** And there is no harder test of that foundation than policy interpretation — where a single word in a contract clause can change the entire outcome of a case.
 
-## Slide 23
+## Slide 21
 **[p07s02u01]** That is why policy interpretation becomes one of the most critical tests of the system.
 
 **[p07s02u02]** Policies contain definitions, benefit conditions, exclusions, waiting periods, limits, and special rules.
@@ -470,7 +470,7 @@
 
 **[p07s02u09]** When we step back from these individual components — document extraction, multi-agent reasoning, and policy interpretation — the organizational value they create together becomes clear.
 
-## Slide 24
+## Slide 22
 **[p07s03u01]** When we bring these components together, the organizational value appears in four areas.
 
 **[p07s03u02]** For operations, CAELIA reduces manual document review, speeds up evidence preparation, and helps reviewers focus on complex judgment rather than repetitive information gathering.
@@ -493,7 +493,7 @@
 
 **[p07s03u11]** Actuaries are well positioned to lead that work — translating AI capability into business value, connecting technical performance with risk management and governance, and helping organizations build resilience that lasts.
 
-## Slide 25
+## Slide 23
 **[p07s04u01]** Thank you for staying with us. To close, let's come back to our title: beyond efficiency. Efficiency matters — faster claims processing improves customer experience and reduces operational burden.
 
 **[p07s04u02]** But for life insurers, the bigger opportunity is to build a claims ecosystem that actually learns.
