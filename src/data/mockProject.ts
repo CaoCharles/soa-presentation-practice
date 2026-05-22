@@ -5,7 +5,7 @@ export const mockProject: Project = {
   "title": "Beyond Efficiency",
   "subtitle": "SOA Presentation Practice",
   "audioUrl": "/audio/final.mp3",
-  "duration": 1266.513,
+  "duration": 1222.4,
   "coverImageUrl": "/slides/slide_01.png",
   "transcript": [
     {
@@ -1353,41 +1353,9 @@ export const mockProject: Project = {
       "slidePage": 22
     },
     {
-      "id": "p07s04u01",
-      "startTime": 1218.8,
-      "endTime": 1224.138,
-      "textEn": "Thank you for staying with us. To close, let's come back to our title: beyond efficiency.",
-      "textZh": "感謝各位一路陪伴。最後，讓我們回到今天的標題：超越效率。",
-      "slidePage": 23
-    },
-    {
-      "id": "p07s04u02",
-      "startTime": 1224.138,
-      "endTime": 1236.388,
-      "textEn": "Efficiency matters — but the bigger opportunity is to build a claims ecosystem that actually learns. Agentic AI gives us a practical way to unlock the value locked inside unstructured documents.",
-      "textZh": "效率確實重要——但更大的機會，是建立一個真正會學習的理賠生態系。Agentic AI 提供了一個實際的方式，將封存在非結構化文件中的價值釋放出來。",
-      "slidePage": 23
-    },
-    {
-      "id": "p07s04u03",
-      "startTime": 1236.388,
-      "endTime": 1249.725,
-      "textEn": "Three takeaways: AI should be designed as augmentation, not just automation. Claims data should be treated as a strategic actuarial asset. And responsible AI must be built in from day one — not bolted on at the end.",
-      "textZh": "三個啟示：AI 應被設計為增強工具，而非只是自動化。理賠資料應被視為具有策略價值的精算資產。負責任 AI 必須從第一天起就內建在架構中——而不是事後才附加上去。",
-      "slidePage": 23
-    },
-    {
-      "id": "p07s04u04",
-      "startTime": 1249.725,
-      "endTime": 1262.913,
-      "textEn": "As markets face aging populations, rising medical complexity, and post-IFRS 17 demands, actuaries have a real role to play — connecting AI capability with business value, governance, and long-term resilience.",
-      "textZh": "面對高齡化、日益複雜的醫療環境與後 IFRS 17 的需求，精算師有真正的角色要扮演——將 AI 能力連結至商業價值、治理與長期韌性。",
-      "slidePage": 23
-    },
-    {
       "id": "p07s04u05",
-      "startTime": 1262.913,
-      "endTime": 1266.513,
+      "startTime": 1218.8,
+      "endTime": 1222.4,
       "textEn": "Thank you so much for your time — we'd love to take your questions.",
       "textZh": "非常感謝各位的時間——我們很樂意接受大家的提問。",
       "slidePage": 23

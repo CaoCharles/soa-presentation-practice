@@ -839,29 +839,9 @@
     "endTime": 1218.8,
     "duration": 13.9
   },
-  "p07s04u01": {
-    "startTime": 1218.8,
-    "endTime": 1224.138,
-    "duration": 5.338
-  },
-  "p07s04u02": {
-    "startTime": 1224.138,
-    "endTime": 1236.388,
-    "duration": 12.25
-  },
-  "p07s04u03": {
-    "startTime": 1236.388,
-    "endTime": 1249.725,
-    "duration": 13.338
-  },
-  "p07s04u04": {
-    "startTime": 1249.725,
-    "endTime": 1262.913,
-    "duration": 13.188
-  },
   "p07s04u05": {
-    "startTime": 1262.913,
-    "endTime": 1266.513,
+    "startTime": 1218.8,
+    "endTime": 1222.4,
     "duration": 3.6
   }
 }

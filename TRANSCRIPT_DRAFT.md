@@ -1,5 +1,5 @@
 # 逐字稿改寫版（口語化）
-> 共 173 段，每段目標 ≤ 25 字
+> 共 169 段，每段目標 ≤ 25 字
 
 ---
 
@@ -362,12 +362,4 @@
 **[p07s03u10]** Actuaries are well positioned to lead that work — translating AI capability into business value, connecting technical performance with risk management and governance, and helping organizations build resilience that lasts.
 
 ## Slide 23
-**[p07s04u01]** Thank you for staying with us. To close, let's come back to our title: beyond efficiency.
-
-**[p07s04u02]** Efficiency matters — but the bigger opportunity is to build a claims ecosystem that actually learns. Agentic AI gives us a practical way to unlock the value locked inside unstructured documents.
-
-**[p07s04u03]** Three takeaways: AI should be designed as augmentation, not just automation. Claims data should be treated as a strategic actuarial asset. And responsible AI must be built in from day one — not bolted on at the end.
-
-**[p07s04u04]** As markets face aging populations, rising medical complexity, and post-IFRS 17 demands, actuaries have a real role to play — connecting AI capability with business value, governance, and long-term resilience.
-
 **[p07s04u05]** Thank you so much for your time — we'd love to take your questions.
