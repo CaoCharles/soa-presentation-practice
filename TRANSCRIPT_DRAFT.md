@@ -252,50 +252,34 @@
 **[p06s01u06]** And here's the part that matters most for actuaries: when claims data is this structured and traceable, it stops being just operational evidence — and starts becoming something you can actually analyze.
 
 ## Slide 17
-**[p06s02u01]** Claims records stop being just operational evidence — records that exist because claims need to be paid. They become analytical evidence, structured and governed well enough to support actuarial work.
+**[p06s02u01]** The structured output that CAELIA produces has three layers: the claim result, the policy and decision basis, and the full medical assessment.
 
-**[p06s02u02]** And this is one of the most important points we want to make today.
+**[p06s02u02]** Each layer captures something different: not just what was decided, but what evidence led there, and what the medical picture looked like.
 
-**[p06s02u03]** The structured output has three layers. The first is the result layer: what was approved, denied, or left pending, and what benefit item was involved.
+**[p06s02u03]** With proper governance, this data can directly support pricing, reserving, experience studies, risk segmentation, and product monitoring.
 
-**[p06s02u04]** The second is the policy and decision layer: which policy terms applied, whether the benefit condition matched, and whether exclusions were triggered.
+**[p06s02u04]** In other words, AI doesn't just make claims operations faster — it expands the data available for actuarial analysis.
 
-**[p06s02u05]** The third is the medical assessment layer: diagnosis codes, procedures, treatment information, medical necessity, and clinical justification.
+**[p06s02u05]** This matters especially under IFRS 17 — where actuaries need claims data to feed back into their assumptions much faster than before.
 
-**[p06s02u06]** With proper governance, this information can support pricing, reserving, experience studies, risk segmentation, and product monitoring.
+**[p06s02u06]** When claims data becomes structured earlier in the process, actuaries can respond more quickly to emerging trends — instead of waiting for year-end data runs.
 
-**[p06s02u07]** In other words, AI doesn't just make claims operations faster.
-
-**[p06s02u08]** It expands the data available for actuarial analysis. And this is especially valuable under IFRS 17 and modern risk management frameworks.
-
-**[p06s02u09]** Insurers need faster feedback loops between actual claims experience and their assumptions. If claims data stays unstructured, that feedback loop is slow.
-
-**[p06s02u10]** But if claims data becomes structured earlier in the process, actuaries can respond more quickly to emerging experience.
-
-**[p06s02u11]** The question becomes whether that richer foundation can help us move from measuring outcomes to understanding what actually drives them.
+**[p06s02u07]** And that opens a bigger question: can this richer foundation help us move beyond measuring what happened — to understanding why it happened?
 
 ## Slide 18
-**[p06s03u01]** Traditional experience analysis tells us what happened. A stronger claims data foundation helps us understand why.
+**[p06s03u01]** Traditional experience analysis tells us what happened — how many claims, how much was paid, how that compares to assumptions.
 
-**[p06s03u02]** How did actual experience compare to what we expected? These are essential questions. But more and more, insurers also need to understand the causes.
+**[p06s03u02]** But the question actuaries increasingly need to answer is: why did it happen?
 
-**[p06s03u03]** Why did incidence change?
+**[p06s03u03]** Was it driven by an aging policyholder base, by changes in medical practice, or by shifts in claimant behavior? And are there early signals that assumptions need to be updated?
 
-**[p06s03u04]** Was it driven by aging? Product mix? Changes in medical practice? Customer behavior? Provider behavior? Fraud patterns? Or benefit design?
+**[p06s03u04]** Take the example on this slide: an 80-year-old male with an accidental death claim after a fall.
 
-**[p06s03u05]** Are there early signals that assumptions need to be updated?
+**[p06s03u05]** Traditional analysis counts this as one accidental death. But cause-based analysis asks whether an underlying condition — like balance deterioration or cognitive decline — contributed to the fall.
 
-**[p06s03u06]** Take the example on this slide: an 80-year-old male has an accidental death claim after a fall.
+**[p06s03u06]** That distinction changes how we estimate incidence, how we segment risk, and how clean our experience study population is.
 
-**[p06s03u07]** Traditional analysis might count this simply as one accidental death case.
-
-**[p06s03u08]** But cause-based analysis asks a deeper question: was this a pure external accident, or did an underlying medical condition, such as degeneration or poor balance, contribute to the fall?
-
-**[p06s03u09]** That distinction changes how we estimate incidence, how we segment risk, and how clean the experience study population becomes.
-
-**[p06s03u10]** It helps us ask better questions, spot emerging trends earlier, and communicate findings more clearly to management.
-
-**[p06s03u11]** Cause-based analysis is what makes that level of understanding possible — and once we have it, it can begin to inform pricing and product discussions.
+**[p06s03u07]** And when we understand the why, it becomes possible to act on it — not just report it.
 
 ## Slide 19
 **[p06s04u01]** Once we understand the why behind experience, those insights can begin to inform pricing and product discussions.
