@@ -243,17 +243,13 @@
 
 **[p06s01u02]** This report is designed to take raw claims data and turn it into a traceable decision recommendation.
 
-**[p06s01u03]** A good report should answer several practical questions for the reviewer. What's the claim event? What medical facts were extracted? What policy benefits might apply?
+**[p06s01u03]** It covers everything the reviewer needs: what happened, what the documents say, which policy terms apply, what the AI recommends, and how confident it is in each judgment.
 
-**[p06s01u04]** What evidence supports the recommendation? What's still uncertain? And what should the human reviewer check before making the final call?
+**[p06s01u04]** In the example, the report shows confidence scores for different parts of the case — 92 percent for surgical benefit, 90 percent for hospitalization, and 85 percent for the overall recommendation.
 
-**[p06s01u05]** In the example, the report shows confidence scores for different parts of the case, such as 92 percent for surgical benefit, 90 percent for hospitalization, and 85 percent for the overall recommendation.
+**[p06s01u05]** In a regulated environment like insurance, that traceability isn't optional — every recommendation has to be grounded in evidence the reviewer can actually verify.
 
-**[p06s01u06]** This is especially important when AI is used in regulated financial services. We need to be able to show that AI output isn't arbitrary.
-
-**[p06s01u07]** It has to be grounded in evidence, policy knowledge, and human oversight.
-
-**[p06s01u08]** That's the operational and governance case. But once claims records are this structured and traceable, something more fundamental becomes possible for the organization.
+**[p06s01u06]** And here's the part that matters most for actuaries: when claims data is this structured and traceable, it stops being just operational evidence — and starts becoming something you can actually analyze.
 
 ## Slide 17
 **[p06s02u01]** Claims records stop being just operational evidence — records that exist because claims need to be paid. They become analytical evidence, structured and governed well enough to support actuarial work.
