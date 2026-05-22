@@ -1,5 +1,5 @@
 # 逐字稿改寫版（口語化）
-> 共 248 段，每段目標 ≤ 25 字
+> 共 173 段，每段目標 ≤ 25 字
 
 ---
 
@@ -284,69 +284,61 @@
 ## Slide 19
 **[p06s04u01]** Once we understand the why behind experience, those insights can begin to inform pricing and product discussions.
 
-**[p06s04u02]** To be clear: we're talking about analytical capability here, not disclosing specific pricing strategy.
+**[p06s04u02]** When claims data becomes more granular, pricing teams can better understand how risk drivers affect claim frequency and severity — to be clear, this is about analytical capability, not specific pricing strategy.
 
-**[p06s04u03]** We're talking about the analytical capability. When claims data becomes more granular, pricing teams can better understand how risk drivers affect claim frequency and severity.
+**[p06s04u03]** This supports three pricing applications shown on the slide: refined assumptions, segmented pricing, and policy or benefit design.
 
-**[p06s04u04]** This supports three pricing applications shown on the slide: refined assumptions, segmented pricing, and policy or benefit design.
+**[p06s04u04]** Take lung cancer claims as an example. If we look at 100 cases together, traditional pricing may only show that overall claim cost is increasing.
 
-**[p06s04u05]** Take lung cancer claims as an example. If we look at 100 cases together, traditional pricing may only show that overall claim cost is increasing.
+**[p06s04u05]** But cause analysis can separate 70 standard treatment cases from 20 high-intensity treatment cases and 10 borderline cases where the treatment pattern or policy alignment needs closer review.
 
-**[p06s04u06]** But cause analysis can separate 70 standard treatment cases from 20 high-intensity treatment cases and 10 borderline cases where the treatment pattern or policy alignment needs closer review.
+**[p06s04u06]** That difference really matters. Without cause analysis, management might only see a financial result.
 
-**[p06s04u07]** That difference really matters. Without cause analysis, management might only see a financial result.
+**[p06s04u07]** With cause analysis, management can evaluate possible actions: update assumptions, adjust underwriting guidelines, strengthen claims review, refine product design, or improve customer education.
 
-**[p06s04u08]** With cause analysis, management can evaluate possible actions: update assumptions, adjust underwriting guidelines, strengthen claims review, refine product design, or improve customer education.
+**[p06s04u08]** This is the connection between claims AI and risk-based pricing — AI converts claims documents into structured evidence, and structured evidence makes risk segmentation more precise.
 
-**[p06s04u09]** This is the connection between claims AI and risk-based pricing.
+**[p06s04u09]** Better experience analysis supports more informed pricing and risk management decisions.
 
-**[p06s04u10]** AI helps convert claims documents into structured evidence, and structured evidence makes risk segmentation more precise.
+**[p06s04u10]** But none of these applications hold if the AI underneath is reasoning from an unstable or poorly governed knowledge base.
 
-**[p06s04u11]** Better experience analysis supports more informed pricing and risk management decisions.
-
-**[p06s04u12]** But none of these applications hold if the AI underneath is reasoning from an unstable or poorly governed knowledge base.
-
-**[p06s04u13]** That brings us to the foundation that sits underneath every decision CAELIA makes.
+**[p06s04u11]** That brings us to the foundation that sits underneath every decision CAELIA makes.
 
 ## Slide 20
-**[p07s01u01]** None of the pricing, reserving, or risk segmentation capabilities we just described are reliable without a well-structured, governed knowledge base. For CAELIA, that base comes from three sources: claims operations policies, product terms and benefit rules, and a medical knowledge and disease library.
+**[p07s01u01]** None of the pricing, reserving, or risk segmentation capabilities we just described are reliable without a well-governed knowledge base.
 
-**[p07s01u02]** This knowledge has to be structured and governed.
+**[p07s01u02]** For CAELIA, that knowledge comes from three sources: claims operations policies, product terms and benefit rules, and a medical knowledge and disease library.
 
 **[p07s01u03]** If the knowledge base is incomplete or out of date, the AI might retrieve the wrong information or apply the wrong rule.
 
-**[p07s01u04]** We also need traceability and data privacy controls.
+**[p07s01u04]** We also need traceability — when AI uses a policy clause or a medical fact, the system needs to trace exactly where that information came from.
 
-**[p07s01u05]** When AI uses a policy clause or a medical fact, the system should be able to trace where that came from.
+**[p07s01u05]** Reviewers should be able to see the source of any piece of information. This is especially important for explainability.
 
-**[p07s01u06]** Reviewers should be able to see the source of any piece of information. This is especially important for explainability.
+**[p07s01u06]** In a claims decision, it's not enough to say "the model thinks so."
 
-**[p07s01u07]** In a claims decision, it's not enough to say "the model thinks so."
+**[p07s01u07]** We need to say: here's the document, here's the extracted fact, here's the relevant policy term, here's the reasoning, and here's what's still uncertain.
 
-**[p07s01u08]** We need to say: here's the document, here's the extracted fact, here's the relevant policy term, here's the reasoning, and here's what's still uncertain.
+**[p07s01u08]** The knowledge foundation is what makes the AI system controllable — it anchors AI reasoning in approved business knowledge, rather than letting the model improvise freely.
 
-**[p07s01u09]** The knowledge foundation is what makes the AI system controllable. It anchors AI reasoning in approved business knowledge, rather than letting the model improvise freely.
-
-**[p07s01u10]** And there is no harder test of that foundation than policy interpretation — where a single word in a contract clause can change the entire outcome of a case.
+**[p07s01u09]** And there is no harder test of that foundation than policy interpretation — where a single word in a contract clause can change the entire outcome of a case.
 
 ## Slide 21
 **[p07s02u01]** That is why policy interpretation becomes one of the most critical tests of the system.
 
 **[p07s02u02]** Policies contain definitions, benefit conditions, exclusions, waiting periods, limits, and special rules.
 
-**[p07s02u03]** A claim decision often comes down to the precise interpretation of those terms. CAELIA helps analyze policy terms to determine coverage, exclusions, and decision rationale.
+**[p07s02u03]** A claim decision often comes down to the precise interpretation of those terms.
 
-**[p07s02u04]** The agent workflow has four steps: understand the claim, determine policy applicability, identify exclusions, and produce a structured output.
+**[p07s02u04]** CAELIA's workflow runs through four steps: understand the claim, determine policy applicability, identify exclusions, and produce a structured output.
 
-**[p07s02u05]** For example, if a claim involves hospitalization benefits, the system can pull up the relevant policy clauses, compare the required conditions against the extracted medical facts, and highlight anything that's missing or conflicting.
+**[p07s02u05]** Take hospitalization benefits as an example. The system pulls up the relevant policy clauses, compares them against the medical facts, and flags anything that's missing or conflicting.
 
-**[p07s02u06]** The reviewer can then focus on judgment. Does the medical evidence really satisfy the policy definition? Is additional documentation needed? Is there an exception?
+**[p07s02u06]** The reviewer can then focus on judgment — does the medical evidence satisfy the policy definition? Is additional documentation needed? Does the case need to be escalated?
 
-**[p07s02u07]** Does the case need to be escalated? This approach improves consistency.
+**[p07s02u07]** The output clearly shows what's covered, what's excluded, and the full decision rationale — so the reviewer has everything they need in one place.
 
-**[p07s02u08]** The output should clearly show applicable coverage, coverage determination, exclusion determination, and the decision rationale.
-
-**[p07s02u09]** When we step back from these individual components — document extraction, multi-agent reasoning, and policy interpretation — the organizational value they create together becomes clear.
+**[p07s02u08]** When we step back from these individual components — document extraction, multi-agent reasoning, and policy interpretation — the organizational value they create together becomes clear.
 
 ## Slide 22
 **[p07s03u01]** When we bring these components together, the organizational value appears in four areas.
@@ -357,7 +349,7 @@
 
 **[p07s03u04]** For risk control, the system supports earlier identification of inconsistencies, anomaly patterns, and fraud indicators.
 
-**[p07s03u05]** For governance, human-in-the-loop review, traceable reasoning, structured knowledge, and data lineage help make AI output explainable and auditable. That's essential for responsible AI in insurance.
+**[p07s03u05]** For governance, human-in-the-loop review, traceable reasoning, and structured knowledge help make AI output explainable and auditable — and that's essential for responsible AI in a regulated industry like insurance.
 
 **[p07s03u06]** And for actuarial work, the most strategic benefit is that claims data becomes more structured and more meaningful.
 
@@ -365,37 +357,17 @@
 
 **[p07s03u08]** This supports experience studies, incidence rate reviews, assumption updates, reserve analysis, and product monitoring.
 
-**[p07s03u09]** The broader lesson here is that AI value shouldn't be measured only by time saved.
+**[p07s03u09]** The broader lesson is this: in insurance, AI value shouldn't be measured only by time saved — it should also be measured by the quality of decisions, the strength of governance, and how well the organization learns.
 
-**[p07s03u10]** In insurance, AI value should also be measured by the quality of decisions, the strength of governance, and the improvement in how the organization learns.
-
-**[p07s03u11]** Actuaries are well positioned to lead that work — translating AI capability into business value, connecting technical performance with risk management and governance, and helping organizations build resilience that lasts.
+**[p07s03u10]** Actuaries are well positioned to lead that work — translating AI capability into business value, connecting technical performance with risk management and governance, and helping organizations build resilience that lasts.
 
 ## Slide 23
-**[p07s04u01]** Thank you for staying with us. To close, let's come back to our title: beyond efficiency. Efficiency matters — faster claims processing improves customer experience and reduces operational burden.
+**[p07s04u01]** Thank you for staying with us. To close, let's come back to our title: beyond efficiency.
 
-**[p07s04u02]** But for life insurers, the bigger opportunity is to build a claims ecosystem that actually learns.
+**[p07s04u02]** Efficiency matters — but the bigger opportunity is to build a claims ecosystem that actually learns. Agentic AI gives us a practical way to unlock the value locked inside unstructured documents.
 
-**[p07s04u03]** Every claim contains information about customer needs, medical trends, product performance, operational risk, and emerging experience.
+**[p07s04u03]** Three takeaways: AI should be designed as augmentation, not just automation. Claims data should be treated as a strategic actuarial asset. And responsible AI must be built in from day one — not bolted on at the end.
 
-**[p07s04u04]** Historically, most of that information was locked inside unstructured documents.
+**[p07s04u04]** As markets face aging populations, rising medical complexity, and post-IFRS 17 demands, actuaries have a real role to play — connecting AI capability with business value, governance, and long-term resilience.
 
-**[p07s04u05]** Agentic AI gives us a practical way to unlock it — as long as we design the system with governance, explainability, and human oversight built in from the start.
-
-**[p07s04u06]** Our experience points to three takeaways. First, AI in claims should be designed as augmentation, not just automation.
-
-**[p07s04u07]** The goal is to help professionals make better decisions — not simply to remove human involvement.
-
-**[p07s04u08]** Second, claims data should be treated as a strategic actuarial asset.
-
-**[p07s04u09]** When unstructured records become structured, traceable, and governed, they can strengthen experience studies, pricing assumptions, reserving analysis, and risk monitoring.
-
-**[p07s04u10]** Third, responsible AI isn't a separate compliance layer you bolt on at the end.
-
-**[p07s04u11]** It has to be built into the architecture from day one: human-in-the-loop review, knowledge governance, data lineage, explainable reasoning, and auditability.
-
-**[p07s04u12]** As markets face aging populations, rising medical complexity, and post-IFRS 17 operational demands, actuaries have an important role to play.
-
-**[p07s04u13]** Actuaries can help connect AI capability with business value, risk management, governance, and long-term sustainability.
-
-**[p07s04u14]** Thank you so much for your time — we'd love to take your questions.
+**[p07s04u05]** Thank you so much for your time — we'd love to take your questions.

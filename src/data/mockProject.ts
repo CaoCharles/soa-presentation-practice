@@ -5,7 +5,7 @@ export const mockProject: Project = {
   "title": "Beyond Efficiency",
   "subtitle": "SOA Presentation Practice",
   "audioUrl": "/audio/final.mp3",
-  "duration": 1925.463,
+  "duration": 1266.513,
   "coverImageUrl": "/slides/slide_01.png",
   "transcript": [
     {
@@ -1051,455 +1051,343 @@ export const mockProject: Project = {
     {
       "id": "p06s04u01",
       "startTime": 876.912,
-      "endTime": 883.812,
+      "endTime": 883.787,
       "textEn": "Once we understand the why behind experience, those insights can begin to inform pricing and product discussions.",
       "textZh": "一旦我們理解經驗背後的「為什麼」，這些洞察便能開始指引定價與商品討論。",
       "slidePage": 19
     },
     {
       "id": "p06s04u02",
-      "startTime": 883.812,
-      "endTime": 890.087,
-      "textEn": "To be clear: we're talking about analytical capability here, not disclosing specific pricing strategy.",
-      "textZh": "需要說明的是：我們在這裡討論的是分析能力，而非揭露具體的定價策略。",
+      "startTime": 883.787,
+      "endTime": 896.537,
+      "textEn": "When claims data becomes more granular, pricing teams can better understand how risk drivers affect claim frequency and severity — to be clear, this is about analytical capability, not specific pricing strategy.",
+      "textZh": "當理賠資料變得更細緻，定價團隊便能更清楚地理解風險驅動因子如何影響理賠頻率與嚴重度——需要說明的是，這純粹是分析能力的討論，而非揭露具體的定價策略。",
       "slidePage": 19
     },
     {
       "id": "p06s04u03",
-      "startTime": 890.087,
-      "endTime": 900.987,
-      "textEn": "We're talking about the analytical capability. When claims data becomes more granular, pricing teams can better understand how risk drivers affect claim frequency and severity.",
-      "textZh": "當理賠資料變得更細緻，定價團隊便能更清楚地理解風險驅動因子如何影響理賠頻率與嚴重度。",
-      "slidePage": 19
-    },
-    {
-      "id": "p06s04u04",
-      "startTime": 900.987,
-      "endTime": 908.937,
+      "startTime": 896.537,
+      "endTime": 904.537,
       "textEn": "This supports three pricing applications shown on the slide: refined assumptions, segmented pricing, and policy or benefit design.",
       "textZh": "這支援投影片上顯示的三個定價應用：精修假設、分群定價，以及保單或給付設計。",
       "slidePage": 19
     },
     {
-      "id": "p06s04u05",
-      "startTime": 908.937,
-      "endTime": 918.4,
+      "id": "p06s04u04",
+      "startTime": 904.537,
+      "endTime": 914.212,
       "textEn": "Take lung cancer claims as an example. If we look at 100 cases together, traditional pricing may only show that overall claim cost is increasing.",
       "textZh": "以肺癌理賠為例：如果我們把 100 件案件放在一起看，傳統定價可能只顯示整體理賠成本在上升。",
       "slidePage": 19
     },
     {
-      "id": "p06s04u06",
-      "startTime": 918.4,
-      "endTime": 931.537,
+      "id": "p06s04u05",
+      "startTime": 914.212,
+      "endTime": 927.475,
       "textEn": "But cause analysis can separate 70 standard treatment cases from 20 high-intensity treatment cases and 10 borderline cases where the treatment pattern or policy alignment needs closer review.",
       "textZh": "但原因分析可以將 70 件標準治療案件、20 件高強度治療案件，與 10 件治療模式或保單適用性需要更仔細審查的邊界案件區分開來。",
       "slidePage": 19
     },
     {
-      "id": "p06s04u07",
-      "startTime": 931.537,
-      "endTime": 937.837,
+      "id": "p06s04u06",
+      "startTime": 927.475,
+      "endTime": 933.675,
       "textEn": "That difference really matters. Without cause analysis, management might only see a financial result.",
       "textZh": "這個差異非常重要。沒有原因分析，管理層可能只看到財務結果。",
       "slidePage": 19
     },
     {
-      "id": "p06s04u08",
-      "startTime": 937.837,
-      "endTime": 949.825,
+      "id": "p06s04u07",
+      "startTime": 933.675,
+      "endTime": 945.525,
       "textEn": "With cause analysis, management can evaluate possible actions: update assumptions, adjust underwriting guidelines, strengthen claims review, refine product design, or improve customer education.",
-      "textZh": "沒有 cause analysis，管理層可能只看到損率升高；有 cause analysis，才有機會評估應該更新假設、調整核保、強化理賠審查或改善商品設計。",
+      "textZh": "有了原因分析，管理層才有機會評估應該更新假設、調整核保、強化理賠審查、改善商品設計，或加強客戶教育。",
+      "slidePage": 19
+    },
+    {
+      "id": "p06s04u08",
+      "startTime": 945.525,
+      "endTime": 956.575,
+      "textEn": "This is the connection between claims AI and risk-based pricing — AI converts claims documents into structured evidence, and structured evidence makes risk segmentation more precise.",
+      "textZh": "這就是理賠 AI 與風險定價之間的連結——AI 將理賠文件轉化為結構化證據，而結構化證據讓風險分群更加精準。",
       "slidePage": 19
     },
     {
       "id": "p06s04u09",
-      "startTime": 949.825,
-      "endTime": 953.687,
-      "textEn": "This is the connection between claims AI and risk-based pricing.",
-      "textZh": "這就是理賠 AI 與風險定價之間的連結。",
+      "startTime": 956.575,
+      "endTime": 962.15,
+      "textEn": "Better experience analysis supports more informed pricing and risk management decisions.",
+      "textZh": "更好的經驗分析，支援更有依據的定價與風險管理決策。",
       "slidePage": 19
     },
     {
       "id": "p06s04u10",
-      "startTime": 953.687,
-      "endTime": 961.3,
-      "textEn": "AI helps convert claims documents into structured evidence, and structured evidence makes risk segmentation more precise.",
-      "textZh": "AI 幫助將理賠文件轉化為結構化證據，而結構化證據則使風險分群更加精準。",
-      "slidePage": 19
-    },
-    {
-      "id": "p06s04u11",
-      "startTime": 961.3,
-      "endTime": 966.9,
-      "textEn": "Better experience analysis supports more informed pricing and risk management decisions.",
-      "textZh": "更好的經驗分析支援更有依據的定價與風險管理決策。",
-      "slidePage": 19
-    },
-    {
-      "id": "p06s04u12",
-      "startTime": 966.9,
-      "endTime": 974.537,
+      "startTime": 962.15,
+      "endTime": 969.837,
       "textEn": "But none of these applications hold if the AI underneath is reasoning from an unstable or poorly governed knowledge base.",
       "textZh": "但如果 AI 底層的推理依賴的是不穩定或治理不善的知識庫，這些應用都將無法成立。",
       "slidePage": 19
     },
     {
-      "id": "p06s04u13",
-      "startTime": 974.537,
-      "endTime": 979.662,
+      "id": "p06s04u11",
+      "startTime": 969.837,
+      "endTime": 974.95,
       "textEn": "That brings us to the foundation that sits underneath every decision CAELIA makes.",
       "textZh": "這帶我們來到 CAELIA 每個決策背後的知識基礎。",
       "slidePage": 19
     },
     {
       "id": "p07s01u01",
-      "startTime": 979.662,
-      "endTime": 998.4,
-      "textEn": "None of the pricing, reserving, or risk segmentation capabilities we just described are reliable without a well-structured, governed knowledge base. For CAELIA, that base comes from three sources: claims operations policies, product terms and benefit rules, and a medical knowledge and disease library.",
-      "textZh": "我們剛才描述的定價、準備金與風險分群能力，在沒有結構完善、治理嚴謹的知識庫支撐下，都是不可靠的。對 CAELIA 而言，這個知識庫來自三個來源：理賠作業準則、商品條款與給付規則，以及醫療知識與疾病庫。",
+      "startTime": 974.95,
+      "endTime": 983.462,
+      "textEn": "None of the pricing, reserving, or risk segmentation capabilities we just described are reliable without a well-governed knowledge base.",
+      "textZh": "我們剛才描述的定價、準備金與風險分群能力，在沒有治理完善的知識庫支撐下，都是不可靠的。",
       "slidePage": 20
     },
     {
       "id": "p07s01u02",
-      "startTime": 998.4,
-      "endTime": 1001.5,
-      "textEn": "This knowledge has to be structured and governed.",
-      "textZh": "這些知識必須被結構化並受到妥善治理。",
+      "startTime": 983.462,
+      "endTime": 993.2,
+      "textEn": "For CAELIA, that knowledge comes from three sources: claims operations policies, product terms and benefit rules, and a medical knowledge and disease library.",
+      "textZh": "對 CAELIA 而言，這個知識庫來自三個來源：理賠作業準則、商品條款與給付規則，以及醫療知識與疾病庫。",
       "slidePage": 20
     },
     {
       "id": "p07s01u03",
-      "startTime": 1001.5,
-      "endTime": 1008.725,
+      "startTime": 993.2,
+      "endTime": 1000.475,
       "textEn": "If the knowledge base is incomplete or out of date, the AI might retrieve the wrong information or apply the wrong rule.",
       "textZh": "如果知識庫不完整或已過時，AI 可能會擷取錯誤的資訊或套用錯誤的規則。",
       "slidePage": 20
     },
     {
       "id": "p07s01u04",
-      "startTime": 1008.725,
-      "endTime": 1012.012,
-      "textEn": "We also need traceability and data privacy controls.",
-      "textZh": "我們也需要可追溯性與資料隱私控管。",
+      "startTime": 1000.475,
+      "endTime": 1009.4,
+      "textEn": "We also need traceability — when AI uses a policy clause or a medical fact, the system needs to trace exactly where that information came from.",
+      "textZh": "我們也需要可追溯性——當 AI 引用保單條款或醫療事實時，系統需要能夠精確追溯那項資訊的來源。",
       "slidePage": 20
     },
     {
       "id": "p07s01u05",
-      "startTime": 1012.012,
-      "endTime": 1018.337,
-      "textEn": "When AI uses a policy clause or a medical fact, the system should be able to trace where that came from.",
-      "textZh": "當 AI 引用保單條款或醫療事實時，系統應能追溯其來源出處。",
+      "startTime": 1009.4,
+      "endTime": 1016.937,
+      "textEn": "Reviewers should be able to see the source of any piece of information. This is especially important for explainability.",
+      "textZh": "審查員應能看到任何資訊的來源——這對可解釋性尤其重要。",
       "slidePage": 20
     },
     {
       "id": "p07s01u06",
-      "startTime": 1018.337,
-      "endTime": 1025.912,
-      "textEn": "Reviewers should be able to see the source of any piece of information. This is especially important for explainability.",
-      "textZh": "審查員應能看到任何資訊的來源。這對可解釋性尤其重要。",
-      "slidePage": 20
-    },
-    {
-      "id": "p07s01u07",
-      "startTime": 1025.912,
-      "endTime": 1030.062,
+      "startTime": 1016.937,
+      "endTime": 1021.05,
       "textEn": "In a claims decision, it's not enough to say \"the model thinks so.\"",
       "textZh": "在理賠決策中，光說「模型認為如此」是不夠的。",
       "slidePage": 20
     },
     {
-      "id": "p07s01u08",
-      "startTime": 1030.062,
-      "endTime": 1039.2,
+      "id": "p07s01u07",
+      "startTime": 1021.05,
+      "endTime": 1030.025,
       "textEn": "We need to say: here's the document, here's the extracted fact, here's the relevant policy term, here's the reasoning, and here's what's still uncertain.",
       "textZh": "我們需要說明：這是文件、這是擷取的事實、這是相關保單條款、這是推理過程，以及這是仍不確定的部分。",
       "slidePage": 20
     },
     {
-      "id": "p07s01u09",
-      "startTime": 1039.2,
-      "endTime": 1049.85,
-      "textEn": "The knowledge foundation is what makes the AI system controllable. It anchors AI reasoning in approved business knowledge, rather than letting the model improvise freely.",
-      "textZh": "知識基礎是讓 AI 系統可控的關鍵。它將 AI 推理錨定在核准的業務知識中，而不是讓模型自由發揮。",
+      "id": "p07s01u08",
+      "startTime": 1030.025,
+      "endTime": 1040.362,
+      "textEn": "The knowledge foundation is what makes the AI system controllable — it anchors AI reasoning in approved business knowledge, rather than letting the model improvise freely.",
+      "textZh": "知識基礎是讓 AI 系統可控的關鍵——它將 AI 推理錨定在核准的業務知識中，而不是讓模型自由發揮。",
       "slidePage": 20
     },
     {
-      "id": "p07s01u10",
-      "startTime": 1049.85,
-      "endTime": 1059.763,
+      "id": "p07s01u09",
+      "startTime": 1040.362,
+      "endTime": 1050.25,
       "textEn": "And there is no harder test of that foundation than policy interpretation — where a single word in a contract clause can change the entire outcome of a case.",
       "textZh": "而對這個基礎最嚴格的考驗，莫過於保單解讀——因為合約條款中的一個字，可能完全改變一個案件的結果。",
       "slidePage": 20
     },
     {
       "id": "p07s02u01",
-      "startTime": 1059.763,
-      "endTime": 1065.25,
+      "startTime": 1050.25,
+      "endTime": 1055.763,
       "textEn": "That is why policy interpretation becomes one of the most critical tests of the system.",
       "textZh": "正因如此，保單解讀成為整個系統最關鍵的考驗之一。",
       "slidePage": 21
     },
     {
       "id": "p07s02u02",
-      "startTime": 1065.25,
-      "endTime": 1071.562,
+      "startTime": 1055.763,
+      "endTime": 1062.1,
       "textEn": "Policies contain definitions, benefit conditions, exclusions, waiting periods, limits, and special rules.",
       "textZh": "保單包含定義、給付條件、除外條款、等待期、給付上限及特殊規定。",
       "slidePage": 21
     },
     {
       "id": "p07s02u03",
-      "startTime": 1071.562,
-      "endTime": 1082.338,
-      "textEn": "A claim decision often comes down to the precise interpretation of those terms. CAELIA helps analyze policy terms to determine coverage, exclusions, and decision rationale.",
-      "textZh": "理賠決策往往取決於這些條款的精確解讀。CAELIA 協助分析保單條款，以確定承保範圍、除外事項與決策依據。",
+      "startTime": 1062.1,
+      "endTime": 1067.075,
+      "textEn": "A claim decision often comes down to the precise interpretation of those terms.",
+      "textZh": "理賠決策往往取決於這些條款的精確解讀。",
       "slidePage": 21
     },
     {
       "id": "p07s02u04",
-      "startTime": 1082.338,
-      "endTime": 1090.825,
-      "textEn": "The agent workflow has four steps: understand the claim, determine policy applicability, identify exclusions, and produce a structured output.",
-      "textZh": "agent 工作流程有四個步驟：理解理賠內容、確定保單適用性、辨識除外條款，以及產出結構化輸出。",
+      "startTime": 1067.075,
+      "endTime": 1076.325,
+      "textEn": "CAELIA's workflow runs through four steps: understand the claim, determine policy applicability, identify exclusions, and produce a structured output.",
+      "textZh": "CAELIA 的工作流程包含四個步驟：理解理賠內容、確定保單適用性、辨識除外條款，以及產出結構化輸出。",
       "slidePage": 21
     },
     {
       "id": "p07s02u05",
-      "startTime": 1090.825,
-      "endTime": 1105.375,
-      "textEn": "For example, if a claim involves hospitalization benefits, the system can pull up the relevant policy clauses, compare the required conditions against the extracted medical facts, and highlight anything that's missing or conflicting.",
-      "textZh": "例如，若理賠涉及住院給付，系統可以調出相關保單條款，將所需條件與擷取的醫療事實對比，並標示缺漏或衝突之處。",
+      "startTime": 1076.325,
+      "endTime": 1087.475,
+      "textEn": "Take hospitalization benefits as an example. The system pulls up the relevant policy clauses, compares them against the medical facts, and flags anything that's missing or conflicting.",
+      "textZh": "以住院給付為例，系統會調出相關保單條款，將其與擷取的醫療事實對比，並標示任何缺漏或衝突之處。",
       "slidePage": 21
     },
     {
       "id": "p07s02u06",
-      "startTime": 1105.375,
-      "endTime": 1115.562,
-      "textEn": "The reviewer can then focus on judgment. Does the medical evidence really satisfy the policy definition? Is additional documentation needed? Is there an exception?",
-      "textZh": "審查員可以專注於判斷：醫療證據是否真正符合保單定義？是否需要補充文件？是否有例外情況？",
+      "startTime": 1087.475,
+      "endTime": 1097.988,
+      "textEn": "The reviewer can then focus on judgment — does the medical evidence satisfy the policy definition? Is additional documentation needed? Does the case need to be escalated?",
+      "textZh": "審查員便可專注於判斷——醫療證據是否真正符合保單定義？是否需要補充文件？案件是否需要升級處理？",
       "slidePage": 21
     },
     {
       "id": "p07s02u07",
-      "startTime": 1115.562,
-      "endTime": 1119.912,
-      "textEn": "Does the case need to be escalated? This approach improves consistency.",
-      "textZh": "案件是否需要升級處理？這種方法改善了決策一致性。",
+      "startTime": 1097.988,
+      "endTime": 1107.013,
+      "textEn": "The output clearly shows what's covered, what's excluded, and the full decision rationale — so the reviewer has everything they need in one place.",
+      "textZh": "輸出結果清楚顯示承保範圍、除外事項與完整的決策依據——讓審查員一目了然地掌握所需資訊。",
       "slidePage": 21
     },
     {
       "id": "p07s02u08",
-      "startTime": 1119.912,
-      "endTime": 1127.3,
-      "textEn": "The output should clearly show applicable coverage, coverage determination, exclusion determination, and the decision rationale.",
-      "textZh": "輸出應清楚顯示適用的承保範圍、承保確定、除外確定，以及決策依據。",
-      "slidePage": 21
-    },
-    {
-      "id": "p07s02u09",
-      "startTime": 1127.3,
-      "endTime": 1138.8,
+      "startTime": 1107.013,
+      "endTime": 1118.45,
       "textEn": "When we step back from these individual components — document extraction, multi-agent reasoning, and policy interpretation — the organizational value they create together becomes clear.",
       "textZh": "當我們退一步，從個別元件——文件擷取、多代理推理與保單解讀——一同審視，它們共同創造的組織價值便清晰呈現。",
       "slidePage": 21
     },
     {
       "id": "p07s03u01",
-      "startTime": 1138.8,
-      "endTime": 1144.275,
+      "startTime": 1118.45,
+      "endTime": 1123.8,
       "textEn": "When we bring these components together, the organizational value appears in four areas.",
       "textZh": "當我們將這些元件整合在一起，組織價值便在四個面向中展現。",
       "slidePage": 22
     },
     {
       "id": "p07s03u02",
-      "startTime": 1144.275,
-      "endTime": 1155.4,
+      "startTime": 1123.8,
+      "endTime": 1134.938,
       "textEn": "For operations, CAELIA reduces manual document review, speeds up evidence preparation, and helps reviewers focus on complex judgment rather than repetitive information gathering.",
       "textZh": "在營運方面，CAELIA 減少人工文件審查、加速證據準備，並幫助審查員專注於複雜判斷，而非重複的資料收集。",
       "slidePage": 22
     },
     {
       "id": "p07s03u03",
-      "startTime": 1155.4,
-      "endTime": 1166.012,
+      "startTime": 1134.938,
+      "endTime": 1145.5,
       "textEn": "In practical terms, the impact can extend across a claims organization of around 300 FTEs, with an estimated 30 percent reduction in review time per case.",
       "textZh": "在實務上，影響可延伸至約 300 名全職人員的理賠組織，估計每件案件的審查時間可縮短約 30%。",
       "slidePage": 22
     },
     {
       "id": "p07s03u04",
-      "startTime": 1166.012,
-      "endTime": 1172.95,
+      "startTime": 1145.5,
+      "endTime": 1152.913,
       "textEn": "For risk control, the system supports earlier identification of inconsistencies, anomaly patterns, and fraud indicators.",
       "textZh": "在風險控管方面，系統支援更早發現不一致、異常模式與詐欺指標。",
       "slidePage": 22
     },
     {
       "id": "p07s03u05",
-      "startTime": 1172.95,
-      "endTime": 1185.175,
-      "textEn": "For governance, human-in-the-loop review, traceable reasoning, structured knowledge, and data lineage help make AI output explainable and auditable. That's essential for responsible AI in insurance.",
-      "textZh": "在治理方面，human-in-the-loop 審查、可追溯推理、結構化知識與資料血緣，有助於使 AI 輸出可解釋且可稽核——這對保險業的負責任 AI 至關重要。",
+      "startTime": 1152.913,
+      "endTime": 1166.338,
+      "textEn": "For governance, human-in-the-loop review, traceable reasoning, and structured knowledge help make AI output explainable and auditable — and that's essential for responsible AI in a regulated industry like insurance.",
+      "textZh": "在治理方面，human-in-the-loop 審查、可追溯推理與結構化知識，有助於使 AI 輸出可解釋且可稽核——這對保險這樣的高度監管行業而言至關重要。",
       "slidePage": 22
     },
     {
       "id": "p07s03u06",
-      "startTime": 1185.175,
-      "endTime": 1192.087,
+      "startTime": 1166.338,
+      "endTime": 1173.538,
       "textEn": "And for actuarial work, the most strategic benefit is that claims data becomes more structured and more meaningful.",
       "textZh": "在精算工作方面，最具策略價值的效益是理賠資料變得更加結構化且更有意義。",
       "slidePage": 22
     },
     {
       "id": "p07s03u07",
-      "startTime": 1192.087,
-      "endTime": 1202.9,
+      "startTime": 1173.538,
+      "endTime": 1184.425,
       "textEn": "Instead of only getting final payment results, actuaries can access richer information about diagnoses, treatments, causes, severity drivers, and the rationale behind decisions.",
       "textZh": "精算師不再只能取得最終給付結果，而能存取關於診斷、治療、原因、嚴重度驅動因子與決策依據的更豐富資訊。",
       "slidePage": 22
     },
     {
       "id": "p07s03u08",
-      "startTime": 1202.9,
-      "endTime": 1210.2,
+      "startTime": 1184.425,
+      "endTime": 1191.713,
       "textEn": "This supports experience studies, incidence rate reviews, assumption updates, reserve analysis, and product monitoring.",
       "textZh": "這支援經驗研究、發生率審查、假設更新、準備金分析與商品監控。",
       "slidePage": 22
     },
     {
       "id": "p07s03u09",
-      "startTime": 1210.2,
-      "endTime": 1215.4,
-      "textEn": "The broader lesson here is that AI value shouldn't be measured only by time saved.",
-      "textZh": "更廣泛的啟示是，AI 價值不應只以節省的時間衡量。",
+      "startTime": 1191.713,
+      "endTime": 1204.9,
+      "textEn": "The broader lesson is this: in insurance, AI value shouldn't be measured only by time saved — it should also be measured by the quality of decisions, the strength of governance, and how well the organization learns.",
+      "textZh": "更廣泛的啟示是：在保險業，AI 價值不應只以節省的時間衡量——也應以決策品質、治理強度，以及組織學習能力的提升來衡量。",
       "slidePage": 22
     },
     {
       "id": "p07s03u10",
-      "startTime": 1215.4,
-      "endTime": 1224.975,
-      "textEn": "In insurance, AI value should also be measured by the quality of decisions, the strength of governance, and the improvement in how the organization learns.",
-      "textZh": "在保險業，AI 價值也應以決策品質、治理強度，以及組織學習方式的改善來衡量。",
-      "slidePage": 22
-    },
-    {
-      "id": "p07s03u11",
-      "startTime": 1224.975,
-      "endTime": 1238.825,
+      "startTime": 1204.9,
+      "endTime": 1218.8,
       "textEn": "Actuaries are well positioned to lead that work — translating AI capability into business value, connecting technical performance with risk management and governance, and helping organizations build resilience that lasts.",
       "textZh": "精算師在這項工作中具有獨特的優勢——將 AI 能力轉化為商業價值、連結技術表現與風險管理及治理，並幫助組織建立長久的韌性。",
       "slidePage": 22
     },
     {
       "id": "p07s04u01",
-      "startTime": 1238.825,
-      "endTime": 1250.975,
-      "textEn": "Thank you for staying with us. To close, let's come back to our title: beyond efficiency. Efficiency matters — faster claims processing improves customer experience and reduces operational burden.",
-      "textZh": "感謝各位一路陪伴。最後，讓我們回到標題：超越效率。效率確實重要——更快的理賠處理能改善客戶體驗、減少營運負擔。",
-      "slidePage": 22
+      "startTime": 1218.8,
+      "endTime": 1224.138,
+      "textEn": "Thank you for staying with us. To close, let's come back to our title: beyond efficiency.",
+      "textZh": "感謝各位一路陪伴。最後，讓我們回到今天的標題：超越效率。",
+      "slidePage": 23
     },
     {
       "id": "p07s04u02",
-      "startTime": 1250.975,
-      "endTime": 1256.925,
-      "textEn": "But for life insurers, the bigger opportunity is to build a claims ecosystem that actually learns.",
-      "textZh": "但對壽險公司來說，更大的機會是建立一個真正會學習的理賠生態系。",
-      "slidePage": 22
+      "startTime": 1224.138,
+      "endTime": 1236.388,
+      "textEn": "Efficiency matters — but the bigger opportunity is to build a claims ecosystem that actually learns. Agentic AI gives us a practical way to unlock the value locked inside unstructured documents.",
+      "textZh": "效率確實重要——但更大的機會，是建立一個真正會學習的理賠生態系。Agentic AI 提供了一個實際的方式，將封存在非結構化文件中的價值釋放出來。",
+      "slidePage": 23
     },
     {
       "id": "p07s04u03",
-      "startTime": 1256.925,
-      "endTime": 1265.137,
-      "textEn": "Every claim contains information about customer needs, medical trends, product performance, operational risk, and emerging experience.",
-      "textZh": "每一件理賠都包含關於客戶需求、醫療趨勢、商品表現、營運風險與新興經驗的資訊。",
-      "slidePage": 22
+      "startTime": 1236.388,
+      "endTime": 1249.725,
+      "textEn": "Three takeaways: AI should be designed as augmentation, not just automation. Claims data should be treated as a strategic actuarial asset. And responsible AI must be built in from day one — not bolted on at the end.",
+      "textZh": "三個啟示：AI 應被設計為增強工具，而非只是自動化。理賠資料應被視為具有策略價值的精算資產。負責任 AI 必須從第一天起就內建在架構中——而不是事後才附加上去。",
+      "slidePage": 23
     },
     {
       "id": "p07s04u04",
-      "startTime": 1265.137,
-      "endTime": 1270.175,
-      "textEn": "Historically, most of that information was locked inside unstructured documents.",
-      "textZh": "過去，這些資訊大多封存於非結構化的文件之中。",
-      "slidePage": 22
+      "startTime": 1249.725,
+      "endTime": 1262.913,
+      "textEn": "As markets face aging populations, rising medical complexity, and post-IFRS 17 demands, actuaries have a real role to play — connecting AI capability with business value, governance, and long-term resilience.",
+      "textZh": "面對高齡化、日益複雜的醫療環境與後 IFRS 17 的需求，精算師有真正的角色要扮演——將 AI 能力連結至商業價值、治理與長期韌性。",
+      "slidePage": 23
     },
     {
       "id": "p07s04u05",
-      "startTime": 1270.175,
-      "endTime": 1280.125,
-      "textEn": "Agentic AI gives us a practical way to unlock it — as long as we design the system with governance, explainability, and human oversight built in from the start.",
-      "textZh": "Agentic AI 提供了一個實際的方式來解鎖這些資訊——只要我們從一開始就將治理、可解釋性與人工監督內建到系統架構中。",
-      "slidePage": 22
-    },
-    {
-      "id": "p07s04u06",
-      "startTime": 1280.125,
-      "endTime": 1287.125,
-      "textEn": "Our experience points to three takeaways. First, AI in claims should be designed as augmentation, not just automation.",
-      "textZh": "我們的經驗指向三個重要啟示。第一，理賠中的 AI 應被設計為增強工具，而非只是自動化工具。",
-      "slidePage": 22
-    },
-    {
-      "id": "p07s04u07",
-      "startTime": 1287.125,
-      "endTime": 1293.225,
-      "textEn": "The goal is to help professionals make better decisions — not simply to remove human involvement.",
-      "textZh": "目標是幫助專業人員做出更好的決策——而不是單純地移除人的參與。",
-      "slidePage": 22
-    },
-    {
-      "id": "p07s04u08",
-      "startTime": 1293.225,
-      "endTime": 1297.512,
-      "textEn": "Second, claims data should be treated as a strategic actuarial asset.",
-      "textZh": "第二，理賠資料應被視為具有策略價值的精算資產。",
-      "slidePage": 22
-    },
-    {
-      "id": "p07s04u09",
-      "startTime": 1297.512,
-      "endTime": 1307.412,
-      "textEn": "When unstructured records become structured, traceable, and governed, they can strengthen experience studies, pricing assumptions, reserving analysis, and risk monitoring.",
-      "textZh": "當非結構化紀錄變得結構化、可追溯且受治理，它們可以強化經驗研究、定價假設、準備金分析與風險監控。",
-      "slidePage": 22
-    },
-    {
-      "id": "p07s04u10",
-      "startTime": 1307.412,
-      "endTime": 1312.375,
-      "textEn": "Third, responsible AI isn't a separate compliance layer you bolt on at the end.",
-      "textZh": "第三，負責任 AI 不是最後才附加上去的合規層次。",
-      "slidePage": 22
-    },
-    {
-      "id": "p07s04u11",
-      "startTime": 1312.375,
-      "endTime": 1322.0,
-      "textEn": "It has to be built into the architecture from day one: human-in-the-loop review, knowledge governance, data lineage, explainable reasoning, and auditability.",
-      "textZh": "它必須從第一天起就內建在架構中：human-in-the-loop 審查、知識治理、資料血緣、可解釋推理與可稽核性。",
-      "slidePage": 22
-    },
-    {
-      "id": "p07s04u12",
-      "startTime": 1322.0,
-      "endTime": 1331.15,
-      "textEn": "As markets face aging populations, rising medical complexity, and post-IFRS 17 operational demands, actuaries have an important role to play.",
-      "textZh": "面對高齡化社會、日益複雜的醫療環境與後 IFRS 17 的營運需求，精算師有重要的角色要扮演。",
-      "slidePage": 22
-    },
-    {
-      "id": "p07s04u13",
-      "startTime": 1331.15,
-      "endTime": 1338.537,
-      "textEn": "Actuaries can help connect AI capability with business value, risk management, governance, and long-term sustainability.",
-      "textZh": "精算師可以幫助連結 AI 能力與商業價值、風險管理、治理與長期永續性。",
-      "slidePage": 22
-    },
-    {
-      "id": "p07s04u14",
-      "startTime": 1338.537,
-      "endTime": 1342.075,
+      "startTime": 1262.913,
+      "endTime": 1266.513,
       "textEn": "Thank you so much for your time — we'd love to take your questions.",
       "textZh": "非常感謝各位的時間——我們很樂意接受大家的提問。",
       "slidePage": 23

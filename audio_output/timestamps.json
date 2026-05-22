@@ -1,0 +1,867 @@
+{
+  "p01s01u01": {
+    "startTime": 0.0,
+    "endTime": 5.2,
+    "duration": 5.2
+  },
+  "p01s01u02": {
+    "startTime": 5.2,
+    "endTime": 11.6,
+    "duration": 6.4
+  },
+  "p01s01u03": {
+    "startTime": 11.6,
+    "endTime": 26.513,
+    "duration": 14.912
+  },
+  "p01s01u04": {
+    "startTime": 26.513,
+    "endTime": 36.4,
+    "duration": 9.887
+  },
+  "p01s01u05": {
+    "startTime": 36.4,
+    "endTime": 39.263,
+    "duration": 2.862
+  },
+  "p01s01u06": {
+    "startTime": 39.263,
+    "endTime": 47.325,
+    "duration": 8.062
+  },
+  "p01s01u07": {
+    "startTime": 47.325,
+    "endTime": 56.9,
+    "duration": 9.575
+  },
+  "p01s02u01": {
+    "startTime": 56.9,
+    "endTime": 60.013,
+    "duration": 3.112
+  },
+  "p01s02u02": {
+    "startTime": 60.013,
+    "endTime": 70.288,
+    "duration": 10.275
+  },
+  "p01s02u03": {
+    "startTime": 70.288,
+    "endTime": 76.788,
+    "duration": 6.5
+  },
+  "p01s02u04": {
+    "startTime": 76.788,
+    "endTime": 84.75,
+    "duration": 7.963
+  },
+  "p01s02u05": {
+    "startTime": 84.75,
+    "endTime": 89.613,
+    "duration": 4.862
+  },
+  "p01s03u01": {
+    "startTime": 89.613,
+    "endTime": 95.475,
+    "duration": 5.862
+  },
+  "p01s03u02": {
+    "startTime": 95.475,
+    "endTime": 99.313,
+    "duration": 3.837
+  },
+  "p01s03u03": {
+    "startTime": 99.313,
+    "endTime": 106.75,
+    "duration": 7.438
+  },
+  "p01s03u04": {
+    "startTime": 106.75,
+    "endTime": 110.35,
+    "duration": 3.6
+  },
+  "p01s03u05": {
+    "startTime": 110.35,
+    "endTime": 115.138,
+    "duration": 4.787
+  },
+  "p01s03u06": {
+    "startTime": 115.138,
+    "endTime": 120.7,
+    "duration": 5.562
+  },
+  "p01s03u07": {
+    "startTime": 120.7,
+    "endTime": 128.162,
+    "duration": 7.463
+  },
+  "p01s03u08": {
+    "startTime": 128.162,
+    "endTime": 133.688,
+    "duration": 5.525
+  },
+  "p01s03u09": {
+    "startTime": 133.688,
+    "endTime": 138.4,
+    "duration": 4.713
+  },
+  "p02s01u01": {
+    "startTime": 138.4,
+    "endTime": 141.8,
+    "duration": 3.4
+  },
+  "p02s01u02": {
+    "startTime": 141.8,
+    "endTime": 150.363,
+    "duration": 8.562
+  },
+  "p02s01u03": {
+    "startTime": 150.363,
+    "endTime": 158.838,
+    "duration": 8.475
+  },
+  "p02s01u04": {
+    "startTime": 158.838,
+    "endTime": 165.613,
+    "duration": 6.775
+  },
+  "p02s01u05": {
+    "startTime": 165.613,
+    "endTime": 169.025,
+    "duration": 3.413
+  },
+  "p02s01u06": {
+    "startTime": 169.025,
+    "endTime": 173.838,
+    "duration": 4.812
+  },
+  "p02s01u07": {
+    "startTime": 173.838,
+    "endTime": 178.213,
+    "duration": 4.375
+  },
+  "p02s01u08": {
+    "startTime": 178.213,
+    "endTime": 180.55,
+    "duration": 2.337
+  },
+  "p02s01u09": {
+    "startTime": 180.55,
+    "endTime": 187.75,
+    "duration": 7.2
+  },
+  "p02s01u10": {
+    "startTime": 187.75,
+    "endTime": 194.412,
+    "duration": 6.662
+  },
+  "p02s01u11": {
+    "startTime": 194.412,
+    "endTime": 201.963,
+    "duration": 7.55
+  },
+  "p02s02u01": {
+    "startTime": 201.963,
+    "endTime": 207.15,
+    "duration": 5.188
+  },
+  "p02s02u02": {
+    "startTime": 207.15,
+    "endTime": 215.013,
+    "duration": 7.862
+  },
+  "p02s02u03": {
+    "startTime": 215.013,
+    "endTime": 223.063,
+    "duration": 8.05
+  },
+  "p02s02u04": {
+    "startTime": 223.063,
+    "endTime": 229.55,
+    "duration": 6.487
+  },
+  "p02s02u05": {
+    "startTime": 229.55,
+    "endTime": 233.713,
+    "duration": 4.162
+  },
+  "p02s02u06": {
+    "startTime": 233.713,
+    "endTime": 238.0,
+    "duration": 4.287
+  },
+  "p02s02u07": {
+    "startTime": 238.0,
+    "endTime": 243.675,
+    "duration": 5.675
+  },
+  "p02s02u08": {
+    "startTime": 243.675,
+    "endTime": 251.138,
+    "duration": 7.463
+  },
+  "p02s03u01": {
+    "startTime": 251.138,
+    "endTime": 254.975,
+    "duration": 3.837
+  },
+  "p02s03u02": {
+    "startTime": 254.975,
+    "endTime": 265.85,
+    "duration": 10.875
+  },
+  "p02s03u03": {
+    "startTime": 265.85,
+    "endTime": 271.588,
+    "duration": 5.737
+  },
+  "p03s01u01": {
+    "startTime": 271.588,
+    "endTime": 275.638,
+    "duration": 4.05
+  },
+  "p03s01u02": {
+    "startTime": 275.638,
+    "endTime": 280.35,
+    "duration": 4.713
+  },
+  "p03s01u03": {
+    "startTime": 280.35,
+    "endTime": 288.538,
+    "duration": 8.188
+  },
+  "p03s01u04": {
+    "startTime": 288.538,
+    "endTime": 295.138,
+    "duration": 6.6
+  },
+  "p03s01u05": {
+    "startTime": 295.138,
+    "endTime": 302.175,
+    "duration": 7.037
+  },
+  "p03s01u06": {
+    "startTime": 302.175,
+    "endTime": 307.063,
+    "duration": 4.888
+  },
+  "p03s02u01": {
+    "startTime": 307.063,
+    "endTime": 311.338,
+    "duration": 4.275
+  },
+  "p03s02u02": {
+    "startTime": 311.338,
+    "endTime": 317.35,
+    "duration": 6.013
+  },
+  "p03s02u03": {
+    "startTime": 317.35,
+    "endTime": 324.713,
+    "duration": 7.362
+  },
+  "p03s02u04": {
+    "startTime": 324.713,
+    "endTime": 328.363,
+    "duration": 3.65
+  },
+  "p03s02u05": {
+    "startTime": 328.363,
+    "endTime": 336.137,
+    "duration": 7.775
+  },
+  "p03s02u06": {
+    "startTime": 336.137,
+    "endTime": 340.637,
+    "duration": 4.5
+  },
+  "p03s02u07": {
+    "startTime": 340.637,
+    "endTime": 346.912,
+    "duration": 6.275
+  },
+  "p03s03u01": {
+    "startTime": 346.912,
+    "endTime": 351.287,
+    "duration": 4.375
+  },
+  "p03s03u02": {
+    "startTime": 351.287,
+    "endTime": 357.55,
+    "duration": 6.263
+  },
+  "p03s03u03": {
+    "startTime": 357.55,
+    "endTime": 363.862,
+    "duration": 6.312
+  },
+  "p03s03u04": {
+    "startTime": 363.862,
+    "endTime": 367.85,
+    "duration": 3.987
+  },
+  "p03s03u05": {
+    "startTime": 367.85,
+    "endTime": 374.025,
+    "duration": 6.175
+  },
+  "p04s01u01": {
+    "startTime": 374.025,
+    "endTime": 378.787,
+    "duration": 4.763
+  },
+  "p04s01u02": {
+    "startTime": 378.787,
+    "endTime": 384.1,
+    "duration": 5.312
+  },
+  "p04s01u03": {
+    "startTime": 384.1,
+    "endTime": 389.487,
+    "duration": 5.388
+  },
+  "p04s01u04": {
+    "startTime": 389.487,
+    "endTime": 398.412,
+    "duration": 8.925
+  },
+  "p04s01u05": {
+    "startTime": 398.412,
+    "endTime": 403.025,
+    "duration": 4.612
+  },
+  "p04s01u06": {
+    "startTime": 403.025,
+    "endTime": 410.325,
+    "duration": 7.3
+  },
+  "p04s01u07": {
+    "startTime": 410.325,
+    "endTime": 413.775,
+    "duration": 3.45
+  },
+  "p04s02u01": {
+    "startTime": 413.775,
+    "endTime": 417.15,
+    "duration": 3.375
+  },
+  "p04s02u02": {
+    "startTime": 417.15,
+    "endTime": 422.075,
+    "duration": 4.925
+  },
+  "p04s02u03": {
+    "startTime": 422.075,
+    "endTime": 423.775,
+    "duration": 1.7
+  },
+  "p04s02u04": {
+    "startTime": 423.775,
+    "endTime": 430.85,
+    "duration": 7.075
+  },
+  "p04s02u05": {
+    "startTime": 430.85,
+    "endTime": 432.55,
+    "duration": 1.7
+  },
+  "p04s02u06": {
+    "startTime": 432.55,
+    "endTime": 438.3,
+    "duration": 5.75
+  },
+  "p04s02u07": {
+    "startTime": 438.3,
+    "endTime": 446.575,
+    "duration": 8.275
+  },
+  "p04s02u08": {
+    "startTime": 446.575,
+    "endTime": 454.137,
+    "duration": 7.562
+  },
+  "p04s03u01": {
+    "startTime": 454.137,
+    "endTime": 461.487,
+    "duration": 7.35
+  },
+  "p04s03u02": {
+    "startTime": 461.487,
+    "endTime": 464.337,
+    "duration": 2.85
+  },
+  "p04s03u03": {
+    "startTime": 464.337,
+    "endTime": 470.575,
+    "duration": 6.237
+  },
+  "p04s03u04": {
+    "startTime": 470.575,
+    "endTime": 475.988,
+    "duration": 5.412
+  },
+  "p04s03u05": {
+    "startTime": 475.988,
+    "endTime": 483.863,
+    "duration": 7.875
+  },
+  "p04s03u06": {
+    "startTime": 483.863,
+    "endTime": 486.637,
+    "duration": 2.775
+  },
+  "p04s03u07": {
+    "startTime": 486.637,
+    "endTime": 491.35,
+    "duration": 4.713
+  },
+  "p04s03u08": {
+    "startTime": 491.35,
+    "endTime": 497.587,
+    "duration": 6.237
+  },
+  "p04s03u09": {
+    "startTime": 497.587,
+    "endTime": 504.037,
+    "duration": 6.45
+  },
+  "p04s03u10": {
+    "startTime": 504.037,
+    "endTime": 511.587,
+    "duration": 7.55
+  },
+  "p05s01u01": {
+    "startTime": 511.587,
+    "endTime": 517.612,
+    "duration": 6.025
+  },
+  "p05s01u02": {
+    "startTime": 517.612,
+    "endTime": 525.237,
+    "duration": 7.625
+  },
+  "p05s01u03": {
+    "startTime": 525.237,
+    "endTime": 538.475,
+    "duration": 13.238
+  },
+  "p05s01u04": {
+    "startTime": 538.475,
+    "endTime": 545.5,
+    "duration": 7.025
+  },
+  "p05s01u05": {
+    "startTime": 545.5,
+    "endTime": 550.312,
+    "duration": 4.812
+  },
+  "p05s01u06": {
+    "startTime": 550.312,
+    "endTime": 565.012,
+    "duration": 14.7
+  },
+  "p05s01u07": {
+    "startTime": 565.012,
+    "endTime": 574.775,
+    "duration": 9.762
+  },
+  "p05s01u08": {
+    "startTime": 574.775,
+    "endTime": 580.688,
+    "duration": 5.912
+  },
+  "p05s01u09": {
+    "startTime": 580.688,
+    "endTime": 589.138,
+    "duration": 8.45
+  },
+  "p05s02u01": {
+    "startTime": 589.138,
+    "endTime": 596.188,
+    "duration": 7.05
+  },
+  "p05s02u02": {
+    "startTime": 596.188,
+    "endTime": 605.962,
+    "duration": 9.775
+  },
+  "p05s02u03": {
+    "startTime": 605.962,
+    "endTime": 615.55,
+    "duration": 9.588
+  },
+  "p05s02u04": {
+    "startTime": 615.55,
+    "endTime": 618.5,
+    "duration": 2.95
+  },
+  "p05s02u05": {
+    "startTime": 618.5,
+    "endTime": 625.725,
+    "duration": 7.225
+  },
+  "p05s02u06": {
+    "startTime": 625.725,
+    "endTime": 640.05,
+    "duration": 14.325
+  },
+  "p05s02u07": {
+    "startTime": 640.05,
+    "endTime": 646.688,
+    "duration": 6.638
+  },
+  "p05s02u08": {
+    "startTime": 646.688,
+    "endTime": 654.275,
+    "duration": 7.588
+  },
+  "p05s03u01": {
+    "startTime": 654.275,
+    "endTime": 660.4,
+    "duration": 6.125
+  },
+  "p05s03u02": {
+    "startTime": 660.4,
+    "endTime": 673.863,
+    "duration": 13.463
+  },
+  "p05s03u03": {
+    "startTime": 673.863,
+    "endTime": 676.638,
+    "duration": 2.775
+  },
+  "p05s03u04": {
+    "startTime": 676.638,
+    "endTime": 684.525,
+    "duration": 7.888
+  },
+  "p05s03u05": {
+    "startTime": 684.525,
+    "endTime": 693.863,
+    "duration": 9.338
+  },
+  "p05s03u06": {
+    "startTime": 693.863,
+    "endTime": 702.738,
+    "duration": 8.875
+  },
+  "p05s03u07": {
+    "startTime": 702.738,
+    "endTime": 704.6,
+    "duration": 1.863
+  },
+  "p06s01u01": {
+    "startTime": 704.6,
+    "endTime": 710.038,
+    "duration": 5.438
+  },
+  "p06s01u02": {
+    "startTime": 710.038,
+    "endTime": 716.25,
+    "duration": 6.213
+  },
+  "p06s01u03": {
+    "startTime": 716.25,
+    "endTime": 726.612,
+    "duration": 10.363
+  },
+  "p06s01u04": {
+    "startTime": 726.612,
+    "endTime": 739.8,
+    "duration": 13.188
+  },
+  "p06s01u05": {
+    "startTime": 739.8,
+    "endTime": 749.85,
+    "duration": 10.05
+  },
+  "p06s01u06": {
+    "startTime": 749.85,
+    "endTime": 762.462,
+    "duration": 12.613
+  },
+  "p06s02u01": {
+    "startTime": 762.462,
+    "endTime": 771.3,
+    "duration": 8.838
+  },
+  "p06s02u02": {
+    "startTime": 771.3,
+    "endTime": 779.837,
+    "duration": 8.537
+  },
+  "p06s02u03": {
+    "startTime": 779.837,
+    "endTime": 787.937,
+    "duration": 8.1
+  },
+  "p06s02u04": {
+    "startTime": 787.937,
+    "endTime": 795.1,
+    "duration": 7.162
+  },
+  "p06s02u05": {
+    "startTime": 795.1,
+    "endTime": 803.812,
+    "duration": 8.713
+  },
+  "p06s02u06": {
+    "startTime": 803.812,
+    "endTime": 813.712,
+    "duration": 9.9
+  },
+  "p06s02u07": {
+    "startTime": 813.712,
+    "endTime": 822.05,
+    "duration": 8.338
+  },
+  "p06s03u01": {
+    "startTime": 822.05,
+    "endTime": 829.825,
+    "duration": 7.775
+  },
+  "p06s03u02": {
+    "startTime": 829.825,
+    "endTime": 834.637,
+    "duration": 4.812
+  },
+  "p06s03u03": {
+    "startTime": 834.637,
+    "endTime": 845.487,
+    "duration": 10.85
+  },
+  "p06s03u04": {
+    "startTime": 845.487,
+    "endTime": 851.887,
+    "duration": 6.4
+  },
+  "p06s03u05": {
+    "startTime": 851.887,
+    "endTime": 864.2,
+    "duration": 12.312
+  },
+  "p06s03u06": {
+    "startTime": 864.2,
+    "endTime": 871.65,
+    "duration": 7.45
+  },
+  "p06s03u07": {
+    "startTime": 871.65,
+    "endTime": 876.912,
+    "duration": 5.263
+  },
+  "p06s04u01": {
+    "startTime": 876.912,
+    "endTime": 883.787,
+    "duration": 6.875
+  },
+  "p06s04u02": {
+    "startTime": 883.787,
+    "endTime": 896.537,
+    "duration": 12.75
+  },
+  "p06s04u03": {
+    "startTime": 896.537,
+    "endTime": 904.537,
+    "duration": 8.0
+  },
+  "p06s04u04": {
+    "startTime": 904.537,
+    "endTime": 914.212,
+    "duration": 9.675
+  },
+  "p06s04u05": {
+    "startTime": 914.212,
+    "endTime": 927.475,
+    "duration": 13.262
+  },
+  "p06s04u06": {
+    "startTime": 927.475,
+    "endTime": 933.675,
+    "duration": 6.2
+  },
+  "p06s04u07": {
+    "startTime": 933.675,
+    "endTime": 945.525,
+    "duration": 11.85
+  },
+  "p06s04u08": {
+    "startTime": 945.525,
+    "endTime": 956.575,
+    "duration": 11.05
+  },
+  "p06s04u09": {
+    "startTime": 956.575,
+    "endTime": 962.15,
+    "duration": 5.575
+  },
+  "p06s04u10": {
+    "startTime": 962.15,
+    "endTime": 969.837,
+    "duration": 7.688
+  },
+  "p06s04u11": {
+    "startTime": 969.837,
+    "endTime": 974.95,
+    "duration": 5.112
+  },
+  "p07s01u01": {
+    "startTime": 974.95,
+    "endTime": 983.462,
+    "duration": 8.512
+  },
+  "p07s01u02": {
+    "startTime": 983.462,
+    "endTime": 993.2,
+    "duration": 9.738
+  },
+  "p07s01u03": {
+    "startTime": 993.2,
+    "endTime": 1000.475,
+    "duration": 7.275
+  },
+  "p07s01u04": {
+    "startTime": 1000.475,
+    "endTime": 1009.4,
+    "duration": 8.925
+  },
+  "p07s01u05": {
+    "startTime": 1009.4,
+    "endTime": 1016.937,
+    "duration": 7.537
+  },
+  "p07s01u06": {
+    "startTime": 1016.937,
+    "endTime": 1021.05,
+    "duration": 4.112
+  },
+  "p07s01u07": {
+    "startTime": 1021.05,
+    "endTime": 1030.025,
+    "duration": 8.975
+  },
+  "p07s01u08": {
+    "startTime": 1030.025,
+    "endTime": 1040.362,
+    "duration": 10.338
+  },
+  "p07s01u09": {
+    "startTime": 1040.362,
+    "endTime": 1050.25,
+    "duration": 9.887
+  },
+  "p07s02u01": {
+    "startTime": 1050.25,
+    "endTime": 1055.763,
+    "duration": 5.513
+  },
+  "p07s02u02": {
+    "startTime": 1055.763,
+    "endTime": 1062.1,
+    "duration": 6.338
+  },
+  "p07s02u03": {
+    "startTime": 1062.1,
+    "endTime": 1067.075,
+    "duration": 4.975
+  },
+  "p07s02u04": {
+    "startTime": 1067.075,
+    "endTime": 1076.325,
+    "duration": 9.25
+  },
+  "p07s02u05": {
+    "startTime": 1076.325,
+    "endTime": 1087.475,
+    "duration": 11.15
+  },
+  "p07s02u06": {
+    "startTime": 1087.475,
+    "endTime": 1097.988,
+    "duration": 10.512
+  },
+  "p07s02u07": {
+    "startTime": 1097.988,
+    "endTime": 1107.013,
+    "duration": 9.025
+  },
+  "p07s02u08": {
+    "startTime": 1107.013,
+    "endTime": 1118.45,
+    "duration": 11.438
+  },
+  "p07s03u01": {
+    "startTime": 1118.45,
+    "endTime": 1123.8,
+    "duration": 5.35
+  },
+  "p07s03u02": {
+    "startTime": 1123.8,
+    "endTime": 1134.938,
+    "duration": 11.137
+  },
+  "p07s03u03": {
+    "startTime": 1134.938,
+    "endTime": 1145.5,
+    "duration": 10.562
+  },
+  "p07s03u04": {
+    "startTime": 1145.5,
+    "endTime": 1152.913,
+    "duration": 7.412
+  },
+  "p07s03u05": {
+    "startTime": 1152.913,
+    "endTime": 1166.338,
+    "duration": 13.425
+  },
+  "p07s03u06": {
+    "startTime": 1166.338,
+    "endTime": 1173.538,
+    "duration": 7.2
+  },
+  "p07s03u07": {
+    "startTime": 1173.538,
+    "endTime": 1184.425,
+    "duration": 10.887
+  },
+  "p07s03u08": {
+    "startTime": 1184.425,
+    "endTime": 1191.713,
+    "duration": 7.287
+  },
+  "p07s03u09": {
+    "startTime": 1191.713,
+    "endTime": 1204.9,
+    "duration": 13.188
+  },
+  "p07s03u10": {
+    "startTime": 1204.9,
+    "endTime": 1218.8,
+    "duration": 13.9
+  },
+  "p07s04u01": {
+    "startTime": 1218.8,
+    "endTime": 1224.138,
+    "duration": 5.338
+  },
+  "p07s04u02": {
+    "startTime": 1224.138,
+    "endTime": 1236.388,
+    "duration": 12.25
+  },
+  "p07s04u03": {
+    "startTime": 1236.388,
+    "endTime": 1249.725,
+    "duration": 13.338
+  },
+  "p07s04u04": {
+    "startTime": 1249.725,
+    "endTime": 1262.913,
+    "duration": 13.188
+  },
+  "p07s04u05": {
+    "startTime": 1262.913,
+    "endTime": 1266.513,
+    "duration": 3.6
+  }
+}
