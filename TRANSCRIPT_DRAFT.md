@@ -224,25 +224,19 @@
 **[p05s02u08]** And honestly, the more we worked on this, the clearer it became — one model just can't do all of this well at the same time.
 
 ## Slide 15
-**[p05s03u01]** Our answer is a multi-agent architecture, where each agent owns a specific part of the reasoning.
+**[p05s03u01]** Our answer is a multi-agent architecture — where each agent owns a specific part of the reasoning.
 
-**[p05s03u02]** A document extraction agent picks out structured fields from medical records and claim forms.
+**[p05s03u02]** Think of it like a team: one agent extracts key facts from the documents, another interprets the medical context, one checks the policy terms, one flags risk signals, and one pulls it all together into a final report.
 
-**[p05s03u03]** A medical understanding agent interprets diagnoses, treatments, hospitalization details, and clinical context.
+**[p05s03u03]** Each agent does one thing — and does it well.
 
-**[p05s03u04]** A policy interpretation agent retrieves relevant policy terms, benefit definitions, exclusions, and claim conditions. A risk analysis agent reviews risk indicators and flags possible inconsistencies.
+**[p05s03u04]** This makes the system much easier to govern. If something's off, we know exactly which agent to look at — not the entire system.
 
-**[p05s03u05]** And a reasoning and report agent combines all the evidence and produces a structured pre-assessment report. This modular design has a few key advantages.
+**[p05s03u05]** It also supports explainability. Each agent's output is traceable, so the reviewer can follow the reasoning step by step — not just see a final number.
 
-**[p05s03u06]** First, it's easier to govern.
+**[p05s03u06]** And as medical knowledge, policy terms, or fraud patterns evolve, we can update just the relevant agent — without rebuilding everything from scratch.
 
-**[p05s03u07]** If there's an issue with policy interpretation or medical extraction, we can evaluate that component on its own. Second, it supports explainability.
-
-**[p05s03u08]** Each agent contributes a specific piece of the reasoning pathway. Third, it supports continuous improvement.
-
-**[p05s03u09]** As policy knowledge, medical terminology, or fraud patterns evolve, we can update the relevant components without having to redesign the whole system.
-
-**[p05s03u10]** Architecture only matters when it changes the reviewer's actual experience — so let's look at what this architecture produces in practice.
+**[p05s03u07]** Let me show you what this actually produces.
 
 ## Slide 16
 **[p06s01u01]** The most visible result of that architecture is the AI pre-assessment decision report.
