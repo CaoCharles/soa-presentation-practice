@@ -1,192 +1,296 @@
 # 逐字稿改寫版（口語化）
-> 共 169 段，每段目標 ≤ 25 字
+> 共 206 段，每段目標 ≤ 25 字
 
 ---
 
 ## Slide 1
-**[p01s01u01]** Good morning everyone. It’s a pleasure to be here at the Asia-Pacific Symposium today.
+**[p01s01u01]** Good afternoon, everyone. Thanks so much for being here.
 
-**[p01s01u02]** My name is Yu Chung Wu from Cathay Life Insurance in Taiwan, and I’m joined today by my colleague Li Yu Tsao.
+**[p01s01u02]** My name is Li Yu Tsao, and joining me today is my colleague Yu Chung Wu from Cathay Life Insurance in Taiwan.
 
-**[p01s01u03]** Today, we would like to share how we are leveraging Agentic AI to improve claims adjudication efficiency and quality. And more importantly, how we transform claims data into explainable, traceable, and actuarial-ready decision intelligence.
+**[p01s01u03]** Today we want to share something that sits right at the crossroads of claims operations, actuarial analytics, risk management, and responsible AI.
 
-**[p01s01u04]** When people think about AI in claims, efficiency is usually the first thing that comes to mind — faster processing, less manual work, and shorter turnaround time.
+**[p01s01u04]** Our talk is called "Beyond Efficiency: Leveraging Agentic AI for Claims Experience Analysis and Risk Resilience in Taiwan's Life Insurance."
 
-**[p01s01u05]** But today, we would like to go one step further.
+**[p01s01u05]** When most people first hear about AI in claims, they immediately think about efficiency: faster processing, less manual work, and shorter waiting time for customers.
 
-**[p01s01u06]** Can AI become more than just an automation tool, and instead become a strategic source of actuarial insight and risk management?
+**[p01s01u06]** Those questions matter. But today we want to go one step further and ask what claims AI can teach the organization.
 
-**[p01s01u07]** Today, we will share how Agentic AI and a multi-agent architecture can transform claims decisions into structured, governed, and actuarial-ready insights.
+**[p01s01u07]** We want to talk about how claims AI can be more than just an automation tool.
+
+**[p01s01u08]** It can actually become a real source of actuarial insight.
+
+**[p01s01u09]** It can help insurers spot emerging health trends, sharpen experience analysis, strengthen fraud monitoring, and build a more resilient operation overall.
+
+**[p01s01u10]** Our core message is pretty simple: if claims data can go from messy, unstructured records to something explainable, governed, and ready for actuarial use, then claims operations can become a true strategic asset for the whole company.
+
+**[p01s01u11]** As you listen today, I'd invite you to keep one question in mind: in your own organization, are claims records mainly treated as evidence for payment — or also as evidence for learning?
+
 
 ## Slide 2
-**[p01s02u01]** Before we begin, let us briefly introduce ourselves.
+**[p01s02u01]** Let me briefly introduce the two of us.
 
-**[p01s02u02]** We are from Cathay Life Insurance, one of the leading life insurers in Taiwan, serving more than 8 million customers with over 20 million policies in force.
+**[p01s02u02]** My work focuses on applying AI and machine learning to insurance operations — especially natural language processing and large language models, which we call LLMs, for claims and medical documentation.
 
-**[p01s02u03]** The content we share today comes from our practical experience in claims operations and AI applications.
+**[p01s02u03]** And I'm Yu Chung Wu. My work focuses on claims operations and AI system architecture.
 
-**[p01s02u04]** Both of us currently work as data scientists, focusing on AI applications in claims decision-making and decision intelligence.
+**[p01s02u04]** On this project, we worked closely with claims professionals, data scientists, IT teams, and governance stakeholders to design an AI-assisted claims pre-adjudication framework.
 
-**[p01s02u05]** Let us begin by looking at the key challenges facing claims operations today.
+**[p01s02u05]** Together, we'll walk you through three questions. First, why is Taiwan's life insurance claims environment getting more complex?
+
+**[p01s02u06]** Second, how did we design CAELIA — the Cathay AI Engine for Life Insurance Adjudication — as an agentic AI framework?
+
+**[p01s02u07]** Agentic AI, by the way, is AI that can take initiative and carry out multi-step tasks on its own.
+
+**[p01s02u08]** And third, how can this kind of framework create value beyond just operational efficiency — especially for experience studies, pricing, reserving, risk monitoring, and governance?
+
+**[p01s02u09]** With that framing in place, let's start with the pressures that made this work necessary in the first place.
+
 
 ## Slide 3
-**[p01s03u01]** Claims operations in the life insurance industry are facing significant structural pressure.
+**[p01s03u01]** Let's start with the business context.
 
-**[p01s03u02]** On one hand, the external environment is becoming more complex.
+**[p01s03u02]** Claims operations in Taiwan are under structural pressure from three directions: rising external pressure, a growing internal workload, and emerging constraints around talent and organization.
 
-**[p01s03u03]** Aging populations continue to drive claims demand, while fraud and risk patterns are also becoming more sophisticated.
+**[p01s03u03]** The first pressure is demographic and medical.
 
-**[p01s03u04]** On the other hand, operational burden is increasing rapidly.
+**[p01s03u04]** Taiwan is entering what's called a super-aged society.
 
-**[p01s03u05]** Cathay Life now handles more than 1.6 million claims cases every year.
+**[p01s03u05]** Life insurers are seeing more and more claims tied to chronic disease, dementia, long-term care, hospitalization, and post-treatment recovery.
 
-**[p01s03u06]** But the bigger challenge is that claims volume is growing much faster than workforce capacity.
+**[p01s03u06]** These cases often involve complex medical records, multiple diagnoses, and long claims histories.
 
-**[p01s03u07]** Over the past few years, claims volume has increased by more than 50%, while workforce growth has only been around 20%.
+**[p01s03u07]** At the same time, rising healthcare costs are shifting more financial responsibility onto private insurance.
 
-**[p01s03u08]** This makes traditional labor-intensive review models increasingly difficult to sustain.
+**[p01s03u08]** People are increasingly relying on life and health insurance to cover medical and long-term care needs.
 
-**[p01s03u09]** Under these pressures, claims operations have continued to evolve over time.
+**[p01s03u09]** On the slide, you can see the scale of that pressure: claim volume has grown by 56 percent.
+
+**[p01s03u10]** The second pressure is operational.
+
+**[p01s03u11]** At Cathay Life, we are talking about more than 1.6 million claims a year, with more high-frequency, low-severity claims entering the workflow.
+
+**[p01s03u12]** Individually, they might not be large amounts.
+
+**[p01s03u13]** But together they create real fragmentation, because every single case still needs document review, policy interpretation, data entry, and quality control.
+
+**[p01s03u14]** The third pressure is talent. Claims adjudication requires experienced judgment across medical terminology, policy terms, fraud patterns, customer situations, and regulatory expectations.
+
+**[p01s03u15]** But experienced claims and risk professionals are hard to scale up quickly. So the challenge isn't just "how do we process more claims?"
+
+**[p01s03u16]** The deeper question is: "When both complexity and volume are going up at the same time, how do we keep decision quality, risk control, and actuarial insight strong?"
+
+**[p01s03u17]** That's the starting point for our AI journey.
+
+**[p01s03u18]** Before we get into the technology, it's worth stepping back and asking: how did claims adjudication get to this point, and why aren't the old tools enough anymore?
+
 
 ## Slide 4
-**[p02s01u01]** Especially with advances in AI and digital technology.
+**[p02s01u01]** Claims processing has always evolved alongside the available technology. But each stage solved one problem while leaving another one behind.
 
-**[p02s01u02]** In the IBM AS400 era, claims processing was mainly transaction-driven and highly dependent on manual and paper-based workflows.
+**[p02s01u02]** In the IBM AS/400 era, claims processing was mostly data-entry driven. The main goal was to record claims accurately and get payments out.
 
-**[p02s01u03]** Later, in the core system era, insurers started digitalizing claims workflows and introducing rule-based engines to improve efficiency.
+**[p02s01u03]** In the core systems era, insurers digitized their workflows and introduced rule-based engines, which made standard claims more consistent.
 
-**[p02s01u04]** In the machine learning era, models started being used for risk scoring, anomaly detection, and claims triage.
+**[p02s01u04]** In the data modeling era, machine learning models supported risk tagging, anomaly detection, and triage. But many of those models were still limited to scoring.
 
-**[p02s01u05]** However, most models still stayed at the scoring stage.
+**[p02s01u05]** They could identify higher-risk cases, but they didn't always explain the evidence in a way that reviewers could immediately act on.
 
-**[p02s01u06]** They could identify higher-risk cases, but they could not always explain why.
+**[p02s01u06]** Now we're entering what we call the agentic AI era.
 
-**[p02s01u07]** Now, we believe claims adjudication is entering the era of Agentic AI.
+**[p02s01u07]** AI is no longer just a passive tool waiting for someone to ask it a question.
 
-**[p02s01u08]** AI is no longer only providing scores.
+**[p02s01u08]** It can actively take part in parts of the adjudication process — reading documents, pulling out evidence, comparing information against policy terms, spotting inconsistencies, and generating recommendations.
 
-**[p02s01u09]** It is starting to become part of the decision process by providing reasoning, evidence, and decision recommendations.
+**[p02s01u09]** But this shift also raises an important governance question.
 
-**[p02s01u10]** In other words, claims operations are evolving from efficiency-driven toward decision-intelligence-driven.
+**[p02s01u10]** If AI is becoming more active, how do we keep it explainable, controllable, auditable, and aligned with professional judgment?
 
-**[p02s01u11]** But to understand why Agentic AI matters, we first need to look at where complexity actually exists in the claims workflow.
+**[p02s01u11]** Our answer isn't full automation without any oversight.
+
+**[p02s01u12]** It's human-in-the-loop agentic AI: AI does the structured analysis and prepares the evidence, while human reviewers keep the final decision authority.
+
+**[p02s01u13]** To see why that matters, let's look at the actual claims journey.
+
+**[p02s01u14]** Where does complexity enter the workflow, and where does valuable information start to disappear?
+
 
 ## Slide 5
-**[p02s02u01]** Before we dive into Agentic AI, let us first look at the traditional claims process.
+**[p02s02u01]** Before we explain the new framework, let's look at the traditional claims review process. In a typical flow, a customer submits their claim documents.
 
-**[p02s02u02]** From claim submission to manual review and final claim decisions, the process is long and highly dependent on human judgment.
+**[p02s02u02]** The slide breaks this into six steps: intake, registration and case creation, case assignment, review, decision, and finally closure and archiving.
 
-**[p02s02u03]** Throughout the process, reviewers need to handle medical information, policy interpretation, risk assessment, and claim validation.
+**[p02s02u03]** That sounds pretty straightforward — but in practice, many steps require a lot of interpretation.
 
-**[p02s02u04]** In other words, claims adjudication is not just an operational workflow — it is a complex decision process.
+**[p02s02u04]** A medical certificate might have free-text descriptions, abbreviations, different hospital formats, or Traditional Chinese medical terminology.
 
-**[p02s02u05]** And this is exactly where we believe AI can begin to create value.
+**[p02s02u05]** A diagnosis might need to be mapped to an internal disease category.
 
-**[p02s02u06]** However, building Agentic AI is not just about adding a single model.
+**[p02s02u06]** A procedure or hospitalization period might need to be checked against policy definitions, exclusions, deductibles, or benefit limits.
 
-**[p02s02u07]** It requires a series of foundational capabilities and infrastructure built along the way.
+**[p02s02u07]** And here's the key challenge: most of the most valuable information isn't born in a structured format.
 
-**[p02s02u08]** So over the next few slides, we will briefly walk through these foundational building blocks before returning to Agentic AI.
+**[p02s02u08]** If we only capture the final outcome — approved or declined, or the final payment amount — we lose a huge amount of explanatory information along the way.
+
+**[p02s02u09]** For operations, that means more manual work. For actuaries, it means weaker data granularity.
+
+**[p02s02u10]** We might know the claim result, but we may not fully know the cause, the medical pathway, the detailed risk factors, or what evidence was behind the decision.
+
+**[p02s02u11]** That's why we believe the claims process needs to be redesigned — not just as a payment workflow, but as a data transformation workflow too.
+
+**[p02s02u12]** If we look at it through that lens, the first question becomes: how early can we capture useful information, and how much structure can we create before the case even reaches a human reviewer?
+
 
 ## Slide 6
-**[p02s03u01]** The first foundational capability is digital claims submission.
+**[p02s03u01]** The first step is digital claims submission.
 
-**[p02s03u02]** Claims processing used to rely heavily on paper documents and manual intake, but now customers can submit claims and upload documents directly through a mobile application.
+**[p02s03u02]** As the app screens show, customers can start a claims application, upload documents, check claims results, and review application details directly through the mobile app.
 
-**[p02s03u03]** This not only improves customer experience, but also creates the foundation for AI applications.
+**[p02s03u03]** This is great for customer convenience and it shortens turnaround time. But digital submission alone doesn't solve the whole problem.
+
+**[p02s03u04]** A claim might arrive digitally, but the supporting medical documents are still unstructured.
+
+**[p02s03u05]** They might be scanned images, PDFs, hospital certificates, receipts, diagnosis documents, or discharge summaries. So digitalization is necessary — but it's not enough on its own.
+
+**[p02s03u06]** It gets us the documents faster, but it doesn't automatically create analytical value.
+
+**[p02s03u07]** To create that analytical value, we need to convert those documents into structured, reliable, and explainable data.
+
+**[p02s03u08]** That's where OCR, large language models, and agentic AI start to play a role.
+
+**[p02s03u09]** OCR converts images to machine-readable text; LLMs understand the meaning of what's in those documents.
+
+**[p02s03u10]** But once documents arrive digitally, we still face a second question: can AI understand what's inside those documents well enough to support the decisions that come next?
+
 
 ## Slide 7
-**[p03s01u01]** The second foundational capability is structured data extraction.
+**[p03s01u01]** After submission, the next step is case registration. Traditionally, staff would review documents and manually type key fields into the claims system.
 
-**[p03s01u02]** In real-world claims scenarios, most medical documents are still unstructured.
+**[p03s01u02]** AI-driven structured data extraction changes that step. In our framework, OCR first converts document images into machine-readable text.
 
-**[p03s01u03]** Diagnosis certificates, receipts, and hospitalization records often contain free text, abbreviations, and different hospital formats.
+**[p03s01u03]** Then LLM-based extraction identifies fields like diagnosis, treatment dates, hospital name, surgery information, claim amount, and other relevant details.
 
-**[p03s01u04]** At this stage, we introduced OCR and large language models to extract key information from medical documents.
+**[p03s01u04]** But we don't treat extraction as a simple copy-and-paste task.
 
-**[p03s01u05]** This includes diagnosis information, surgical procedures, hospitalization periods, and other claims-related fields.
+**[p03s01u05]** The AI needs to distinguish past medical history from the current claim event, a suspected diagnosis from a confirmed one, and one hospital's document style from another.
 
-**[p03s01u06]** These fields are then parsed into structured data for downstream AI applications.
+**[p03s01u06]** For Traditional Chinese medical documentation, this is especially important.
+
+**[p03s01u07]** The language is very domain-specific, and the same clinical concept can show up in completely different wording across different hospitals.
+
+**[p03s01u08]** By structuring this information early, we create a much better foundation for downstream triage, review, risk analysis, and actuarial use.
+
+**[p03s01u09]** Once that foundation is in place, the workflow can move from simple case creation to something more decision-oriented: which cases need more attention, and why?
+
 
 ## Slide 8
-**[p03s02u01]** The next foundational capability is claims triage and risk analysis.
+**[p03s02u01]** Once case data is structured, we can move into claims triage. Machine learning models can assess claim risk and help route cases.
 
-**[p03s02u02]** At this stage, we introduced machine learning models to support risk assessment and case routing.
+**[p03s02u02]** Low-risk, straightforward cases can go through a more streamlined workflow, while complex or suspicious cases get sent to experienced reviewers for a deeper look.
 
-**[p03s02u03]** We trained these models using historical claims data, such as policy information, claims history, and medical features.
+**[p03s02u03]** This kind of triage helps operations allocate human expertise more effectively. But there's an important limitation: a risk score by itself isn't enough.
 
-**[p03s02u04]** Model outputs are used for claims triage and risk tagging.
+**[p03s02u04]** If a model says a case has a risk score of 82 out of 100, the claims reviewer still needs to know why.
 
-**[p03s02u05]** Low-risk cases can follow simplified workflows, while more complex or suspicious cases are routed to experienced reviewers.
+**[p03s02u05]** Is the risk coming from a diagnosis inconsistency? Repeated claims? A provider pattern? Unusual timing? Policy duration? Medical history? Or a document inconsistency?
 
-**[p03s02u06]** This helps reviewers focus on the cases that require the most attention.
+**[p03s02u06]** This is where traditional machine learning and agentic AI can work together. Machine learning is great at spotting patterns at scale.
 
-**[p03s02u07]** Over time, we also realized that risk scoring alone is not enough for more complex claims decisions.
+**[p03s02u07]** Agentic AI can gather the evidence, organize the reasoning, and lay out the basis for review.
+
+**[p03s02u08]** The goal isn't to hand a reviewer a black-box score and walk away.
+
+**[p03s02u09]** The goal is to help them make faster, better-informed, more consistent decisions. This leads naturally to the next design question.
+
+**[p03s02u10]** If a case is routed to a human reviewer, what should that review environment look like — so that human expertise is used where it actually matters most?
+
 
 ## Slide 9
-**[p03s03u01]** Another foundational capability is the unified smart claims platform.
+**[p03s03u01]** For cases that need human review, we built a unified smart claims platform.
 
-**[p03s03u02]** We integrate claims information, risk results, related documents, and decision support into one workbench.
+**[p03s03u02]** The idea is to bring multi-source data into one review workbench, so reviewers don't have to jump between systems, documents, policy references, customer records, risk tags, and decision notes.
 
-**[p03s03u03]** This allows reviewers to access key information in one place without switching between multiple systems.
+**[p03s03u03]** Everything is in one place: claims information, risk detection results, quick access to related documents, and decision support.
 
-**[p03s03u04]** This not only improves efficiency, but also reduces cognitive load.
+**[p03s03u04]** This matters because operational efficiency isn't only about automating tasks. It's also about reducing cognitive load.
 
-**[p03s03u05]** Once information is organized more effectively, reviewers can focus more on professional judgment.
+**[p03s03u05]** When information is scattered across systems, reviewers spend a lot of time just searching, comparing, and reconciling.
+
+**[p03s03u06]** When it's organized, they can spend more time on actual professional judgment.
+
+**[p03s03u07]** In other words, the system shouldn't just process data. It should create a better decision environment for experts.
+
+**[p03s03u08]** Once the reviewer is in that environment, AI support has to appear at the right moment. The question isn't just "Can AI analyze this case?"
+
+**[p03s03u09]** It's "Can AI help the reviewer think more clearly about this case?"
+
 
 ## Slide 10
-**[p04s01u01]** Within this platform, we further embedded multiple AI-assisted capabilities.
+**[p04s01u01]** Inside the review workbench, we embed several AI-assisted features. The first is risk tagging.
 
-**[p04s01u02]** For example, risk tagging helps highlight key risk indicators that require attention.
+**[p04s01u02]** AI highlights risk indicators and helps reviewers understand which parts of the case deserve attention. The second is decision support.
 
-**[p04s01u03]** Decision support guides reviewers based on diagnosis ICD codes and review priorities.
+**[p04s01u03]** AI summarizes the relevant medical facts, policy terms, and claim conditions, then organizes them into a review-ready format. The third is relationship graph analysis.
 
-**[p04s01u04]** Relationship graph analysis helps reviewers understand connections among insured individuals, medical providers, agents, and historical claims.
+**[p04s01u04]** This helps reviewers see connections among claimants, providers, agents, prior claims, or other related parties — when that kind of analysis is relevant and permitted.
 
-**[p04s01u05]** These capabilities are embedded directly into the claims review workflow.
+**[p04s01u05]** These features aren't separate from the claims workflow. They're embedded right where the reviewer is already working.
 
-**[p04s01u06]** At this point, AI is no longer just supporting isolated tasks — it is beginning to participate in the workflow itself.
+**[p04s01u06]** This matters because AI adoption isn't just a modeling problem.
 
-**[p04s01u07]** So the next question becomes: what exactly is Agentic AI?
+**[p04s01u07]** It's also a workflow design problem. If AI output appears somewhere outside the normal workflow, people may just ignore it.
+
+**[p04s01u08]** But if it's embedded at the right moment, in the right interface, with the right evidence — it becomes part of the decision process.
+
+**[p04s01u09]** That's the point where AI stops being just a feature inside a system and starts becoming part of the actual decision architecture.
+
+**[p04s01u10]** And that brings us to the bigger question on this slide.
+
 
 ## Slide 11
-**[p04s02u01]** Here we would like to explain Agentic AI in a simple way.
+**[p04s02u01]** Now we're at a key turning point in our presentation. How does AI evolve from a tool into a collaborative decision-making system?
 
-**[p04s02u02]** Traditional AI is mostly reactive: users ask questions, and AI provides answers.
+**[p04s02u02]** In the early stage, AI works like a query tool. A user asks a question, and AI responds.
 
-**[p04s02u03]** The next stage is AI Agents.
+**[p04s02u03]** That's useful, but it depends heavily on the user's ability to ask the right question.
 
-**[p04s02u04]** AI becomes more proactive and can handle specific tasks, such as searching for information or organizing content.
+**[p04s02u04]** In the next stage, AI becomes more like a digital specialist.
 
-**[p04s02u05]** The next step is Agentic AI.
+**[p04s02u05]** It understands the task, takes initiative, detects missing information, flags inconsistencies, suggests next steps, and prepares analysis before you even ask.
 
-**[p04s02u06]** Instead of a single agent, multiple agents work together to complete more complex workflows.
+**[p04s02u06]** And in the most advanced stage, AI becomes more like an intelligent team: one agent extracts medical information, another interprets policy terms, another checks benefit rules or risk indicators, and another prepares the explanation and decision report.
 
-**[p04s02u07]** Some agents focus on medical information extraction, while others focus on policy interpretation, risk analysis, or decision support.
+**[p04s02u07]** This multi-agent design makes sense because claims adjudication isn't a single task. It's a sequence of specialized reasoning steps.
 
-**[p04s02u08]** The key idea is that Agentic AI is no longer just answering questions — it is becoming part of the decision process itself.
+**[p04s02u08]** But we should be careful with the word "collaborative." We don't mean that AI has the same authority as a human claims professional.
+
+**[p04s02u09]** We mean that AI collaborates by doing evidence preparation, consistency checking, and structured reasoning — while humans provide the judgment, the accountability, and the final sign-off.
+
+**[p04s02u10]** This is the foundation of our human-in-the-loop design. And it's also where trust becomes the central issue.
+
+**[p04s02u11]** For that trust to hold, the people using this system must be able to question its output, verify the reasoning behind it, and remain fully accountable for every decision they make.
+
 
 ## Slide 12
-**[p04s03u01]** After introducing Agentic AI, let us return to the claims scenario and see how humans and AI work together in practice.
+**[p04s03u01]** That accountability requirement is exactly why we designed this workflow as human-in-the-loop pre-adjudication: agentic AI provides the analysis and recommendations, while human reviewers retain the final call.
 
-**[p04s03u02]** Our core design principle is human-in-the-loop.
+**[p04s03u02]** The distinction between pre-adjudication and adjudication is really important here. We're not saying AI independently approves or rejects complex claims.
 
-**[p04s03u03]** Agentic AI provides analysis and recommendations, while final decisions remain with human reviewers.
+**[p04s03u03]** Instead, AI prepares a pre-assessment: the reviewed documents, extracted facts, relevant policy terms, supporting evidence, things that need attention, and a suggested recommendation.
 
-**[p04s03u04]** AI does not directly approve or deny claims. Instead, it first performs a pre-assessment.
+**[p04s03u04]** The human reviewer then evaluates the evidence and the recommendation. If the output is complete, the reviewer can move faster.
 
-**[p04s03u05]** This includes organizing documents, extracting key facts, identifying relevant policy terms, and preparing supporting evidence.
+**[p04s03u05]** If something looks off or inconsistent, the reviewer can challenge it, correct it, or ask for more investigation. This design gives us two real benefits.
 
-**[p04s03u06]** AI then generates a decision recommendation.
+**[p04s03u06]** First, it improves efficiency because the routine evidence preparation is accelerated. Second, it improves governance because the AI's reasoning pathway is visible.
 
-**[p04s03u07]** Human reviewers then review the results and make the final claims decision.
+**[p04s03u07]** The reviewer can see not just the recommendation, but the basis for that recommendation. In regulated insurance operations, explainability isn't a nice-to-have.
 
-**[p04s03u08]** When AI provides enough information, reviewers can focus more on the parts that require professional judgment.
+**[p04s03u08]** It's a condition for trust. And that raises a very practical question: what exactly should AI explain? A recommendation alone isn't enough.
 
-**[p04s03u09]** The goal is not to replace professionals, but to help people make faster and more consistent decisions.
+**[p04s03u09]** The reviewer needs to see the reasoning pathway behind it.
 
-**[p04s03u10]** Next, my colleague Li Yu Tsao will continue by introducing the detailed applications of Agentic AI in claims operations.
-
+**[p04s03u10]** You'll notice four actuarial benefits at the bottom of this slide — better risk identification, more precise rate setting, stronger product design, and more controllable loss costs. But every one of those benefits depends on a single condition: the AI's recommendations must be explainable enough to genuinely trust.
 ## Slide 13
 **[p05s01u01]** So how does the AI actually reason through a case — and how can a reviewer trust that reasoning?
 

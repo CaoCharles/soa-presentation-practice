@@ -9,6 +9,8 @@ Verifies consistency across all data sources:
   4. assets/audio/final.mp3 is in sync with audio_output/final.mp3
   5. Slide time boundaries are sequential (no overlap or disorder)
   6. Every segment in timestamps.json has a matching entry in new_segments.json
+  7. TRANSCRIPT_DRAFT.md text matches new_segments.json textEn  ← root cause of today's misalignment
+  8. progress.json synthesized text matches TRANSCRIPT_DRAFT.md ← catches stale WAV files
 
 Exit codes:
   0 — all checks passed
@@ -27,6 +29,8 @@ NEW_SEGS      = ROOT / "audio_output" / "new_segments.json"
 MOCK_TS       = ROOT / "src" / "data" / "mockProject.ts"
 AUDIO_SRC     = ROOT / "audio_output" / "final.mp3"
 AUDIO_ASSET   = ROOT / "assets" / "audio" / "final.mp3"
+DRAFT         = ROOT / "TRANSCRIPT_DRAFT.md"
+PROGRESS      = ROOT / "audio_output" / "progress.json"
 
 PASS = "\033[32m✅\033[0m"
 FAIL = "\033[31m❌\033[0m"
@@ -48,6 +52,20 @@ def ffprobe_duration(path: Path) -> float | None:
         return None
 
 
+def parse_draft(path: Path) -> dict[str, str]:
+    """Return {segID: text} from TRANSCRIPT_DRAFT.md."""
+    content = path.read_text(encoding="utf-8")
+    parts = re.split(r'\*\*\[([^\]]+)\]\*\*', content)
+    result = {}
+    for i in range(1, len(parts) - 1, 2):
+        sid  = parts[i].strip()
+        raw  = parts[i + 1]
+        text = re.split(r'\n##\s', raw)[0].strip()
+        if sid and text:
+            result[sid] = text
+    return result
+
+
 def check(ok: bool, label: str, detail: str = "") -> None:
     if ok:
         print(f"  {PASS}  {label}")
@@ -65,15 +83,14 @@ def main() -> int:
     print("\n\033[1m📋 practice-app validate\033[0m\n")
 
     # ── Load files ────────────────────────────────────────────────────────────
-    if not TIMESTAMPS.exists():
-        print(f"{FAIL} timestamps.json not found at {TIMESTAMPS}")
-        return 1
-    if not NEW_SEGS.exists():
-        print(f"{FAIL} new_segments.json not found at {NEW_SEGS}")
-        return 1
-    if not MOCK_TS.exists():
-        print(f"{FAIL} mockProject.ts not found at {MOCK_TS}")
-        return 1
+    for path, label in [
+        (TIMESTAMPS, "timestamps.json"),
+        (NEW_SEGS,   "new_segments.json"),
+        (MOCK_TS,    "mockProject.ts"),
+    ]:
+        if not path.exists():
+            print(f"{FAIL} {label} not found at {path}")
+            return 1
 
     ts   = json.loads(TIMESTAMPS.read_text())
     ns   = json.loads(NEW_SEGS.read_text())
@@ -93,22 +110,19 @@ def main() -> int:
         orphan_count = len(ns) - len(ts)
         warn(
             f"new_segments.json has {orphan_count} more entries than timestamps.json",
-            "These are display-only segments without audio (expected if transcript was simplified)"
+            "These are display-only segments without audio — run scripts/regen-audio.sh to synthesize them"
         )
 
     # ── 2. No orphaned segments in mockProject.ts ─────────────────────────────
     print("\n2. Orphaned segments (startTime=0 AND endTime=0)")
-    # Extract segments as JSON objects from TS file
     seg_blocks = re.findall(
         r'\{[^{}]*?"startTime":\s*([\d.]+)[^{}]*?"endTime":\s*([\d.]+)[^{}]*?\}',
         mock, re.DOTALL
     )
-    orphans = [(st, et) for st, et in seg_blocks if float(st) == 0.0 and float(et) == 0.0]
-    # First segment is legitimately startTime=0, so count only endTime=0 with non-first
-    true_orphans = [(st, et) for st, et in orphans if float(et) == 0.0]
+    true_orphans = [(st, et) for st, et in seg_blocks if float(st) == 0.0 and float(et) == 0.0]
     check(
         len(true_orphans) == 0,
-        f"No orphaned segments (startTime=0, endTime=0)",
+        "No orphaned segments (startTime=0, endTime=0)",
         f"Found {len(true_orphans)} orphaned segments — run scripts/sync.py to rebuild mockProject.ts"
     )
 
@@ -141,7 +155,7 @@ def main() -> int:
             check(
                 diff < 0.5,
                 f"audio_output/final.mp3 ({src_dur:.1f}s) matches assets/audio/final.mp3 ({asset_dur:.1f}s)",
-                f"Durations differ by {diff:.1f}s — copy audio_output/final.mp3 to assets/audio/"
+                f"Durations differ by {diff:.1f}s — run scripts/sync.py"
             )
     elif not AUDIO_SRC.exists():
         check(False, "audio_output/final.mp3 exists", "Run merge.sh to generate it")
@@ -159,9 +173,9 @@ def main() -> int:
 
     pages = sorted(slide_starts)
     disorder = [
-        (pages[i], pages[i+1])
+        (pages[i], pages[i + 1])
         for i in range(len(pages) - 1)
-        if slide_starts[pages[i]] > slide_starts[pages[i+1]]
+        if slide_starts[pages[i]] > slide_starts[pages[i + 1]]
     ]
     check(
         len(disorder) == 0,
@@ -181,6 +195,80 @@ def main() -> int:
         f"All {len(ts)} timestamped IDs exist in new_segments.json",
         f"Missing: {missing_in_ns[:5]}{'…' if len(missing_in_ns) > 5 else ''}"
     )
+
+    # ── 7. TRANSCRIPT_DRAFT.md text matches new_segments.json textEn ─────────
+    # This is the check that catches the root cause of today's misalignment:
+    # audio says one thing, display shows another.
+    print("\n7. TRANSCRIPT_DRAFT.md ↔ new_segments.json text alignment")
+    if not DRAFT.exists():
+        warn("TRANSCRIPT_DRAFT.md not found — skipping text alignment check")
+    else:
+        draft_text = parse_draft(DRAFT)
+        text_mismatches = []
+        for sid, draft in draft_text.items():
+            ns_en = ns_map.get(sid, {}).get("textEn")
+            if ns_en is None:
+                continue  # segment in draft but not in ns.json — covered by check 6
+            if ns_en.strip() != draft.strip():
+                page = ns_map[sid].get("slidePage", "?")
+                text_mismatches.append((sid, page, draft, ns_en))
+
+        if text_mismatches:
+            slides_affected = sorted(set(str(x[1]) for x in text_mismatches))
+            check(
+                False,
+                f"TRANSCRIPT_DRAFT.md text matches new_segments.json textEn",
+                f"{len(text_mismatches)} mismatches on slides {', '.join(slides_affected)} — "
+                f"audio says one thing, display shows another.\n"
+                f"       Fix: update TRANSCRIPT_DRAFT.md to match new_segments.json, then run regen-audio.sh\n"
+                f"       First mismatch [{text_mismatches[0][0]}]:\n"
+                f"         draft: \"{text_mismatches[0][2][:70]}\"\n"
+                f"         ns.json: \"{text_mismatches[0][3][:70]}\""
+            )
+        else:
+            check(
+                True,
+                f"All {len(draft_text)} draft segments match new_segments.json textEn"
+            )
+
+    # ── 8. progress.json WAV text matches current TRANSCRIPT_DRAFT.md ────────
+    # Catches stale WAV files: text was re-edited after synthesis without re-running synthesize.py
+    print("\n8. progress.json ↔ TRANSCRIPT_DRAFT.md (stale WAV detection)")
+    if not DRAFT.exists():
+        warn("TRANSCRIPT_DRAFT.md not found — skipping stale WAV check")
+    elif not PROGRESS.exists():
+        warn("progress.json not found — skipping stale WAV check")
+    else:
+        if "draft_text" not in dir():
+            draft_text = parse_draft(DRAFT)
+        prog = json.loads(PROGRESS.read_text())
+        stale = []
+        for sid, info in prog.items():
+            if not info:
+                continue
+            synth_text = info.get("text", "")
+            curr_text  = draft_text.get(sid, "")
+            if curr_text and synth_text.strip() != curr_text.strip():
+                page = ns_map.get(sid, {}).get("slidePage", "?")
+                stale.append((sid, page, synth_text, curr_text))
+
+        if stale:
+            slides_stale = sorted(set(str(x[1]) for x in stale))
+            check(
+                False,
+                f"No stale WAV files (progress.json text matches draft)",
+                f"{len(stale)} segments have stale WAVs on slides {', '.join(slides_stale)}.\n"
+                f"       The WAV was synthesized with old text but TRANSCRIPT_DRAFT.md has been updated.\n"
+                f"       Fix: run scripts/regen-audio.sh (incremental — only re-synthesizes changed segments)\n"
+                f"       First stale [{stale[0][0]}]:\n"
+                f"         WAV says: \"{stale[0][2][:70]}\"\n"
+                f"         draft now: \"{stale[0][3][:70]}\""
+            )
+        else:
+            check(
+                True,
+                f"All {len(prog)} cached WAV files match current TRANSCRIPT_DRAFT.md"
+            )
 
     # ── Summary ───────────────────────────────────────────────────────────────
     print()
