@@ -10,7 +10,7 @@ import type { DisplayMode, FavoriteItem, SentenceSegment } from "./types";
 import { loadFavorites, removeFavorite, saveFavorite } from "./utils/favorites";
 import { deriveSentenceSegments } from "./utils/transcript";
 
-const speedOptions = [0.8, 0.9, 1.0, 1.1, 1.2];
+const speedOptions = [0.5, 0.75, 1.0, 1.25, 1.5];
 
 function getCurrentSegment(transcript: SentenceSegment[], currentTime: number) {
   const exact = transcript.find((segment) => currentTime >= segment.startTime && currentTime < segment.endTime);

@@ -245,7 +245,7 @@
 
 **[p06s01u03]** It covers everything the reviewer needs: what happened, what the documents say, which policy terms apply, what the AI recommends, and how confident it is in each judgment.
 
-**[p06s01u04]** In the example, the report shows confidence scores for different parts of the case — 92 percent for surgical benefit, 90 percent for hospitalization, and 85 percent for the overall recommendation.
+**[p06s01u04]** For example, it might show 92 percent confidence on the surgical benefit — so the reviewer can quickly tell which parts are solid and which ones need a closer look.
 
 **[p06s01u05]** In a regulated environment like insurance, that traceability isn't optional — every recommendation has to be grounded in evidence the reviewer can actually verify.
 
@@ -256,13 +256,11 @@
 
 **[p06s02u02]** Each layer captures something different: not just what was decided, but what evidence led there, and what the medical picture looked like.
 
-**[p06s02u03]** With proper governance, this data can directly support pricing, reserving, experience studies, risk segmentation, and product monitoring.
+**[p06s02u03]** With proper governance, this data can directly support pricing, reserving, experience studies — and more.
 
 **[p06s02u04]** In other words, AI doesn't just make claims operations faster — it expands the data available for actuarial analysis.
 
-**[p06s02u05]** This matters especially under IFRS 17 — where actuaries need claims data to feed back into their assumptions much faster than before.
-
-**[p06s02u06]** When claims data becomes structured earlier in the process, actuaries can respond more quickly to emerging trends — instead of waiting for year-end data runs.
+**[p06s02u05]** Under IFRS 17, actuaries can't afford to wait for year-end data runs — they need claims experience to feed back into assumptions in near real time.
 
 **[p06s02u07]** And that opens a bigger question: can this richer foundation help us move beyond measuring what happened — to understanding why it happened?
 
@@ -275,91 +273,72 @@
 
 **[p06s03u04]** Take the example on this slide: an 80-year-old male with an accidental death claim after a fall.
 
-**[p06s03u05]** Traditional analysis counts this as one accidental death. But cause-based analysis asks whether an underlying condition — like balance deterioration or cognitive decline — contributed to the fall.
+**[p06s03u05]** Traditional analysis counts this as one accidental death. But cause-based analysis asks a sharper question: was there an underlying disease — like Parkinson's, dementia, or heart disease — that actually caused the fall? If so, is this really a pure accidental death, or should part of it be classified differently?
 
 **[p06s03u06]** That distinction changes how we estimate incidence, how we segment risk, and how clean our experience study population is.
 
 **[p06s03u07]** And when we understand the why, it becomes possible to act on it — not just report it.
 
 ## Slide 19
-**[p06s04u01]** Once we understand the why behind experience, those insights can begin to inform pricing and product discussions.
+**[p06s04u01]** Once we understand the why, those insights can inform pricing — because more granular claims data helps teams see exactly how different risk drivers affect claim frequency and severity.
 
-**[p06s04u02]** When claims data becomes more granular, pricing teams can better understand how risk drivers affect claim frequency and severity — to be clear, this is about analytical capability, not specific pricing strategy.
+**[p06s04u02]** Take lung cancer as an example. Looking at 100 cases together, traditional pricing just tells you costs are going up.
 
-**[p06s04u03]** This supports three pricing applications shown on the slide: refined assumptions, segmented pricing, and policy or benefit design.
+**[p06s04u03]** But cause analysis breaks that down — 70 standard cases, 20 high-intensity ones, and 10 borderline cases where the treatment pattern or policy coverage needs a closer look.
 
-**[p06s04u04]** Take lung cancer claims as an example. If we look at 100 cases together, traditional pricing may only show that overall claim cost is increasing.
+**[p06s04u04]** The difference matters — because without cause analysis, management can only see the bill, not what's driving it.
 
-**[p06s04u05]** But cause analysis can separate 70 standard treatment cases from 20 high-intensity treatment cases and 10 borderline cases where the treatment pattern or policy alignment needs closer review.
+**[p06s04u05]** With it, they can actually do something — update assumptions, adjust underwriting, or refine product design.
 
-**[p06s04u06]** That difference really matters. Without cause analysis, management might only see a financial result.
-
-**[p06s04u07]** With cause analysis, management can evaluate possible actions: update assumptions, adjust underwriting guidelines, strengthen claims review, refine product design, or improve customer education.
-
-**[p06s04u08]** This is the connection between claims AI and risk-based pricing — AI converts claims documents into structured evidence, and structured evidence makes risk segmentation more precise.
-
-**[p06s04u09]** Better experience analysis supports more informed pricing and risk management decisions.
+**[p06s04u06]** That's the whole point: AI turns claims documents into structured evidence, and structured evidence makes every pricing and risk decision more precise.
 
 **[p06s04u10]** But none of these applications hold if the AI underneath is reasoning from an unstable or poorly governed knowledge base.
 
 **[p06s04u11]** That brings us to the foundation that sits underneath every decision CAELIA makes.
 
 ## Slide 20
-**[p07s01u01]** None of the pricing, reserving, or risk segmentation capabilities we just described are reliable without a well-governed knowledge base.
+**[p07s01u01]** All of that only works if the knowledge base underneath is solid and well-governed.
 
-**[p07s01u02]** For CAELIA, that knowledge comes from three sources: claims operations policies, product terms and benefit rules, and a medical knowledge and disease library.
+**[p07s01u02]** For CAELIA, that knowledge comes from three sources: claims policies, product terms and benefit rules, and a medical knowledge library.
 
-**[p07s01u03]** If the knowledge base is incomplete or out of date, the AI might retrieve the wrong information or apply the wrong rule.
+**[p07s01u03]** If it's incomplete or out of date, the AI pulls the wrong information — and makes the wrong call.
 
-**[p07s01u04]** We also need traceability — when AI uses a policy clause or a medical fact, the system needs to trace exactly where that information came from.
+**[p07s01u04]** We also need traceability — when AI uses a policy clause or a medical fact, we need to know exactly where it came from.
 
-**[p07s01u05]** Reviewers should be able to see the source of any piece of information. This is especially important for explainability.
+**[p07s01u05]** Because in a claims decision, "the model thinks so" just isn't good enough.
 
-**[p07s01u06]** In a claims decision, it's not enough to say "the model thinks so."
+**[p07s01u06]** We need to show: here's the document, here's the fact, here's the policy term, and here's the reasoning.
 
-**[p07s01u07]** We need to say: here's the document, here's the extracted fact, here's the relevant policy term, here's the reasoning, and here's what's still uncertain.
+**[p07s01u07]** That's what keeps the system controllable — AI reasons from approved knowledge, not from guesswork.
 
-**[p07s01u08]** The knowledge foundation is what makes the AI system controllable — it anchors AI reasoning in approved business knowledge, rather than letting the model improvise freely.
-
-**[p07s01u09]** And there is no harder test of that foundation than policy interpretation — where a single word in a contract clause can change the entire outcome of a case.
+**[p07s01u08]** That challenge is especially clear in policy interpretation — as medical practices evolve and new procedures emerge, existing benefit terms can't always keep up.
 
 ## Slide 21
-**[p07s02u01]** That is why policy interpretation becomes one of the most critical tests of the system.
+**[p07s02u01]** That is why policy interpretation is one of the most critical tests of the system — a single claim decision can hinge on how you read a definition, a benefit condition, or an exclusion clause.
 
-**[p07s02u02]** Policies contain definitions, benefit conditions, exclusions, waiting periods, limits, and special rules.
+**[p07s02u02]** CAELIA handles this through a structured four-step workflow — from understanding the claim all the way to producing a structured output.
 
-**[p07s02u03]** A claim decision often comes down to the precise interpretation of those terms.
+**[p07s02u03]** Take hospitalization benefits as an example. The system pulls up the relevant policy clauses, compares them against the medical facts, and flags anything that's missing or conflicting.
 
-**[p07s02u04]** CAELIA's workflow runs through four steps: understand the claim, determine policy applicability, identify exclusions, and produce a structured output.
+**[p07s02u04]** The reviewer can then focus on judgment — does the evidence really satisfy the policy definition, and is anything still missing?
 
-**[p07s02u05]** Take hospitalization benefits as an example. The system pulls up the relevant policy clauses, compares them against the medical facts, and flags anything that's missing or conflicting.
+**[p07s02u05]** The output clearly shows what's covered, what's excluded, and the full decision rationale — so the reviewer has everything they need in one place.
 
-**[p07s02u06]** The reviewer can then focus on judgment — does the medical evidence satisfy the policy definition? Is additional documentation needed? Does the case need to be escalated?
-
-**[p07s02u07]** The output clearly shows what's covered, what's excluded, and the full decision rationale — so the reviewer has everything they need in one place.
-
-**[p07s02u08]** When we step back from these individual components — document extraction, multi-agent reasoning, and policy interpretation — the organizational value they create together becomes clear.
+**[p07s02u06]** So what does all of this actually deliver for the organization?
 
 ## Slide 22
-**[p07s03u01]** When we bring these components together, the organizational value appears in four areas.
+**[p07s03u01]** The value shows up in four areas: operations, risk control, governance, and actuarial work.
 
-**[p07s03u02]** For operations, CAELIA reduces manual document review, speeds up evidence preparation, and helps reviewers focus on complex judgment rather than repetitive information gathering.
+**[p07s03u02]** For operations, CAELIA cuts review time and frees people up to focus on judgment — in our claims team, reviewers save roughly 30 percent of their time per case.
 
-**[p07s03u03]** In practical terms, the impact can extend across a claims organization of around 300 FTEs, with an estimated 30 percent reduction in review time per case.
+**[p07s03u03]** For risk control, it catches inconsistencies and fraud signals earlier.
 
-**[p07s03u04]** For risk control, the system supports earlier identification of inconsistencies, anomaly patterns, and fraud indicators.
+**[p07s03u04]** For governance, traceable reasoning and human oversight make AI output explainable and auditable — essential in a regulated industry.
 
-**[p07s03u05]** For governance, human-in-the-loop review, traceable reasoning, and structured knowledge help make AI output explainable and auditable — and that's essential for responsible AI in a regulated industry like insurance.
+**[p07s03u05]** And for actuarial work, claims data goes from unstructured records to something you can actually analyze — supporting experience studies, pricing, reserving, and product monitoring.
 
-**[p07s03u06]** And for actuarial work, the most strategic benefit is that claims data becomes more structured and more meaningful.
+**[p07s03u06]** And stepping back, that's the real lesson: AI in insurance creates value that goes far deeper than efficiency alone.
 
-**[p07s03u07]** Instead of only getting final payment results, actuaries can access richer information about diagnoses, treatments, causes, severity drivers, and the rationale behind decisions.
+**[p07s03u07]** CAELIA is proof that claims AI can be more than a processing tool — it can be a foundation for better decisions, stronger governance, and richer actuarial insight.
 
-**[p07s03u08]** This supports experience studies, incidence rate reviews, assumption updates, reserve analysis, and product monitoring.
-
-**[p07s03u09]** The broader lesson is this: in insurance, AI value shouldn't be measured only by time saved — it should also be measured by the quality of decisions, the strength of governance, and how well the organization learns.
-
-**[p07s03u10]** Actuaries are well positioned to lead that work — translating AI capability into business value, connecting technical performance with risk management and governance, and helping organizations build resilience that lasts.
-
-## Slide 23
-**[p07s04u05]** Thank you so much for your time — we'd love to take your questions.
+**[p07s03u08]** Thank you so much for your time — we'd love to take your questions.
