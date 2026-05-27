@@ -387,7 +387,6 @@ export default function App() {
         onClose={() => setIsFullTranscriptOpen(false)}
         onSegmentClick={(segment) => {
           handleSegmentClick(segment);
-          setIsFullTranscriptOpen(false);
         }}
       />
     </div>
