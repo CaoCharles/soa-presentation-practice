@@ -5,7 +5,7 @@ export const mockProject: Project = {
   "title": "Beyond Efficiency",
   "subtitle": "SOA Presentation Practice",
   "audioUrl": "/audio/final.mp3",
-  "duration": 1573.0,
+  "duration": 1618.275,
   "coverImageUrl": "/slides/slide_01.png",
   "transcript": [
     {
@@ -995,663 +995,663 @@ export const mockProject: Project = {
     {
       "id": "p04s03u01",
       "startTime": 923.45,
-      "endTime": 930.8,
+      "endTime": 936.65,
       "textEn": "That accountability requirement is exactly why we designed this workflow as human-in-the-loop pre-adjudication: agentic AI provides the analysis and recommendations, while human reviewers retain the final call.",
       "textZh": "這個問責要求，正是我們將流程設計為 human-in-the-loop 預審的原因：agentic AI 提供分析與建議，而人工審查員保留最終決策權。",
       "slidePage": 12
     },
     {
       "id": "p04s03u02",
-      "startTime": 930.8,
-      "endTime": 933.65,
+      "startTime": 936.65,
+      "endTime": 945.712,
       "textEn": "The distinction between pre-adjudication and adjudication is really important here. We're not saying AI independently approves or rejects complex claims.",
       "textZh": "預審與正式核定的區別在這裡非常重要。我們不是說 AI 獨立核准或拒絕複雜理賠。",
       "slidePage": 12
     },
     {
       "id": "p04s03u03",
-      "startTime": 933.65,
-      "endTime": 939.887,
+      "startTime": 945.712,
+      "endTime": 956.837,
       "textEn": "Instead, AI prepares a pre-assessment: the reviewed documents, extracted facts, relevant policy terms, supporting evidence, things that need attention, and a suggested recommendation.",
       "textZh": "而是 AI 準備預審：審閱文件、擷取事實、相關保單條款、支持證據、需要關注的事項，以及建議的決策方向。",
       "slidePage": 12
     },
     {
       "id": "p04s03u04",
-      "startTime": 939.887,
-      "endTime": 945.3,
+      "startTime": 956.837,
+      "endTime": 964.7,
       "textEn": "The human reviewer then evaluates the evidence and the recommendation. If the output is complete, the reviewer can move faster.",
       "textZh": "人工審查員接著評估證據與建議。若輸出完整，審查員可以更快完成審核。",
       "slidePage": 12
     },
     {
       "id": "p04s03u05",
-      "startTime": 945.3,
-      "endTime": 953.175,
+      "startTime": 964.7,
+      "endTime": 974.087,
       "textEn": "If something looks off or inconsistent, the reviewer can challenge it, correct it, or ask for more investigation. This design gives us two real benefits.",
       "textZh": "若有疑問或不一致，審查員可以質疑、修正或要求進一步調查。這個設計帶來兩個實質效益。",
       "slidePage": 12
     },
     {
       "id": "p04s03u06",
-      "startTime": 953.175,
-      "endTime": 955.95,
+      "startTime": 974.087,
+      "endTime": 984.337,
       "textEn": "First, it improves efficiency because the routine evidence preparation is accelerated. Second, it improves governance because the AI's reasoning pathway is visible.",
       "textZh": "第一，它提升效率，因為例行的證據準備工作得以加速。第二，它強化治理，因為 AI 的推理路徑是可見的。",
       "slidePage": 12
     },
     {
       "id": "p04s03u07",
-      "startTime": 955.95,
-      "endTime": 960.662,
+      "startTime": 984.337,
+      "endTime": 994.212,
       "textEn": "The reviewer can see not just the recommendation, but the basis for that recommendation. In regulated insurance operations, explainability isn't a nice-to-have.",
       "textZh": "審查員不只能看到建議，還能看到建議背後的依據。在受監理的保險營運中，可解釋性不是加分項。",
       "slidePage": 12
     },
     {
       "id": "p04s03u08",
-      "startTime": 960.662,
-      "endTime": 966.9,
+      "startTime": 994.212,
+      "endTime": 1002.75,
       "textEn": "It's a condition for trust. And that raises a very practical question: what exactly should AI explain? A recommendation alone isn't enough.",
       "textZh": "它是信任的前提條件。而這引出一個非常實際的問題：AI 究竟應該說明什麼？光有建議是不夠的。",
       "slidePage": 12
     },
     {
       "id": "p04s03u09",
-      "startTime": 966.9,
-      "endTime": 973.35,
+      "startTime": 1002.75,
+      "endTime": 1006.412,
       "textEn": "The reviewer needs to see the reasoning pathway behind it.",
       "textZh": "審查員需要看到建議背後的推理路徑。",
       "slidePage": 12
     },
     {
       "id": "p04s03u10",
-      "startTime": 973.35,
-      "endTime": 980.9,
+      "startTime": 1006.412,
+      "endTime": 1026.175,
       "textEn": "You'll notice four actuarial benefits at the bottom of this slide — better risk identification, more precise rate setting, stronger product design, and more controllable loss costs. But every one of those benefits depends on a single condition: the AI's recommendations must be explainable enough to genuinely trust.",
       "textZh": "你們會注意到這張投影片下方列出四個精算效益——更精準的風險識別、更精確的費率釐定、更強健的商品設計，以及更可控的損失成本。但這每一項效益都取決於同一個條件：AI 的建議必須可解釋到真正值得信賴的程度。",
       "slidePage": 12
     },
     {
       "id": "p05s01u01",
-      "startTime": 980.9,
-      "endTime": 986.8,
+      "startTime": 1026.175,
+      "endTime": 1032.075,
       "textEn": "So how does the AI actually reason through a case — and how can a reviewer trust that reasoning?",
       "textZh": "那麼，AI 究竟是如何對一個案件進行推理的——而審查員又如何能信任這個推理？",
       "slidePage": 13
     },
     {
       "id": "p05s01u02",
-      "startTime": 986.8,
-      "endTime": 994.525,
+      "startTime": 1032.075,
+      "endTime": 1039.8,
       "textEn": "If the system simply says, \"This claim should be paid\" — the reviewer can't rely on that. We need a traceable reasoning pathway.",
       "textZh": "如果系統只是說「這件理賠應該給付」，審查員根本無法依賴這樣的答案。我們需要一條可追溯的推理路徑。",
       "slidePage": 13
     },
     {
       "id": "p05s01u03",
-      "startTime": 994.525,
-      "endTime": 1007.75,
+      "startTime": 1039.8,
+      "endTime": 1053.025,
       "textEn": "For each case, AI should be able to show what information it used, how it interpreted that information, which policy terms were relevant, where it spotted inconsistencies, and why it made the recommendation it did.",
       "textZh": "針對每個案件，AI 應能說明它使用了哪些資訊、如何解讀、哪些保單條款相關、在哪裡發現不一致，以及為何做出這樣的建議。",
       "slidePage": 13
     },
     {
       "id": "p05s01u04",
-      "startTime": 1007.75,
-      "endTime": 1014.825,
+      "startTime": 1053.025,
+      "endTime": 1060.1,
       "textEn": "Take the example on this slide: a kidney stone patient receives ESWL treatment and has a five-day hospitalization.",
       "textZh": "以這張投影片上的案例為例：一位腎結石患者接受 ESWL 碎石治療，並住院五天。",
       "slidePage": 13
     },
     {
       "id": "p05s01u05",
-      "startTime": 1014.825,
-      "endTime": 1019.65,
+      "startTime": 1060.1,
+      "endTime": 1064.925,
       "textEn": "The AI checks the medical facts against policy terms and medical guidelines.",
       "textZh": "AI 會將醫療事實與保單條款及醫療準則進行比對核查。",
       "slidePage": 13
     },
     {
       "id": "p05s01u06",
-      "startTime": 1019.65,
-      "endTime": 1034.262,
+      "startTime": 1064.925,
+      "endTime": 1079.537,
       "textEn": "It can recognize that ESWL is usually an outpatient procedure, recommend that the surgical benefit is payable, and still flag the hospitalization for manual review, with a 92 percent confidence score shown in the reasoning output.",
       "textZh": "系統可以辨識 ESWL 通常是門診手術，建議外科給付可以核付，同時仍標記住院部分供人工審查，並顯示 92% 的信心分數。",
       "slidePage": 13
     },
     {
       "id": "p05s01u07",
-      "startTime": 1034.262,
-      "endTime": 1044.075,
+      "startTime": 1079.537,
+      "endTime": 1089.35,
       "textEn": "For claims reviewers, it supports faster and more consistent decisions. For risk managers, it provides structured indicators for fraud and anomaly detection.",
       "textZh": "對理賠審查員來說，它支援更快、更一致的決策。對風險管理者來說，它提供詐欺與異常偵測的結構化指標。",
       "slidePage": 13
     },
     {
       "id": "p05s01u08",
-      "startTime": 1044.075,
-      "endTime": 1049.762,
+      "startTime": 1089.35,
+      "endTime": 1095.037,
       "textEn": "And for actuaries, it creates more granular data about the cause and characteristics of claims.",
       "textZh": "對精算師來說，它創造了關於理賠原因與特性更細緻的資料。",
       "slidePage": 13
     },
     {
       "id": "p05s01u09",
-      "startTime": 1049.762,
-      "endTime": 1058.625,
+      "startTime": 1095.037,
+      "endTime": 1103.9,
       "textEn": "These requirements define what a real claims AI system needs to deliver — and building to those requirements is exactly what we set out to do.",
       "textZh": "這些要求定義了一個真正的理賠 AI 系統必須做到的事——而按這些要求來建構，正是我們的出發點。",
       "slidePage": 13
     },
     {
       "id": "p05s02u01",
-      "startTime": 1058.625,
-      "endTime": 1065.662,
+      "startTime": 1103.9,
+      "endTime": 1110.937,
       "textEn": "To operationalize this reasoning pathway, we built CAELIA — the Cathay AI Engine for Life Insurance Adjudication.",
       "textZh": "為了讓這條推理路徑落地實作，我們建立了 CAELIA，也就是 Cathay AI Engine for Life Insurance Adjudication。",
       "slidePage": 14
     },
     {
       "id": "p05s02u02",
-      "startTime": 1065.662,
-      "endTime": 1075.412,
+      "startTime": 1110.937,
+      "endTime": 1120.687,
       "textEn": "CAELIA is designed to transform claims adjudication into an explainable, evidence-driven decision process. The name matters because this isn't just a model.",
       "textZh": "CAELIA 的設計目的是將理賠核定轉化為可解釋、以證據為驅動的決策流程。這個名稱很重要，因為這不只是一個模型。",
       "slidePage": 14
     },
     {
       "id": "p05s02u03",
-      "startTime": 1075.412,
-      "endTime": 1085.05,
+      "startTime": 1120.687,
+      "endTime": 1130.325,
       "textEn": "It's an engine that combines document understanding, knowledge retrieval, policy interpretation, multi-agent reasoning, decision reporting, and human review.",
       "textZh": "它是一個結合文件理解、知識檢索、保單解讀、多代理推理、決策報告與人工審查的引擎。",
       "slidePage": 14
     },
     {
       "id": "p05s02u04",
-      "startTime": 1085.05,
-      "endTime": 1087.925,
+      "startTime": 1130.325,
+      "endTime": 1133.2,
       "textEn": "The objective isn't to make AI look impressive.",
       "textZh": "目標不是讓 AI 看起來很厲害。",
       "slidePage": 14
     },
     {
       "id": "p05s02u05",
-      "startTime": 1087.925,
-      "endTime": 1095.075,
+      "startTime": 1133.2,
+      "endTime": 1140.35,
       "textEn": "The objective is to make the claims decision process more transparent, more consistent, and more analytically useful.",
       "textZh": "目標是讓理賠決策流程更透明、更一致、更具分析價值。",
       "slidePage": 14
     },
     {
       "id": "p05s02u06",
-      "startTime": 1095.075,
-      "endTime": 1109.475,
+      "startTime": 1140.35,
+      "endTime": 1154.75,
       "textEn": "In practice, CAELIA reads claim documents, extracts medical and claims information, retrieves relevant policy knowledge, checks benefit conditions, identifies potential inconsistencies, and produces a pre-assessment decision report.",
       "textZh": "在實務中，CAELIA 讀取理賠文件、擷取醫療與理賠資訊、檢索相關保單知識、核查給付條件、辨識潛在不一致，並產出預審決策報告。",
       "slidePage": 14
     },
     {
       "id": "p05s02u07",
-      "startTime": 1109.475,
-      "endTime": 1115.95,
+      "startTime": 1154.75,
+      "endTime": 1161.225,
       "textEn": "The reviewer stays in control — but they're starting from a much richer, better-organized evidence package.",
       "textZh": "審查員仍掌控全局——但他們的起點是更豐富、更有條理的證據包。",
       "slidePage": 14
     },
     {
       "id": "p05s02u08",
-      "startTime": 1115.95,
-      "endTime": 1123.562,
+      "startTime": 1161.225,
+      "endTime": 1168.837,
       "textEn": "And honestly, the more we worked on this, the clearer it became — one model just can't do all of this well at the same time.",
       "textZh": "說實話，越做越清楚一件事——一個模型根本無法同時把這所有事情都做好。",
       "slidePage": 14
     },
     {
       "id": "p05s03u01",
-      "startTime": 1123.562,
-      "endTime": 1129.687,
+      "startTime": 1168.837,
+      "endTime": 1174.962,
       "textEn": "Our answer is a multi-agent architecture — where each agent owns a specific part of the reasoning.",
       "textZh": "我們的答案是多代理架構——每個 agent 負責推理過程中的特定環節。",
       "slidePage": 15
     },
     {
       "id": "p05s03u02",
-      "startTime": 1129.687,
-      "endTime": 1143.075,
+      "startTime": 1174.962,
+      "endTime": 1188.35,
       "textEn": "Think of it like a team: one agent extracts key facts from the documents, another interprets the medical context, one checks the policy terms, one flags risk signals, and one pulls it all together into a final report.",
       "textZh": "把它想成一個團隊：一個 agent 從文件中擷取關鍵事實，一個解讀醫療背景，一個核查保單條款，一個標記風險訊號，最後一個把所有資訊整合成報告。",
       "slidePage": 15
     },
     {
       "id": "p05s03u03",
-      "startTime": 1143.075,
-      "endTime": 1145.775,
+      "startTime": 1188.35,
+      "endTime": 1191.05,
       "textEn": "Each agent does one thing — and does it well.",
       "textZh": "每個 agent 只做一件事——而且做得好。",
       "slidePage": 15
     },
     {
       "id": "p05s03u04",
-      "startTime": 1145.775,
-      "endTime": 1153.675,
+      "startTime": 1191.05,
+      "endTime": 1198.95,
       "textEn": "This makes the system much easier to govern. If something's off, we know exactly which agent to look at — not the entire system.",
       "textZh": "這讓系統更容易被治理。如果出了問題，我們知道該檢查哪個 agent——而不是整個系統。",
       "slidePage": 15
     },
     {
       "id": "p05s03u05",
-      "startTime": 1153.675,
-      "endTime": 1162.95,
+      "startTime": 1198.95,
+      "endTime": 1208.225,
       "textEn": "It also supports explainability. Each agent's output is traceable, so the reviewer can follow the reasoning step by step — not just see a final number.",
       "textZh": "它也支援可解釋性。每個 agent 的輸出都可追溯，讓審查員能一步一步跟著推理——而不只是看到一個最終數字。",
       "slidePage": 15
     },
     {
       "id": "p05s03u06",
-      "startTime": 1162.95,
-      "endTime": 1171.75,
+      "startTime": 1208.225,
+      "endTime": 1217.025,
       "textEn": "And as medical knowledge, policy terms, or fraud patterns evolve, we can update just the relevant agent — without rebuilding everything from scratch.",
       "textZh": "隨著醫療知識、保單條款或詐欺模式的演進，我們可以只更新相關的 agent——而無需從頭重建整個系統。",
       "slidePage": 15
     },
     {
       "id": "p05s03u07",
-      "startTime": 1171.75,
-      "endTime": 1173.912,
+      "startTime": 1217.025,
+      "endTime": 1219.187,
       "textEn": "Let me show you what this actually produces.",
       "textZh": "讓我來展示這個架構實際上產出了什麼。",
       "slidePage": 15
     },
     {
       "id": "p06s01u01",
-      "startTime": 1173.912,
-      "endTime": 1179.2,
+      "startTime": 1219.187,
+      "endTime": 1224.475,
       "textEn": "The most visible result of that architecture is the AI pre-assessment decision report.",
       "textZh": "這個架構最直接可見的成果，是 AI 預審決策報告。",
       "slidePage": 16
     },
     {
       "id": "p06s01u02",
-      "startTime": 1179.2,
-      "endTime": 1184.825,
+      "startTime": 1224.475,
+      "endTime": 1230.1,
       "textEn": "This report is designed to take raw claims data and turn it into a traceable decision recommendation.",
       "textZh": "這份報告的設計目的，是將原始的理賠資料轉化為可追溯的決策建議。",
       "slidePage": 16
     },
     {
       "id": "p06s01u03",
-      "startTime": 1184.825,
-      "endTime": 1195.375,
+      "startTime": 1230.1,
+      "endTime": 1240.65,
       "textEn": "It covers everything the reviewer needs: what happened, what the documents say, which policy terms apply, what the AI recommends, and how confident it is in each judgment.",
       "textZh": "它涵蓋了審查員需要的一切：發生了什麼、文件說了什麼、適用哪些保單條款、AI 的建議是什麼，以及對每項判斷的信心程度。",
       "slidePage": 16
     },
     {
       "id": "p06s01u04",
-      "startTime": 1195.375,
-      "endTime": 1205.825,
+      "startTime": 1240.65,
+      "endTime": 1251.1,
       "textEn": "For example, it might show 92 percent confidence on the surgical benefit — so the reviewer can quickly tell which parts are solid and which ones need a closer look.",
       "textZh": "舉例來說，報告可能顯示外科給付的信心分數是 92%——讓審查員能快速判斷哪些部分穩固、哪些需要更仔細審視。",
       "slidePage": 16
     },
     {
       "id": "p06s01u05",
-      "startTime": 1205.825,
-      "endTime": 1215.762,
+      "startTime": 1251.1,
+      "endTime": 1261.037,
       "textEn": "In a regulated environment like insurance, that traceability isn't optional — every recommendation has to be grounded in evidence the reviewer can actually verify.",
       "textZh": "在保險這樣的受監理環境中，這種可追溯性不是選配——每一項建議都必須建立在審查員能夠實際驗證的證據上。",
       "slidePage": 16
     },
     {
       "id": "p06s01u06",
-      "startTime": 1215.762,
-      "endTime": 1228.362,
+      "startTime": 1261.037,
+      "endTime": 1273.637,
       "textEn": "And here's the part that matters most for actuaries: when claims data is this structured and traceable, it stops being just operational evidence — and starts becoming something you can actually analyze.",
       "textZh": "而對精算師來說，這裡有個最重要的轉變：當理賠資料這樣結構化且可追溯，它就不再只是營運性的證據——而開始成為真正可以分析的素材。",
       "slidePage": 16
     },
     {
       "id": "p06s02u01",
-      "startTime": 1228.362,
-      "endTime": 1237.125,
+      "startTime": 1273.637,
+      "endTime": 1282.4,
       "textEn": "The structured output that CAELIA produces has three layers: the claim result, the policy and decision basis, and the full medical assessment.",
       "textZh": "CAELIA 產出的結構化輸出有三個層次：理賠結果、保單與決策依據，以及完整的醫療評估。",
       "slidePage": 17
     },
     {
       "id": "p06s02u02",
-      "startTime": 1237.125,
-      "endTime": 1245.637,
+      "startTime": 1282.4,
+      "endTime": 1290.912,
       "textEn": "Each layer captures something different: not just what was decided, but what evidence led there, and what the medical picture looked like.",
       "textZh": "每個層次各自捕捉不同的資訊：不只是決定了什麼，而是什麼證據導向了這個決定，以及醫療面貌是什麼樣子。",
       "slidePage": 17
     },
     {
       "id": "p06s02u03",
-      "startTime": 1245.637,
-      "endTime": 1251.987,
+      "startTime": 1290.912,
+      "endTime": 1297.262,
       "textEn": "With proper governance, this data can directly support pricing, reserving, experience studies — and more.",
       "textZh": "在適當的治理下，這些資料可以直接支援定價、準備金、經驗研究——還有更多。",
       "slidePage": 17
     },
     {
       "id": "p06s02u04",
-      "startTime": 1251.987,
-      "endTime": 1259.262,
+      "startTime": 1297.262,
+      "endTime": 1304.537,
       "textEn": "In other words, AI doesn't just make claims operations faster — it expands the data available for actuarial analysis.",
       "textZh": "換句話說，AI 不只是讓理賠作業更快——它擴展了可供精算分析的資料。",
       "slidePage": 17
     },
     {
       "id": "p06s02u05",
-      "startTime": 1259.262,
-      "endTime": 1268.8,
+      "startTime": 1304.537,
+      "endTime": 1314.075,
       "textEn": "Under IFRS 17, actuaries can't afford to wait for year-end data runs — they need claims experience to feed back into assumptions in near real time.",
       "textZh": "在 IFRS 17 下，精算師等不起年底才跑資料——他們需要理賠經驗近乎即時地回饋到假設之中。",
       "slidePage": 17
     },
     {
       "id": "p06s02u07",
-      "startTime": 1268.8,
-      "endTime": 1277.575,
+      "startTime": 1314.075,
+      "endTime": 1322.85,
       "textEn": "And that opens a bigger question: can this richer foundation help us move beyond measuring what happened — to understanding why it happened?",
       "textZh": "而這開啟了一個更大的問題：這個更豐富的基礎，能否幫助我們從衡量「發生了什麼」，進一步去理解「為什麼發生」？",
       "slidePage": 17
     },
     {
       "id": "p06s03u01",
-      "startTime": 1277.575,
-      "endTime": 1285.262,
+      "startTime": 1322.85,
+      "endTime": 1330.537,
       "textEn": "Traditional experience analysis tells us what happened — how many claims, how much was paid, how that compares to assumptions.",
       "textZh": "傳統的經驗分析告訴我們發生了什麼——有多少件理賠、給付了多少、與假設相比如何。",
       "slidePage": 18
     },
     {
       "id": "p06s03u02",
-      "startTime": 1285.262,
-      "endTime": 1289.912,
+      "startTime": 1330.537,
+      "endTime": 1335.187,
       "textEn": "But the question actuaries increasingly need to answer is: why did it happen?",
       "textZh": "但精算師越來越需要回答的問題是：為什麼會這樣？",
       "slidePage": 18
     },
     {
       "id": "p06s03u03",
-      "startTime": 1289.912,
-      "endTime": 1300.925,
+      "startTime": 1335.187,
+      "endTime": 1346.2,
       "textEn": "Was it driven by an aging policyholder base, by changes in medical practice, or by shifts in claimant behavior? And are there early signals that assumptions need to be updated?",
       "textZh": "是高齡化保戶、醫療行為改變，還是理賠人行為的轉變？有沒有早期訊號顯示假設需要更新？",
       "slidePage": 18
     },
     {
       "id": "p06s03u04",
-      "startTime": 1300.925,
-      "endTime": 1306.975,
+      "startTime": 1346.2,
+      "endTime": 1352.25,
       "textEn": "Take the example on this slide: an 80-year-old male with an accidental death claim after a fall.",
       "textZh": "以這張投影片的案例為例：一位 80 歲男性因跌倒申請意外死亡理賠。",
       "slidePage": 18
     },
     {
       "id": "p06s03u05",
-      "startTime": 1306.975,
-      "endTime": 1326.4,
+      "startTime": 1352.25,
+      "endTime": 1371.675,
       "textEn": "Traditional analysis counts this as one accidental death. But cause-based analysis asks a sharper question: was there an underlying disease — like Parkinson's, dementia, or heart disease — that actually caused the fall? If so, is this really a pure accidental death, or should part of it be classified differently?",
       "textZh": "傳統分析只把它算作一件意外死亡。但以原因為基礎的分析會問得更精準：是不是有潛在疾病——像是帕金森氏症、失智症或心臟病——才是跌倒真正的原因？如果是的話，這件真的算純意外死亡嗎？還是應該被不同歸類？",
       "slidePage": 18
     },
     {
       "id": "p06s03u06",
-      "startTime": 1326.4,
-      "endTime": 1334.012,
+      "startTime": 1371.675,
+      "endTime": 1379.287,
       "textEn": "That distinction changes how we estimate incidence, how we segment risk, and how clean our experience study population is.",
       "textZh": "這個區分改變了我們估計發生率、分群風險，以及讓經驗研究群體更乾淨的方式。",
       "slidePage": 18
     },
     {
       "id": "p06s03u07",
-      "startTime": 1334.012,
-      "endTime": 1339.287,
+      "startTime": 1379.287,
+      "endTime": 1384.562,
       "textEn": "And when we understand the why, it becomes possible to act on it — not just report it.",
       "textZh": "而當我們理解了「為什麼」，就有機會採取行動——而不只是報告結果。",
       "slidePage": 18
     },
     {
       "id": "p06s04u01",
-      "startTime": 1339.287,
-      "endTime": 1350.937,
+      "startTime": 1384.562,
+      "endTime": 1396.212,
       "textEn": "Once we understand the why, those insights can inform pricing — because more granular claims data helps teams see exactly how different risk drivers affect claim frequency and severity.",
       "textZh": "一旦我們理解了「為什麼」，這些洞察就能指引定價——因為更細緻的理賠資料能幫助團隊看清不同風險驅動因子如何影響理賠頻率與嚴重度。",
       "slidePage": 19
     },
     {
       "id": "p06s04u02",
-      "startTime": 1350.937,
-      "endTime": 1358.825,
+      "startTime": 1396.212,
+      "endTime": 1404.1,
       "textEn": "Take lung cancer as an example. Looking at 100 cases together, traditional pricing just tells you costs are going up.",
       "textZh": "以肺癌為例。把 100 件案件放在一起看，傳統定價只告訴你成本在上升。",
       "slidePage": 19
     },
     {
       "id": "p06s04u03",
-      "startTime": 1358.825,
-      "endTime": 1370.675,
+      "startTime": 1404.1,
+      "endTime": 1415.95,
       "textEn": "But cause analysis breaks that down — 70 standard cases, 20 high-intensity ones, and 10 borderline cases where the treatment pattern or policy coverage needs a closer look.",
       "textZh": "但原因分析能拆開來看——70 件標準治療、20 件高強度、10 件在治療模式或保單適用上需要更仔細檢視的邊界案件。",
       "slidePage": 19
     },
     {
       "id": "p06s04u04",
-      "startTime": 1370.675,
-      "endTime": 1377.625,
+      "startTime": 1415.95,
+      "endTime": 1422.9,
       "textEn": "The difference matters — because without cause analysis, management can only see the bill, not what's driving it.",
       "textZh": "這個差別很重要——因為沒有原因分析，管理層只能看到帳單，而看不到背後的驅動因素。",
       "slidePage": 19
     },
     {
       "id": "p06s04u05",
-      "startTime": 1377.625,
-      "endTime": 1384.2,
+      "startTime": 1422.9,
+      "endTime": 1429.475,
       "textEn": "With it, they can actually do something — update assumptions, adjust underwriting, or refine product design.",
       "textZh": "有了它，他們才能真正採取行動——更新假設、調整核保，或精修商品設計。",
       "slidePage": 19
     },
     {
       "id": "p06s04u06",
-      "startTime": 1384.2,
-      "endTime": 1393.65,
+      "startTime": 1429.475,
+      "endTime": 1438.925,
       "textEn": "That's the whole point: AI turns claims documents into structured evidence, and structured evidence makes every pricing and risk decision more precise.",
       "textZh": "這就是重點所在：AI 把理賠文件轉化為結構化證據，結構化證據讓每個定價與風險決策更加精準。",
       "slidePage": 19
     },
     {
       "id": "p06s04u10",
-      "startTime": 1393.65,
-      "endTime": 1401.337,
+      "startTime": 1438.925,
+      "endTime": 1446.612,
       "textEn": "But none of these applications hold if the AI underneath is reasoning from an unstable or poorly governed knowledge base.",
       "textZh": "但如果 AI 底層的推理依賴不穩定或治理不善的知識庫，這些應用都將無法成立。",
       "slidePage": 19
     },
     {
       "id": "p06s04u11",
-      "startTime": 1401.337,
-      "endTime": 1406.525,
+      "startTime": 1446.612,
+      "endTime": 1451.8,
       "textEn": "That brings us to the foundation that sits underneath every decision CAELIA makes.",
       "textZh": "這帶我們來到 CAELIA 每個決策背後的知識基礎。",
       "slidePage": 19
     },
     {
       "id": "p07s01u01",
-      "startTime": 1406.525,
-      "endTime": 1411.75,
+      "startTime": 1451.8,
+      "endTime": 1457.025,
       "textEn": "All of that only works if the knowledge base underneath is solid and well-governed.",
       "textZh": "這一切只有在底層的知識庫紮實且治理完善的情況下才能成立。",
       "slidePage": 20
     },
     {
       "id": "p07s01u02",
-      "startTime": 1411.75,
-      "endTime": 1419.875,
+      "startTime": 1457.025,
+      "endTime": 1465.15,
       "textEn": "For CAELIA, that knowledge comes from three sources: claims policies, product terms and benefit rules, and a medical knowledge library.",
       "textZh": "對 CAELIA 而言，這個知識庫來自三個來源：理賠作業準則、商品條款與給付規則，以及醫療知識庫。",
       "slidePage": 20
     },
     {
       "id": "p07s01u03",
-      "startTime": 1419.875,
-      "endTime": 1425.837,
+      "startTime": 1465.15,
+      "endTime": 1471.112,
       "textEn": "If it's incomplete or out of date, the AI pulls the wrong information — and makes the wrong call.",
       "textZh": "如果知識庫不完整或已過時，AI 就會拿到錯誤的資訊——然後做出錯誤的判斷。",
       "slidePage": 20
     },
     {
       "id": "p07s01u04",
-      "startTime": 1425.837,
-      "endTime": 1433.262,
+      "startTime": 1471.112,
+      "endTime": 1478.537,
       "textEn": "We also need traceability — when AI uses a policy clause or a medical fact, we need to know exactly where it came from.",
       "textZh": "我們也需要可追溯性——當 AI 引用保單條款或醫療事實時，我們必須知道它從哪裡來。",
       "slidePage": 20
     },
     {
       "id": "p07s01u05",
-      "startTime": 1433.262,
-      "endTime": 1437.787,
+      "startTime": 1478.537,
+      "endTime": 1483.062,
       "textEn": "Because in a claims decision, \"the model thinks so\" just isn't good enough.",
       "textZh": "因為在理賠決策中，「模型認為如此」根本不夠。",
       "slidePage": 20
     },
     {
       "id": "p07s01u06",
-      "startTime": 1437.787,
-      "endTime": 1444.037,
+      "startTime": 1483.062,
+      "endTime": 1489.312,
       "textEn": "We need to show: here's the document, here's the fact, here's the policy term, and here's the reasoning.",
       "textZh": "我們需要能說明：這是文件、這是事實、這是保單條款、這是推理過程。",
       "slidePage": 20
     },
     {
       "id": "p07s01u07",
-      "startTime": 1444.037,
-      "endTime": 1450.15,
+      "startTime": 1489.312,
+      "endTime": 1495.425,
       "textEn": "That's what keeps the system controllable — AI reasons from approved knowledge, not from guesswork.",
       "textZh": "這就是讓系統保持可控的關鍵——AI 依照核准的知識推理，而不是自由發揮。",
       "slidePage": 20
     },
     {
       "id": "p07s01u08",
-      "startTime": 1450.15,
-      "endTime": 1460.225,
+      "startTime": 1495.425,
+      "endTime": 1505.5,
       "textEn": "That challenge is especially clear in policy interpretation — as medical practices evolve and new procedures emerge, existing benefit terms can't always keep up.",
       "textZh": "這個挑戰在保單解讀中最為明顯——隨著醫療行為演進、新手術不斷出現，現有的給付條款有時候跟不上。",
       "slidePage": 20
     },
     {
       "id": "p07s02u01",
-      "startTime": 1460.225,
-      "endTime": 1472.137,
+      "startTime": 1505.5,
+      "endTime": 1517.412,
       "textEn": "That is why policy interpretation is one of the most critical tests of the system — a single claim decision can hinge on how you read a definition, a benefit condition, or an exclusion clause.",
       "textZh": "這正是為什麼保單解讀是整個系統最關鍵的考驗之一——一個理賠決策可能取決於你如何解讀一個定義、一個給付條件，或一個除外條款。",
       "slidePage": 21
     },
     {
       "id": "p07s02u02",
-      "startTime": 1472.137,
-      "endTime": 1480.725,
+      "startTime": 1517.412,
+      "endTime": 1526.0,
       "textEn": "CAELIA handles this through a structured four-step workflow — from understanding the claim all the way to producing a structured output.",
       "textZh": "CAELIA 透過一個結構化的四步驟流程來處理這件事——從理解理賠內容，一路到產出結構化輸出。",
       "slidePage": 21
     },
     {
       "id": "p07s02u03",
-      "startTime": 1480.725,
-      "endTime": 1492.237,
+      "startTime": 1526.0,
+      "endTime": 1537.513,
       "textEn": "Take hospitalization benefits as an example. The system pulls up the relevant policy clauses, compares them against the medical facts, and flags anything that's missing or conflicting.",
       "textZh": "以住院給付為例。系統調出相關保單條款，與醫療事實對比，並標示缺漏或衝突之處。",
       "slidePage": 21
     },
     {
       "id": "p07s02u04",
-      "startTime": 1492.237,
-      "endTime": 1499.987,
+      "startTime": 1537.513,
+      "endTime": 1545.263,
       "textEn": "The reviewer can then focus on judgment — does the evidence really satisfy the policy definition, and is anything still missing?",
       "textZh": "審查員可以專注於判斷——證據是否真的符合保單定義？還有什麼缺漏？",
       "slidePage": 21
     },
     {
       "id": "p07s02u05",
-      "startTime": 1499.987,
-      "endTime": 1509.0,
+      "startTime": 1545.263,
+      "endTime": 1554.275,
       "textEn": "The output clearly shows what's covered, what's excluded, and the full decision rationale — so the reviewer has everything they need in one place.",
       "textZh": "輸出清楚顯示承保了什麼、除外了什麼，以及完整的決策依據——讓審查員一次看到所有需要的資訊。",
       "slidePage": 21
     },
     {
       "id": "p07s02u06",
-      "startTime": 1509.0,
-      "endTime": 1512.85,
+      "startTime": 1554.275,
+      "endTime": 1558.125,
       "textEn": "So what does all of this actually deliver for the organization?",
       "textZh": "那麼，這一切實際上能為組織帶來什麼？",
       "slidePage": 21
     },
     {
       "id": "p07s03u01",
-      "startTime": 1512.85,
-      "endTime": 1518.35,
+      "startTime": 1558.125,
+      "endTime": 1563.625,
       "textEn": "The value shows up in four areas: operations, risk control, governance, and actuarial work.",
       "textZh": "這個價值體現在四個面向：營運、風險控管、治理，以及精算工作。",
       "slidePage": 22
     },
     {
       "id": "p07s03u02",
-      "startTime": 1518.35,
-      "endTime": 1528.337,
+      "startTime": 1563.625,
+      "endTime": 1573.612,
       "textEn": "For operations, CAELIA cuts review time and frees people up to focus on judgment — in our claims team, reviewers save roughly 30 percent of their time per case.",
       "textZh": "在營運方面，CAELIA 縮短審查時間，讓人可以專注在判斷上——在我們的理賠團隊中，審理人員每件案件約可節省 30% 的時間。",
       "slidePage": 22
     },
     {
       "id": "p07s03u03",
-      "startTime": 1528.337,
-      "endTime": 1532.725,
+      "startTime": 1573.612,
+      "endTime": 1578.0,
       "textEn": "For risk control, it catches inconsistencies and fraud signals earlier.",
       "textZh": "在風險控管方面，系統能更早發現不一致與詐欺訊號。",
       "slidePage": 22
     },
     {
       "id": "p07s03u04",
-      "startTime": 1532.725,
-      "endTime": 1541.062,
+      "startTime": 1578.0,
+      "endTime": 1586.338,
       "textEn": "For governance, traceable reasoning and human oversight make AI output explainable and auditable — essential in a regulated industry.",
       "textZh": "在治理方面，可追溯的推理與人工監督讓 AI 輸出可解釋、可稽核——在受監理的產業中不可或缺。",
       "slidePage": 22
     },
     {
       "id": "p07s03u05",
-      "startTime": 1541.062,
-      "endTime": 1552.213,
+      "startTime": 1586.338,
+      "endTime": 1597.488,
       "textEn": "And for actuarial work, claims data goes from unstructured records to something you can actually analyze — supporting experience studies, pricing, reserving, and product monitoring.",
       "textZh": "在精算工作方面，理賠資料從非結構化的記錄，變成真正可以分析的素材——支援經驗研究、定價、準備金與商品監控。",
       "slidePage": 22
     },
     {
       "id": "p07s03u06",
-      "startTime": 1552.213,
-      "endTime": 1559.388,
+      "startTime": 1597.488,
+      "endTime": 1604.663,
       "textEn": "And stepping back, that's the real lesson: AI in insurance creates value that goes far deeper than efficiency alone.",
       "textZh": "退一步來看，這就是真正的啟示：保險業的 AI 能創造的價值，遠比效率本身深遠得多。",
       "slidePage": 22
     },
     {
       "id": "p07s03u07",
-      "startTime": 1559.388,
-      "endTime": 1569.575,
+      "startTime": 1604.663,
+      "endTime": 1614.85,
       "textEn": "CAELIA is proof that claims AI can be more than a processing tool — it can be a foundation for better decisions, stronger governance, and richer actuarial insight.",
       "textZh": "CAELIA 證明了理賠 AI 可以不只是一個處理工具——它可以成為更好決策、更強治理與更豐富精算洞察的基礎。",
       "slidePage": 22
     },
     {
       "id": "p07s03u08",
-      "startTime": 1569.575,
-      "endTime": 1573.0,
+      "startTime": 1614.85,
+      "endTime": 1618.275,
       "textEn": "Thank you so much for your time — we'd love to take your questions.",
       "textZh": "非常感謝各位的時間——我們很樂意接受大家的提問。",
       "slidePage": 22
