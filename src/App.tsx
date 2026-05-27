@@ -223,7 +223,8 @@ export default function App() {
     const audio = audioRef.current;
     if (!audio) return;
 
-    const currentPage = visibleSlidePageRef.current ?? availableSlidePages[0];
+    // Navigate from audio's current position (not the browsed display position)
+    const currentPage = currentSegmentRef.current?.slidePage ?? availableSlidePages[0];
     const targetPage = getAdjacentSlidePage(currentPage, -1, availableSlidePages);
     const target = sentenceSegments.find((s) => s.slidePage === targetPage) ?? sentenceSegments[0];
     if (!target) return;
@@ -238,7 +239,8 @@ export default function App() {
     const audio = audioRef.current;
     if (!audio) return;
 
-    const currentPage = visibleSlidePageRef.current ?? availableSlidePages[0];
+    // Navigate from audio's current position (not the browsed display position)
+    const currentPage = currentSegmentRef.current?.slidePage ?? availableSlidePages[0];
     const targetPage = getAdjacentSlidePage(currentPage, 1, availableSlidePages);
     const target = sentenceSegments.find((s) => s.slidePage === targetPage) ?? sentenceSegments[0];
     if (!target) return;
