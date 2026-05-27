@@ -286,7 +286,7 @@ function FullTextView({
         <button
           key={seg.id}
           type="button"
-          className="mb-4 w-full text-left text-[16px] font-medium leading-relaxed text-white/78 transition active:scale-[0.998] hover:text-white/90"
+          className="mb-4 w-full text-left text-[15px] font-medium leading-snug text-white/78 transition active:scale-[0.998] hover:text-white/90"
           onClick={() => onSegmentClick(seg)}
         >
           {lang === "en" ? seg.textEn : seg.textZh}
