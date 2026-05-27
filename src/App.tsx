@@ -207,9 +207,12 @@ export default function App() {
     const audio = audioRef.current;
     if (!audio) return;
 
+    // Add a small offset so the seek always lands inside the segment rather than
+    // at the preceding MP3 frame boundary (~26 ms per frame, VBR can overshoot).
+    const seekTarget = segment.startTime > 0 ? segment.startTime + 0.1 : 0;
     const wasPlaying = !audio.paused;
-    audio.currentTime = segment.startTime;
-    setCurrentTime(segment.startTime);
+    audio.currentTime = seekTarget;
+    setCurrentTime(seekTarget);
     currentSegmentRef.current = segment;
 
     if (wasPlaying) {
