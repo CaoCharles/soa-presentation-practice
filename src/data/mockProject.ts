@@ -65,38 +65,6 @@ export const mockProject: Project = {
       "slidePage": 1
     },
     {
-      "id": "p01s01u08",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "It can actually become a real source of actuarial insight.",
-      "textZh": "它實際上可以成為精算洞察的重要來源。",
-      "slidePage": 1
-    },
-    {
-      "id": "p01s01u09",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "It can help insurers spot emerging health trends, sharpen experience analysis, strengthen fraud monitoring, and build a more resilient operation overall.",
-      "textZh": "它可以協助保險公司理解新興疾病經驗、改善經驗分析、強化詐欺監控，並建立更具韌性的營運模式。",
-      "slidePage": 1
-    },
-    {
-      "id": "p01s01u10",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "Our core message is pretty simple: if claims data can go from messy, unstructured records to something explainable, governed, and ready for actuarial use, then claims operations can become a true strategic asset for the whole company.",
-      "textZh": "我們的核心訊息很簡單：如果理賠資料能從非結構化的營運紀錄，轉換為可解釋、受治理、可供精算使用的資料，那麼理賠營運就能成為整家公司的策略性資產。",
-      "slidePage": 1
-    },
-    {
-      "id": "p01s01u11",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "As you listen today, I'd invite you to keep one question in mind: in your own organization, are claims records mainly treated as evidence for payment — or also as evidence for learning?",
-      "textZh": "今天聆聽時，我也想邀請各位保留一個問題：在你的組織中，理賠紀錄主要只是付款證據，還是也是學習的證據？",
-      "slidePage": 1
-    },
-    {
       "id": "p01s02u01",
       "startTime": 56.9,
       "endTime": 60.013,
@@ -134,38 +102,6 @@ export const mockProject: Project = {
       "endTime": 89.613,
       "textEn": "Together, we'll walk you through three questions. First, why is Taiwan's life insurance claims environment getting more complex?",
       "textZh": "今天我們會依序回答三個問題。第一，為什麼台灣壽險理賠環境正變得越來越複雜？",
-      "slidePage": 2
-    },
-    {
-      "id": "p01s02u06",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "Second, how did we design CAELIA — the Cathay AI Engine for Life Insurance Adjudication — as an agentic AI framework?",
-      "textZh": "第二，我們如何將 CAELIA，也就是 Cathay AI Engine for Life Insurance Adjudication，設計成一個 agentic AI 框架？",
-      "slidePage": 2
-    },
-    {
-      "id": "p01s02u07",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "Agentic AI, by the way, is AI that can take initiative and carry out multi-step tasks on its own.",
-      "textZh": "順帶一提，Agentic AI 是指能夠主動採取行動、自主執行多步驟任務的 AI。",
-      "slidePage": 2
-    },
-    {
-      "id": "p01s02u08",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "And third, how can this kind of framework create value beyond just operational efficiency — especially for experience studies, pricing, reserving, risk monitoring, and governance?",
-      "textZh": "第三，這類框架如何創造超越營運效率的價值，特別是在經驗研究、定價、準備金、風險監控與治理方面？",
-      "slidePage": 2
-    },
-    {
-      "id": "p01s02u09",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "With that framing in place, let's start with the pressures that made this work necessary in the first place.",
-      "textZh": "有了這個架構，我們先從讓這項工作變得必要的壓力談起。",
       "slidePage": 2
     },
     {
@@ -238,78 +174,6 @@ export const mockProject: Project = {
       "endTime": 138.4,
       "textEn": "On the slide, you can see the scale of that pressure: claim volume has grown by 56 percent.",
       "textZh": "從這張投影片可以看到這股壓力的規模：理賠量已成長了 56%。",
-      "slidePage": 3
-    },
-    {
-      "id": "p01s03u10",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "The second pressure is operational.",
-      "textZh": "第二個壓力來自作業面。高頻率、低嚴重度的理賠正在增加。",
-      "slidePage": 3
-    },
-    {
-      "id": "p01s03u11",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "At Cathay Life, we are talking about more than 1.6 million claims a year, with more high-frequency, low-severity claims entering the workflow.",
-      "textZh": "以國泰人壽來說，每年的理賠案件超過 160 萬件，其中高頻次、低嚴重性的案件比例也持續增加。",
-      "slidePage": 3
-    },
-    {
-      "id": "p01s03u12",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "Individually, they might not be large amounts.",
-      "textZh": "單件金額可能不高，但合在一起會造成營運模式碎片化，因為每件仍需要文件審查、保單解釋、資料輸入與品質控管。",
-      "slidePage": 3
-    },
-    {
-      "id": "p01s03u13",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "But together they create real fragmentation, because every single case still needs document review, policy interpretation, data entry, and quality control.",
-      "textZh": "但這些問題合在一起卻造成嚴重的流程碎片化，因為每一件理賠仍需要文件審核、保單解讀、資料輸入與品質控管。",
-      "slidePage": 3
-    },
-    {
-      "id": "p01s03u14",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "The third pressure is talent. Claims adjudication requires experienced judgment across medical terminology, policy terms, fraud patterns, customer situations, and regulatory expectations.",
-      "textZh": "第三個壓力來自人才。理賠核定需要跨越醫療術語、保單條款、詐欺型態、客戶情境與監理期待的經驗判斷。",
-      "slidePage": 3
-    },
-    {
-      "id": "p01s03u15",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "But experienced claims and risk professionals are hard to scale up quickly. So the challenge isn't just \"how do we process more claims?\"",
-      "textZh": "但資深理賠與風險專業人才很難快速擴張。因此挑戰不只是「我們如何處理更多理賠？",
-      "slidePage": 3
-    },
-    {
-      "id": "p01s03u16",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "The deeper question is: \"When both complexity and volume are going up at the same time, how do we keep decision quality, risk control, and actuarial insight strong?\"",
-      "textZh": "」更深層的挑戰是：「當複雜度與數量同時增加時，我們如何維持決策品質、風險控管與精算洞察？",
-      "slidePage": 3
-    },
-    {
-      "id": "p01s03u17",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "That's the starting point for our AI journey.",
-      "textZh": "」這就是我們 AI 旅程的起點。",
-      "slidePage": 3
-    },
-    {
-      "id": "p01s03u18",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "Before we get into the technology, it's worth stepping back and asking: how did claims adjudication get to this point, and why aren't the old tools enough anymore?",
-      "textZh": "所以在介紹技術之前，先退一步問：理賠核定是如何演進到今天的？為什麼過去有效的工具已經不夠？",
       "slidePage": 3
     },
     {
@@ -401,30 +265,6 @@ export const mockProject: Project = {
       "slidePage": 4
     },
     {
-      "id": "p02s01u12",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "It's human-in-the-loop agentic AI: AI does the structured analysis and prepares the evidence, while human reviewers keep the final decision authority.",
-      "textZh": "這就是「人在迴圈中」的 Agentic AI：AI 負責結構化分析並整理證據，而最終決策權仍保留在人類審核員手中。",
-      "slidePage": 4
-    },
-    {
-      "id": "p02s01u13",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "To see why that matters, let's look at the actual claims journey.",
-      "textZh": "要看出這為何重要，接下來看實際理賠旅程：複雜度在哪裡進入流程？有價值的資訊又從哪裡開始消失？",
-      "slidePage": 4
-    },
-    {
-      "id": "p02s01u14",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "Where does complexity enter the workflow, and where does valuable information start to disappear?",
-      "textZh": "流程中哪個環節最容易出現複雜情況？哪個環節的有價值資訊開始流失？",
-      "slidePage": 4
-    },
-    {
       "id": "p02s02u01",
       "startTime": 201.963,
       "endTime": 207.15,
@@ -489,38 +329,6 @@ export const mockProject: Project = {
       "slidePage": 5
     },
     {
-      "id": "p02s02u09",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "For operations, that means more manual work. For actuaries, it means weaker data granularity.",
-      "textZh": "對作業面來說，這意味著更多人工；對精算師來說，這意味著資料粒度較差。",
-      "slidePage": 5
-    },
-    {
-      "id": "p02s02u10",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "We might know the claim result, but we may not fully know the cause, the medical pathway, the detailed risk factors, or what evidence was behind the decision.",
-      "textZh": "我們可能知道理賠結果，卻未必完全了解原因、醫療路徑、詳細風險因子，或決策背後的依據。",
-      "slidePage": 5
-    },
-    {
-      "id": "p02s02u11",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "That's why we believe the claims process needs to be redesigned — not just as a payment workflow, but as a data transformation workflow too.",
-      "textZh": "這就是為什麼我們認為理賠流程需要重新設計——不只是付款流程，也是資料轉換流程。",
-      "slidePage": 5
-    },
-    {
-      "id": "p02s02u12",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "If we look at it through that lens, the first question becomes: how early can we capture useful information, and how much structure can we create before the case even reaches a human reviewer?",
-      "textZh": "從這個角度來看，第一個問題是：我們能多早擷取有用的資訊？在案件到達人工審查員之前，能建立多少結構？",
-      "slidePage": 5
-    },
-    {
       "id": "p02s03u01",
       "startTime": 251.138,
       "endTime": 254.975,
@@ -542,62 +350,6 @@ export const mockProject: Project = {
       "endTime": 271.588,
       "textEn": "This is great for customer convenience and it shortens turnaround time. But digital submission alone doesn't solve the whole problem.",
       "textZh": "客戶可透過手機提交理賠，減少紙本並縮短前端流程。",
-      "slidePage": 6
-    },
-    {
-      "id": "p02s03u04",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "A claim might arrive digitally, but the supporting medical documents are still unstructured.",
-      "textZh": "但數位化本身不等於資料已經可分析。",
-      "slidePage": 6
-    },
-    {
-      "id": "p02s03u05",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "They might be scanned images, PDFs, hospital certificates, receipts, diagnosis documents, or discharge summaries. So digitalization is necessary — but it's not enough on its own.",
-      "textZh": "文件可能仍是掃描影像、PDF、診斷證明、收據或出院摘要。",
-      "slidePage": 6
-    },
-    {
-      "id": "p02s03u06",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "It gets us the documents faster, but it doesn't automatically create analytical value.",
-      "textZh": "它讓我們更快拿到文件，但不會自動產生分析價值。",
-      "slidePage": 6
-    },
-    {
-      "id": "p02s03u07",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "To create that analytical value, we need to convert those documents into structured, reliable, and explainable data.",
-      "textZh": "因此我們還需要把文件轉成結構化、可靠、可解釋的資料。",
-      "slidePage": 6
-    },
-    {
-      "id": "p02s03u08",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "That's where OCR, large language models, and agentic AI start to play a role.",
-      "textZh": "OCR、大型語言模型與 agentic AI 就是在這裡開始發揮作用。",
-      "slidePage": 6
-    },
-    {
-      "id": "p02s03u09",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "OCR converts images to machine-readable text; LLMs understand the meaning of what's in those documents.",
-      "textZh": "OCR 將影像轉換為機器可讀的文字；LLM 則理解這些文件內容的意涵。",
-      "slidePage": 6
-    },
-    {
-      "id": "p02s03u10",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "But once documents arrive digitally, we still face a second question: can AI understand what's inside those documents well enough to support the decisions that come next?",
-      "textZh": "但當文件以數位方式送達後，我們仍面臨第二個問題：AI 能否充分理解文件內容，以支援後續的決策？",
       "slidePage": 6
     },
     {
@@ -646,30 +398,6 @@ export const mockProject: Project = {
       "endTime": 307.063,
       "textEn": "For Traditional Chinese medical documentation, this is especially important.",
       "textZh": "對繁體中文的醫療文件來說，這一點尤其重要。",
-      "slidePage": 7
-    },
-    {
-      "id": "p03s01u07",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "The language is very domain-specific, and the same clinical concept can show up in completely different wording across different hospitals.",
-      "textZh": "這些語言高度專業，同一個臨床概念在不同醫院可能以完全不同的措辭呈現。",
-      "slidePage": 7
-    },
-    {
-      "id": "p03s01u08",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "By structuring this information early, we create a much better foundation for downstream triage, review, risk analysis, and actuarial use.",
-      "textZh": "透過早期結構化資訊，我們為後續的分流、審查、風險分析與精算使用奠定更好的基礎。",
-      "slidePage": 7
-    },
-    {
-      "id": "p03s01u09",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "Once that foundation is in place, the workflow can move from simple case creation to something more decision-oriented: which cases need more attention, and why?",
-      "textZh": "有了這個基礎，流程就能從單純的建立案件，轉向更以決策為導向的模式：哪些案件需要更多關注，以及為什麼？",
       "slidePage": 7
     },
     {
@@ -729,30 +457,6 @@ export const mockProject: Project = {
       "slidePage": 8
     },
     {
-      "id": "p03s02u08",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "The goal isn't to hand a reviewer a black-box score and walk away.",
-      "textZh": "我們的目標不是給審核員一個黑箱分數就了事。",
-      "slidePage": 8
-    },
-    {
-      "id": "p03s02u09",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "The goal is to help them make faster, better-informed, more consistent decisions. This leads naturally to the next design question.",
-      "textZh": "目標是幫助他們做出更快、更有依據、更一致的決策。這自然帶出了下一個設計問題。",
-      "slidePage": 8
-    },
-    {
-      "id": "p03s02u10",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "If a case is routed to a human reviewer, what should that review environment look like — so that human expertise is used where it actually matters most?",
-      "textZh": "如果案件被路由到人工審查員，審查環境應該如何設計——才能讓人類專業在最需要的地方發揮作用？",
-      "slidePage": 8
-    },
-    {
       "id": "p03s03u01",
       "startTime": 346.912,
       "endTime": 351.287,
@@ -790,38 +494,6 @@ export const mockProject: Project = {
       "endTime": 374.025,
       "textEn": "When information is scattered across systems, reviewers spend a lot of time just searching, comparing, and reconciling.",
       "textZh": "當資訊分散在各系統中，審查員會花大量時間在搜尋、比對與核對上。",
-      "slidePage": 9
-    },
-    {
-      "id": "p03s03u06",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "When it's organized, they can spend more time on actual professional judgment.",
-      "textZh": "當資訊被整理好之後，他們就能把更多時間放在真正的專業判斷上。",
-      "slidePage": 9
-    },
-    {
-      "id": "p03s03u07",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "In other words, the system shouldn't just process data. It should create a better decision environment for experts.",
-      "textZh": "換句話說，系統不只是處理資料，它應該為專家創造更好的決策環境。",
-      "slidePage": 9
-    },
-    {
-      "id": "p03s03u08",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "Once the reviewer is in that environment, AI support has to appear at the right moment. The question isn't just \"Can AI analyze this case?\"",
-      "textZh": "一旦審查員進入這個環境，AI 支援必須在對的時機出現。問題不只是 AI 能自動化多少——",
-      "slidePage": 9
-    },
-    {
-      "id": "p03s03u09",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "It's \"Can AI help the reviewer think more clearly about this case?\"",
-      "textZh": "而是什麼樣的 AI 協助能真正提升專業判斷的品質？",
       "slidePage": 9
     },
     {
@@ -878,30 +550,6 @@ export const mockProject: Project = {
       "endTime": 413.775,
       "textEn": "It's also a workflow design problem. If AI output appears somewhere outside the normal workflow, people may just ignore it.",
       "textZh": "也是一個工作流程設計問題。如果 AI 輸出出現在正常流程之外，人們可能只是忽略它。",
-      "slidePage": 10
-    },
-    {
-      "id": "p04s01u08",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "But if it's embedded at the right moment, in the right interface, with the right evidence — it becomes part of the decision process.",
-      "textZh": "AI 必須出現在審查員工作的正確時刻，並提供正確證據，才會真正進入決策流程。",
-      "slidePage": 10
-    },
-    {
-      "id": "p04s01u09",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "That's the point where AI stops being just a feature inside a system and starts becoming part of the actual decision architecture.",
-      "textZh": "這就是 AI 不再只是系統功能，而是真正成為決策架構一部分的轉折點。",
-      "slidePage": 10
-    },
-    {
-      "id": "p04s01u10",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "And that brings us to the bigger question on this slide.",
-      "textZh": "而這也引出了這張投影片上更大的問題。",
       "slidePage": 10
     },
     {
@@ -966,30 +614,6 @@ export const mockProject: Project = {
       "endTime": 454.137,
       "textEn": "But we should be careful with the word \"collaborative.\" We don't mean that AI has the same authority as a human claims professional.",
       "textZh": "但我們要謹慎使用「協作」這個詞——我們並不是說 AI 擁有與人類理賠專員相同的決策權限。",
-      "slidePage": 11
-    },
-    {
-      "id": "p04s02u09",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "We mean that AI collaborates by doing evidence preparation, consistency checking, and structured reasoning — while humans provide the judgment, the accountability, and the final sign-off.",
-      "textZh": "我們所說的協作，是 AI 負責準備證據、核查一致性與結構化推理——而人類提供判斷、承擔責任並做最終決策。",
-      "slidePage": 11
-    },
-    {
-      "id": "p04s02u10",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "This is the foundation of our human-in-the-loop design. And it's also where trust becomes the central issue.",
-      "textZh": "這是我們 human-in-the-loop 設計的基礎，也是信任成為核心議題的地方。",
-      "slidePage": 11
-    },
-    {
-      "id": "p04s02u11",
-      "startTime": 0,
-      "endTime": 0,
-      "textEn": "For that trust to hold, the people using this system must be able to question its output, verify the reasoning behind it, and remain fully accountable for every decision they make.",
-      "textZh": "要讓這份信任成立，使用這個系統的人必須能夠質疑它的輸出、驗證背後的推理，並對每一個決策結果完全負責。",
       "slidePage": 11
     },
     {
