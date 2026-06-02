@@ -175,21 +175,9 @@
     "duration": 5.275,
     "text": "And when we understand the why, it becomes possible to act on it — not just report it."
   },
-  "p06s04u01": {
-    "duration": 11.65,
-    "text": "Once we understand the why, those insights can inform pricing — because more granular claims data helps teams see exactly how different risk drivers affect claim frequency and severity."
-  },
   "p06s04u02": {
     "duration": 7.8875,
     "text": "Take lung cancer as an example. Looking at 100 cases together, traditional pricing just tells you costs are going up."
-  },
-  "p06s04u03": {
-    "duration": 11.85,
-    "text": "But cause analysis breaks that down — 70 standard cases, 20 high-intensity ones, and 10 borderline cases where the treatment pattern or policy coverage needs a closer look."
-  },
-  "p06s04u04": {
-    "duration": 6.95,
-    "text": "The difference matters — because without cause analysis, management can only see the bill, not what's driving it."
   },
   "p06s04u05": {
     "duration": 6.575,
@@ -198,10 +186,6 @@
   "p06s04u06": {
     "duration": 9.45,
     "text": "That's the whole point: AI turns claims documents into structured evidence, and structured evidence makes every pricing and risk decision more precise."
-  },
-  "p06s04u10": {
-    "duration": 7.6875,
-    "text": "But none of these applications hold if the AI underneath is reasoning from an unstable or poorly governed knowledge base."
   },
   "p06s04u11": {
     "duration": 5.1875,
@@ -826,5 +810,21 @@
   "p04s03u09": {
     "duration": 7.5625,
     "text": "Next, my colleague Li Yu Tsao will continue by introducing the detailed applications of Agentic AI in claims operations."
+  },
+  "p06s04u01": {
+    "duration": 11.6125,
+    "text": "Once we understand the why, those insights can directly inform pricing. More granular claims data lets teams see exactly which risk drivers are pushing up claim frequency and severity."
+  },
+  "p06s04u03": {
+    "duration": 13.5375,
+    "text": "But cause analysis breaks that down — 70 standard cases, 20 high-intensity ones, and 10 borderline cases. Those are the ones where the treatment pattern or coverage question still needs a closer look."
+  },
+  "p06s04u04": {
+    "duration": 7.825,
+    "text": "The difference matters — because without cause analysis, leadership can see the total cost, but not what's actually driving it."
+  },
+  "p06s04u10": {
+    "duration": 6.35,
+    "text": "But all of this depends on one thing: the AI has to reason from a solid, well-governed knowledge base."
   }
 }

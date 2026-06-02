@@ -561,152 +561,152 @@
   },
   "p06s04u01": {
     "startTime": 751.4,
-    "endTime": 763.05,
-    "duration": 11.65
+    "endTime": 763.012,
+    "duration": 11.613
   },
   "p06s04u02": {
-    "startTime": 763.05,
-    "endTime": 770.938,
+    "startTime": 763.012,
+    "endTime": 770.9,
     "duration": 7.888
   },
   "p06s04u03": {
-    "startTime": 770.938,
-    "endTime": 782.788,
-    "duration": 11.85
+    "startTime": 770.9,
+    "endTime": 784.438,
+    "duration": 13.537
   },
   "p06s04u04": {
-    "startTime": 782.788,
-    "endTime": 789.738,
-    "duration": 6.95
+    "startTime": 784.438,
+    "endTime": 792.263,
+    "duration": 7.825
   },
   "p06s04u05": {
-    "startTime": 789.738,
-    "endTime": 796.313,
+    "startTime": 792.263,
+    "endTime": 798.838,
     "duration": 6.575
   },
   "p06s04u06": {
-    "startTime": 796.313,
-    "endTime": 805.763,
+    "startTime": 798.838,
+    "endTime": 808.288,
     "duration": 9.45
   },
   "p06s04u10": {
-    "startTime": 805.763,
-    "endTime": 813.45,
-    "duration": 7.688
+    "startTime": 808.288,
+    "endTime": 814.638,
+    "duration": 6.35
   },
   "p06s04u11": {
-    "startTime": 813.45,
-    "endTime": 818.638,
+    "startTime": 814.638,
+    "endTime": 819.825,
     "duration": 5.188
   },
   "p07s01u01": {
-    "startTime": 818.638,
-    "endTime": 823.863,
+    "startTime": 819.825,
+    "endTime": 825.05,
     "duration": 5.225
   },
   "p07s01u02": {
-    "startTime": 823.863,
-    "endTime": 831.988,
+    "startTime": 825.05,
+    "endTime": 833.175,
     "duration": 8.125
   },
   "p07s01u03": {
-    "startTime": 831.988,
-    "endTime": 837.95,
+    "startTime": 833.175,
+    "endTime": 839.138,
     "duration": 5.963
   },
   "p07s01u04": {
-    "startTime": 837.95,
-    "endTime": 845.375,
+    "startTime": 839.138,
+    "endTime": 846.563,
     "duration": 7.425
   },
   "p07s01u05": {
-    "startTime": 845.375,
-    "endTime": 849.9,
+    "startTime": 846.563,
+    "endTime": 851.088,
     "duration": 4.525
   },
   "p07s01u06": {
-    "startTime": 849.9,
-    "endTime": 856.15,
+    "startTime": 851.088,
+    "endTime": 857.338,
     "duration": 6.25
   },
   "p07s01u07": {
-    "startTime": 856.15,
-    "endTime": 862.263,
+    "startTime": 857.338,
+    "endTime": 863.45,
     "duration": 6.112
   },
   "p07s01u08": {
-    "startTime": 862.263,
-    "endTime": 872.338,
+    "startTime": 863.45,
+    "endTime": 873.525,
     "duration": 10.075
   },
   "p07s02u01": {
-    "startTime": 872.338,
-    "endTime": 884.25,
+    "startTime": 873.525,
+    "endTime": 885.438,
     "duration": 11.912
   },
   "p07s02u02": {
-    "startTime": 884.25,
-    "endTime": 892.838,
+    "startTime": 885.438,
+    "endTime": 894.025,
     "duration": 8.588
   },
   "p07s02u03": {
-    "startTime": 892.838,
-    "endTime": 904.35,
+    "startTime": 894.025,
+    "endTime": 905.538,
     "duration": 11.512
   },
   "p07s02u04": {
-    "startTime": 904.35,
-    "endTime": 912.1,
+    "startTime": 905.538,
+    "endTime": 913.288,
     "duration": 7.75
   },
   "p07s02u05": {
-    "startTime": 912.1,
-    "endTime": 921.113,
+    "startTime": 913.288,
+    "endTime": 922.3,
     "duration": 9.012
   },
   "p07s02u06": {
-    "startTime": 921.113,
-    "endTime": 924.963,
+    "startTime": 922.3,
+    "endTime": 926.15,
     "duration": 3.85
   },
   "p07s03u01": {
-    "startTime": 924.963,
-    "endTime": 930.463,
+    "startTime": 926.15,
+    "endTime": 931.65,
     "duration": 5.5
   },
   "p07s03u02": {
-    "startTime": 930.463,
-    "endTime": 940.45,
+    "startTime": 931.65,
+    "endTime": 941.638,
     "duration": 9.988
   },
   "p07s03u03": {
-    "startTime": 940.45,
-    "endTime": 944.838,
+    "startTime": 941.638,
+    "endTime": 946.025,
     "duration": 4.388
   },
   "p07s03u04": {
-    "startTime": 944.838,
-    "endTime": 953.175,
+    "startTime": 946.025,
+    "endTime": 954.363,
     "duration": 8.338
   },
   "p07s03u05": {
-    "startTime": 953.175,
-    "endTime": 964.325,
+    "startTime": 954.363,
+    "endTime": 965.513,
     "duration": 11.15
   },
   "p07s03u06": {
-    "startTime": 964.325,
-    "endTime": 971.5,
+    "startTime": 965.513,
+    "endTime": 972.688,
     "duration": 7.175
   },
   "p07s03u07": {
-    "startTime": 971.5,
-    "endTime": 981.688,
+    "startTime": 972.688,
+    "endTime": 982.875,
     "duration": 10.188
   },
   "p07s03u08": {
-    "startTime": 981.688,
-    "endTime": 985.113,
+    "startTime": 982.875,
+    "endTime": 986.3,
     "duration": 3.425
   }
 }

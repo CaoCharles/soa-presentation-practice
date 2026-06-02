@@ -673,8 +673,8 @@
   },
   {
     "id": "p06s04u01",
-    "textEn": "Once we understand the why, those insights can inform pricing — because more granular claims data helps teams see exactly how different risk drivers affect claim frequency and severity.",
-    "textZh": "一旦我們理解了「為什麼」，這些洞察就能指引定價——因為更細緻的理賠資料能幫助團隊看清不同風險驅動因子如何影響理賠頻率與嚴重度。",
+    "textEn": "Once we understand the why, those insights can directly inform pricing. More granular claims data lets teams see exactly which risk drivers are pushing up claim frequency and severity.",
+    "textZh": "一旦我們理解了「為什麼」，這些洞察就能直接指引定價。更細緻的理賠資料，能讓團隊清楚看到哪些風險因子正在推升理賠頻率與嚴重度。",
     "slidePage": 19
   },
   {
@@ -685,14 +685,14 @@
   },
   {
     "id": "p06s04u03",
-    "textEn": "But cause analysis breaks that down — 70 standard cases, 20 high-intensity ones, and 10 borderline cases where the treatment pattern or policy coverage needs a closer look.",
-    "textZh": "但原因分析能拆開來看——70 件標準治療、20 件高強度、10 件在治療模式或保單適用上需要更仔細檢視的邊界案件。",
+    "textEn": "But cause analysis breaks that down — 70 standard cases, 20 high-intensity ones, and 10 borderline cases. Those are the ones where the treatment pattern or coverage question still needs a closer look.",
+    "textZh": "但原因分析能拆開來看——70 件標準治療、20 件高強度、10 件邊界案件。這些是治療模式或保單適用仍需要更仔細檢視的案件。",
     "slidePage": 19
   },
   {
     "id": "p06s04u04",
-    "textEn": "The difference matters — because without cause analysis, management can only see the bill, not what's driving it.",
-    "textZh": "這個差別很重要——因為沒有原因分析，管理層只能看到帳單，而看不到背後的驅動因素。",
+    "textEn": "The difference matters — because without cause analysis, leadership can see the total cost, but not what's actually driving it.",
+    "textZh": "這個差別很重要——因為沒有原因分析，管理層只能看到總成本，卻看不到背後真正的驅動因素。",
     "slidePage": 19
   },
   {
@@ -709,8 +709,8 @@
   },
   {
     "id": "p06s04u10",
-    "textEn": "But none of these applications hold if the AI underneath is reasoning from an unstable or poorly governed knowledge base.",
-    "textZh": "但如果 AI 底層的推理依賴不穩定或治理不善的知識庫，這些應用都將無法成立。",
+    "textEn": "But all of this depends on one thing: the AI has to reason from a solid, well-governed knowledge base.",
+    "textZh": "但這一切都取決於一件事：AI 必須從穩固、治理良好的知識庫進行推理。",
     "slidePage": 19
   },
   {

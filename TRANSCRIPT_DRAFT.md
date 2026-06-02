@@ -258,19 +258,19 @@
 **[p06s03u07]** And when we understand the why, it becomes possible to act on it — not just report it.
 
 ## Slide 19
-**[p06s04u01]** Once we understand the why, those insights can inform pricing — because more granular claims data helps teams see exactly how different risk drivers affect claim frequency and severity.
+**[p06s04u01]** Once we understand the why, those insights can directly inform pricing. More granular claims data lets teams see exactly which risk drivers are pushing up claim frequency and severity.
 
 **[p06s04u02]** Take lung cancer as an example. Looking at 100 cases together, traditional pricing just tells you costs are going up.
 
-**[p06s04u03]** But cause analysis breaks that down — 70 standard cases, 20 high-intensity ones, and 10 borderline cases where the treatment pattern or policy coverage needs a closer look.
+**[p06s04u03]** But cause analysis breaks that down — 70 standard cases, 20 high-intensity ones, and 10 borderline cases. Those are the ones where the treatment pattern or coverage question still needs a closer look.
 
-**[p06s04u04]** The difference matters — because without cause analysis, management can only see the bill, not what's driving it.
+**[p06s04u04]** The difference matters — because without cause analysis, leadership can see the total cost, but not what's actually driving it.
 
 **[p06s04u05]** With it, they can actually do something — update assumptions, adjust underwriting, or refine product design.
 
 **[p06s04u06]** That's the whole point: AI turns claims documents into structured evidence, and structured evidence makes every pricing and risk decision more precise.
 
-**[p06s04u10]** But none of these applications hold if the AI underneath is reasoning from an unstable or poorly governed knowledge base.
+**[p06s04u10]** But all of this depends on one thing: the AI has to reason from a solid, well-governed knowledge base.
 
 **[p06s04u11]** That brings us to the foundation that sits underneath every decision CAELIA makes.
 
