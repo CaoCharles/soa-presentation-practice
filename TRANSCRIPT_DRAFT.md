@@ -238,7 +238,7 @@
 
 **[p06s02u04]** In other words, AI doesn't just make claims operations faster — it expands the data available for actuarial analysis.
 
-**[p06s02u05]** Under IFRS 17, actuaries can't afford to wait for year-end data runs — they need claims experience to feed back into assumptions in near real time.
+**[p06s02u05]** Under IFRS 17, actuaries need claims experience to feed back into assumptions much more frequently — not just at year-end.
 
 **[p06s02u07]** And that opens a bigger question: can this richer foundation help us move beyond measuring what happened — to understanding why it happened?
 

@@ -139,10 +139,6 @@
     "duration": 7.275,
     "text": "In other words, AI doesn't just make claims operations faster — it expands the data available for actuarial analysis."
   },
-  "p06s02u05": {
-    "duration": 9.5375,
-    "text": "Under IFRS 17, actuaries can't afford to wait for year-end data runs — they need claims experience to feed back into assumptions in near real time."
-  },
   "p06s02u07": {
     "duration": 8.775,
     "text": "And that opens a bigger question: can this richer foundation help us move beyond measuring what happened — to understanding why it happened?"
@@ -826,5 +822,9 @@
   "p06s04u10": {
     "duration": 6.35,
     "text": "But all of this depends on one thing: the AI has to reason from a solid, well-governed knowledge base."
+  },
+  "p06s02u05": {
+    "duration": 7.9875,
+    "text": "Under IFRS 17, actuaries need claims experience to feed back into assumptions much more frequently — not just at year-end."
   }
 }
