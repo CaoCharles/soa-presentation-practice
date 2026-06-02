@@ -34,4 +34,37 @@ python3 scripts/validate.py
 | Check 1 or 2 | `python3 scripts/sync.py` |
 | Check 3 or 4 | `python3 scripts/sync.py` |
 | Check 7 | Update TRANSCRIPT_DRAFT.md to match new_segments.json, then `bash scripts/regen-audio.sh` |
-| Check 8 | `bash scripts/regen-audio.sh` (incremental — only re-synthesizes changed segments) |
+| Check 8 | See below — **do NOT just run regen-audio.sh directly** |
+
+### Check 8 fix: stale WAV with same segment ID
+
+`synthesize.py` skips synthesis if the segment ID already exists in `progress.json`, **even if the text changed**. Running `regen-audio.sh` alone will silently reuse the old WAV.
+
+**Correct fix:**
+
+```python
+# Step 1: Remove stale progress.json entries where text no longer matches
+python3.11 -c "
+import json, re
+
+content = open('TRANSCRIPT_DRAFT.md').read()
+parts = re.split(r'\*\*\[([^\]]+)\]\*\*', content)
+current = {}
+for i in range(1, len(parts)-1, 2):
+    sid = parts[i].strip()
+    text = re.split(r'\n##\s', parts[i+1])[0].strip()
+    current[sid] = text
+
+prog = json.load(open('audio_output/progress.json'))
+stale = [sid for sid, info in prog.items() if sid in current and info.get('text','') != current[sid]]
+for sid in stale:
+    del prog[sid]
+open('audio_output/progress.json', 'w').write(json.dumps(prog, indent=2, ensure_ascii=False))
+print(f'Removed {len(stale)} stale entries')
+"
+
+# Step 2: Re-synthesize and rebuild
+bash scripts/regen-audio.sh --push
+```
+
+This only re-synthesizes segments where the text actually changed — it does not force a full rebuild.
