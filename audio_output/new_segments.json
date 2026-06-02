@@ -720,12 +720,6 @@
     "slidePage": 19
   },
   {
-    "id": "p07s01u01",
-    "textEn": "All of that only works if the knowledge base underneath is solid and well-governed.",
-    "textZh": "這一切只有在底層的知識庫紮實且治理完善的情況下才能成立。",
-    "slidePage": 20
-  },
-  {
     "id": "p07s01u02",
     "textEn": "For CAELIA, that knowledge comes from three sources: claims policies, product terms and benefit rules, and a medical knowledge library.",
     "textZh": "對 CAELIA 而言，這個知識庫來自三個來源：理賠作業準則、商品條款與給付規則，以及醫療知識庫。",
@@ -763,8 +757,8 @@
   },
   {
     "id": "p07s01u08",
-    "textEn": "That challenge is especially clear in policy interpretation — as medical practices evolve and new procedures emerge, existing benefit terms can't always keep up.",
-    "textZh": "這個挑戰在保單解讀中最為明顯——隨著醫療行為演進、新手術不斷出現，現有的給付條款有時候跟不上。",
+    "textEn": "This need for traceability is especially clear in policy interpretation — as medical practices evolve and new procedures emerge, existing benefit terms can't always keep up.",
+    "textZh": "這對可追溯性的需求，在保單解讀中最為明顯——隨著醫療行為演進、新手術不斷出現，現有的給付條款有時候跟不上。",
     "slidePage": 20
   },
   {

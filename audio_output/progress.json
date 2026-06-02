@@ -215,10 +215,6 @@
     "duration": 6.1125,
     "text": "That's what keeps the system controllable — AI reasons from approved knowledge, not from guesswork."
   },
-  "p07s01u08": {
-    "duration": 10.075,
-    "text": "That challenge is especially clear in policy interpretation — as medical practices evolve and new procedures emerge, existing benefit terms can't always keep up."
-  },
   "p07s02u01": {
     "duration": 11.9125,
     "text": "That is why policy interpretation is one of the most critical tests of the system — a single claim decision can hinge on how you read a definition, a benefit condition, or an exclusion clause."
@@ -826,5 +822,9 @@
   "p06s02u05": {
     "duration": 7.9875,
     "text": "Under IFRS 17, actuaries need claims experience to feed back into assumptions much more frequently — not just at year-end."
+  },
+  "p07s01u08": {
+    "duration": 10.875,
+    "text": "This need for traceability is especially clear in policy interpretation — as medical practices evolve and new procedures emerge, existing benefit terms can't always keep up."
   }
 }

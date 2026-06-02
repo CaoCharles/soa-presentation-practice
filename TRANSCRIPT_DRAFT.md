@@ -275,8 +275,6 @@
 **[p06s04u11]** That brings us to the foundation that sits underneath every decision CAELIA makes.
 
 ## Slide 20
-**[p07s01u01]** All of that only works if the knowledge base underneath is solid and well-governed.
-
 **[p07s01u02]** For CAELIA, that knowledge comes from three sources: claims policies, product terms and benefit rules, and a medical knowledge library.
 
 **[p07s01u03]** If it's incomplete or out of date, the AI pulls the wrong information — and makes the wrong call.
@@ -289,7 +287,7 @@
 
 **[p07s01u07]** That's what keeps the system controllable — AI reasons from approved knowledge, not from guesswork.
 
-**[p07s01u08]** That challenge is especially clear in policy interpretation — as medical practices evolve and new procedures emerge, existing benefit terms can't always keep up.
+**[p07s01u08]** This need for traceability is especially clear in policy interpretation — as medical practices evolve and new procedures emerge, existing benefit terms can't always keep up.
 
 ## Slide 21
 **[p07s02u01]** That is why policy interpretation is one of the most critical tests of the system — a single claim decision can hinge on how you read a definition, a benefit condition, or an exclusion clause.
