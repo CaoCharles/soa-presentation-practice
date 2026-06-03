@@ -5,7 +5,7 @@ export const mockProject: Project = {
   "title": "Beyond Efficiency",
   "subtitle": "SOA Presentation Practice",
   "audioUrl": "/audio/final.mp3",
-  "duration": 910.262,
+  "duration": 907.6,
   "coverImageUrl": "/slides/slide_01.png",
   "transcript": [
     {
@@ -683,487 +683,487 @@ export const mockProject: Project = {
     {
       "id": "p05s02u06",
       "startTime": 485.912,
-      "endTime": 495.112,
-      "textEn": "CAELIA is more than just a model — it gives claims reviewers a complete picture, with the facts, the policy terms, and the analysis all in one place.",
-      "textZh": "CAELIA 不只是一個模型——它提供理賠審查員完整的全貌，將事實、保單條款和分析結果整合在同一個地方。",
+      "endTime": 492.45,
+      "textEn": "At the center, CAELIA’s Lead Agent coordinates all of them and pulls everything into one final recommendation.",
+      "textZh": "在中心，CAELIA 的 Lead Agent 負責協調所有 Agent，並整合成一份最終建議。",
       "slidePage": 14
     },
     {
       "id": "p05s02u07",
-      "startTime": 495.112,
-      "endTime": 499.975,
+      "startTime": 492.45,
+      "endTime": 497.312,
       "textEn": "Now let me show you the full architecture of how all of this actually comes together.",
       "textZh": "現在讓我展示這一切是如何組合在一起的完整架構。",
       "slidePage": 14
     },
     {
       "id": "p05s03u01",
-      "startTime": 499.975,
-      "endTime": 504.4,
+      "startTime": 497.312,
+      "endTime": 501.738,
       "textEn": "So we just introduced CAELIA — now let's look at what's actually inside.",
       "textZh": "我們剛介紹了 CAELIA——現在來看看裡面實際上有什麼。",
       "slidePage": 15
     },
     {
       "id": "p05s03u02",
-      "startTime": 504.4,
-      "endTime": 511.0,
+      "startTime": 501.738,
+      "endTime": 508.338,
       "textEn": "This is the Multi-Agent Architecture Overview — you can see the full flow from input all the way to output.",
       "textZh": "這是多代理架構總覽——可以看到從輸入到輸出的完整流程。",
       "slidePage": 15
     },
     {
       "id": "p05s03u03",
-      "startTime": 511.0,
-      "endTime": 517.1,
+      "startTime": 508.338,
+      "endTime": 514.438,
       "textEn": "At the core is the Lead Agent — the Orchestrator — with four supporting agents working underneath it.",
       "textZh": "核心是主導 Agent——Orchestrator——底下有四個支援 Agent 協同運作。",
       "slidePage": 15
     },
     {
       "id": "p05s03u04",
-      "startTime": 517.1,
-      "endTime": 523.4,
+      "startTime": 514.438,
+      "endTime": 520.737,
       "textEn": "There's a Document agent, a Policy agent, a Medical Reasoning agent, and a Benefit Determination agent.",
       "textZh": "有 Document Agent、Policy Agent、Medical Reasoning Agent 和 Benefit Determination Agent。",
       "slidePage": 15
     },
     {
       "id": "p05s03u05",
-      "startTime": 523.4,
-      "endTime": 525.65,
+      "startTime": 520.737,
+      "endTime": 522.987,
       "textEn": "Each does one thing, and does it well.",
       "textZh": "每個 Agent 只做一件事，而且做得好。",
       "slidePage": 15
     },
     {
       "id": "p05s03u06",
-      "startTime": 525.65,
-      "endTime": 529.688,
+      "startTime": 522.987,
+      "endTime": 527.025,
       "textEn": "That focus is what keeps the system flexible and easy to govern.",
       "textZh": "這種專注正是讓系統保持靈活且易於治理的關鍵。",
       "slidePage": 15
     },
     {
       "id": "p05s03u07",
-      "startTime": 529.688,
-      "endTime": 538.188,
+      "startTime": 527.025,
+      "endTime": 535.525,
       "textEn": "And as medical practices, policy terms, or fraud patterns evolve — we can just update the relevant agent, without rebuilding the whole system.",
       "textZh": "隨著醫療行為、保單條款或詐欺模式的演進，我們只需更新相關 Agent，不用重建整個系統。",
       "slidePage": 15
     },
     {
       "id": "p05s03u08",
-      "startTime": 538.188,
-      "endTime": 540.9,
+      "startTime": 535.525,
+      "endTime": 538.237,
       "textEn": "Let me show you what this actually produces.",
       "textZh": "讓我展示這個架構實際上產出了什麼。",
       "slidePage": 15
     },
     {
       "id": "p06s01u01",
-      "startTime": 540.9,
-      "endTime": 545.962,
+      "startTime": 538.237,
+      "endTime": 543.3,
       "textEn": "So this is what CAELIA actually produces — the AI Pre-Assessment Decision Report.",
       "textZh": "這就是 CAELIA 實際產出的東西——AI 預審決策報告。",
       "slidePage": 16
     },
     {
       "id": "p06s01u02",
-      "startTime": 545.962,
-      "endTime": 553.962,
+      "startTime": 543.3,
+      "endTime": 551.3,
       "textEn": "It covers everything the reviewer needs — what happened, what the documents say, which policy terms apply, and what the AI recommends.",
       "textZh": "它涵蓋了審查員所需要的一切——發生了什麼、文件怎麼說、適用哪些保單條款，以及 AI 的建議是什麼。",
       "slidePage": 16
     },
     {
       "id": "p06s01u03",
-      "startTime": 553.962,
-      "endTime": 560.788,
+      "startTime": 551.3,
+      "endTime": 558.125,
       "textEn": "On this slide, the full dashboard shows the flow — from raw claims data to traceable decision recommendations.",
       "textZh": "在這頁，完整的儀表板展示了整個流程——從原始理賠資料到可追溯的決策建議。",
       "slidePage": 16
     },
     {
       "id": "p06s01u04",
-      "startTime": 560.788,
-      "endTime": 565.425,
+      "startTime": 558.125,
+      "endTime": 562.763,
       "textEn": "On the left is the claim application and all the supporting medical documents.",
       "textZh": "左側是理賠申請和所有支持性醫療文件。",
       "slidePage": 16
     },
     {
       "id": "p06s01u05",
-      "startTime": 565.425,
-      "endTime": 571.7,
+      "startTime": 562.763,
+      "endTime": 569.038,
       "textEn": "In the middle is the full case flow — from when the claim came in, all the way to the final recommendation.",
       "textZh": "中間是完整的案件流程——從理賠提交到最終建議。",
       "slidePage": 16
     },
     {
       "id": "p06s01u06",
-      "startTime": 571.7,
-      "endTime": 580.812,
+      "startTime": 569.038,
+      "endTime": 578.15,
       "textEn": "On the right, the AI Decision Recommendation shows: Surgical Benefit — Payable, Hospitalization — Questionable, and the final decision — Manual Review.",
       "textZh": "右側，AI 決策建議顯示：外科給付——核付，住院——存疑，最終決定——人工審查。",
       "slidePage": 16
     },
     {
       "id": "p06s01u07",
-      "startTime": 580.812,
-      "endTime": 588.888,
+      "startTime": 578.15,
+      "endTime": 586.225,
       "textEn": "It shows a 92 percent confidence score — so the reviewer can quickly tell which parts are solid and which ones need a closer look.",
       "textZh": "信心分數顯示 92%——讓審查員可以快速判斷哪些部分穩固、哪些需要更仔細審視。",
       "slidePage": 16
     },
     {
       "id": "p06s01u08",
-      "startTime": 588.888,
-      "endTime": 593.338,
+      "startTime": 586.225,
+      "endTime": 590.675,
       "textEn": "That's the pre-assessment report. Next, I'll show you the value it creates.",
       "textZh": "這就是預審報告。接下來，我會展示它創造的價值。",
       "slidePage": 16
     },
     {
       "id": "p06s02u01",
-      "startTime": 593.338,
-      "endTime": 599.75,
+      "startTime": 590.675,
+      "endTime": 597.088,
       "textEn": "So we just saw the AI pre-assessment report. Now, what does CAELIA actually mean for actuarial analysis?",
       "textZh": "我們剛看完 AI 預審報告。那 CAELIA 對精算分析的意義是什麼？",
       "slidePage": 17
     },
     {
       "id": "p06s02u02",
-      "startTime": 599.75,
-      "endTime": 608.125,
+      "startTime": 597.088,
+      "endTime": 605.463,
       "textEn": "Before CAELIA, claims data was unstructured — medical records, forms, images — and the results were hard to reuse for actuarial analysis.",
       "textZh": "在 CAELIA 之前，理賠資料是非結構化的——醫療紀錄、表格、圖片——難以重用，也難以支援精算分析。",
       "slidePage": 17
     },
     {
       "id": "p06s02u03",
-      "startTime": 608.125,
-      "endTime": 612.1,
+      "startTime": 605.463,
+      "endTime": 609.438,
       "textEn": "Now, CAELIA transforms that into structured, actuarial-ready data.",
       "textZh": "現在，CAELIA 將這些資料轉化為結構化的、可供精算使用的資料。",
       "slidePage": 17
     },
     {
       "id": "p06s02u04",
-      "startTime": 612.1,
-      "endTime": 620.55,
+      "startTime": 609.438,
+      "endTime": 617.888,
       "textEn": "The structured output that CAELIA produces has three layers: the claim result, the policy and decision basis, and the full medical assessment.",
       "textZh": "CAELIA 產出的結構化輸出有三個層次：理賠結果、保單與決策依據，以及完整的醫療評估。",
       "slidePage": 17
     },
     {
       "id": "p06s02u05",
-      "startTime": 620.55,
-      "endTime": 628.85,
+      "startTime": 617.888,
+      "endTime": 626.188,
       "textEn": "And with these three layers, actuaries can now bring claims experience back into assumptions much more frequently — not just at year-end.",
       "textZh": "有了這三個層次，精算師現在可以更頻繁地將理賠經驗帶回假設中更新——而不只是在年底。",
       "slidePage": 17
     },
     {
       "id": "p06s02u06",
-      "startTime": 628.85,
-      "endTime": 638.838,
+      "startTime": 626.188,
+      "endTime": 636.175,
       "textEn": "In short, CAELIA turns claims records into actuarial-ready data — and in the next two slides, I'll show you what that means for Experience Analysis and Pricing.",
       "textZh": "簡言之，CAELIA 將理賠紀錄轉化為可供精算使用的資料——接下來兩頁，我會展示這對經驗分析和定價的意義。",
       "slidePage": 17
     },
     {
       "id": "p06s03u01",
-      "startTime": 638.838,
-      "endTime": 644.55,
+      "startTime": 636.175,
+      "endTime": 641.888,
       "textEn": "So let's start with Experience Analysis — and I'll use a real example to show you the difference.",
       "textZh": "那我們從經驗分析開始——我用一個實際案例來展示差別。",
       "slidePage": 18
     },
     {
       "id": "p06s03u02",
-      "startTime": 644.55,
-      "endTime": 649.625,
+      "startTime": 641.888,
+      "endTime": 646.963,
       "textEn": "For example, an 80-year-old male with an accidental death claim after a fall.",
       "textZh": "例如，一位 80 歲男性在跌倒後申請意外死亡理賠。",
       "slidePage": 18
     },
     {
       "id": "p06s03u03",
-      "startTime": 649.625,
-      "endTime": 663.088,
+      "startTime": 646.963,
+      "endTime": 660.425,
       "textEn": "Traditional analysis just pools all accidental death cases together — it doesn't ask whether the cause was external, or something like degeneration or disease. That makes the risk pool messy, and pricing ends up off.",
       "textZh": "傳統分析把所有意外死亡案件全部加在一起——不問成因是外部的，還是像退化或疾病這樣的內部因素。這讓風險池變得不乾淨，定價也會偏差。",
       "slidePage": 18
     },
     {
       "id": "p06s03u04",
-      "startTime": 663.088,
-      "endTime": 678.225,
+      "startTime": 660.425,
+      "endTime": 675.563,
       "textEn": "But Cause-Based Analysis goes deeper — was there an underlying disease, like Parkinson's or dementia, that actually caused the fall? It separates those cases out, flags the ones that need further review, and builds a cleaner analysis population.",
       "textZh": "但以原因為基礎的分析更深入——這次跌倒背後有沒有潛在疾病，像是帕金森氏症或失智症，才是真正的原因？它把這些案件分開，標記需要進一步審查的，並建立更乾淨的分析母體。",
       "slidePage": 18
     },
     {
       "id": "p06s03u05",
-      "startTime": 678.225,
-      "endTime": 685.763,
+      "startTime": 675.563,
+      "endTime": 683.1,
       "textEn": "That distinction changes how we estimate incidence, how we segment risk, and how clean our experience study population is.",
       "textZh": "這個區別改變了我們估計發生率、進行風險分群，以及確保經驗研究母體乾淨的方式。",
       "slidePage": 18
     },
     {
       "id": "p06s03u06",
-      "startTime": 685.763,
-      "endTime": 688.513,
+      "startTime": 683.1,
+      "endTime": 685.85,
       "textEn": "Next, let me show you how this applies to pricing.",
       "textZh": "接下來，讓我展示這如何應用到定價上。",
       "slidePage": 18
     },
     {
       "id": "p06s04u01",
-      "startTime": 688.513,
-      "endTime": 690.288,
+      "startTime": 685.85,
+      "endTime": 687.625,
       "textEn": "Now let's talk about pricing.",
       "textZh": "現在談定價。",
       "slidePage": 19
     },
     {
       "id": "p06s04u02",
-      "startTime": 690.288,
-      "endTime": 698.125,
+      "startTime": 687.625,
+      "endTime": 695.463,
       "textEn": "Traditional pricing is outcome-based — it observes an increase in lung cancer claim costs, and aggregates all cases together.",
       "textZh": "傳統定價以結果為基礎——它觀察到肺癌理賠費用增加，然後把所有案件加在一起。",
       "slidePage": 19
     },
     {
       "id": "p06s04u03",
-      "startTime": 698.125,
-      "endTime": 704.8,
+      "startTime": 695.463,
+      "endTime": 702.138,
       "textEn": "AI-Driven Pricing is cause-based — it understands the drivers and applies differentiated pricing strategies.",
       "textZh": "AI 驅動的定價以原因為基礎——它理解驅動因素並應用差異化的定價策略。",
       "slidePage": 19
     },
     {
       "id": "p06s04u04",
-      "startTime": 704.8,
-      "endTime": 711.663,
+      "startTime": 702.138,
+      "endTime": 709.0,
       "textEn": "The difference is: traditional pricing sees the total cost, but AI pricing tells you what's actually driving it.",
       "textZh": "差別在於：傳統定價看到的是總費用，但 AI 定價告訴你是什麼在驅動它。",
       "slidePage": 19
     },
     {
       "id": "p06s04u05",
-      "startTime": 711.663,
-      "endTime": 716.163,
+      "startTime": 709.0,
+      "endTime": 713.5,
       "textEn": "Take lung cancer as an example — looking at 100 cases together.",
       "textZh": "以肺癌為例——看 100 件案件。",
       "slidePage": 19
     },
     {
       "id": "p06s04u06",
-      "startTime": 716.163,
-      "endTime": 728.538,
+      "startTime": 713.5,
+      "endTime": 725.875,
       "textEn": "Traditional pricing just tells you costs are going up. But cause analysis breaks that down — 70 standard cases, 20 high-intensity ones, and 10 borderline cases with policy disputes.",
       "textZh": "傳統定價只告訴你費用在上升。但原因分析把它拆開來——70 件標準案件、20 件高強度案件，以及 10 件有保單爭議的邊界案件。",
       "slidePage": 19
     },
     {
       "id": "p06s04u07",
-      "startTime": 728.538,
-      "endTime": 735.925,
+      "startTime": 725.875,
+      "endTime": 733.263,
       "textEn": "Now you can refine your assumptions, apply segmented pricing, and redesign benefits to limit unnecessary medical costs.",
       "textZh": "現在你可以精修假設、應用分群定價，以及重新設計給付來限制不必要的醫療費用。",
       "slidePage": 19
     },
     {
       "id": "p06s04u08",
-      "startTime": 735.925,
-      "endTime": 742.75,
+      "startTime": 733.263,
+      "endTime": 740.088,
       "textEn": "With that, pricing becomes more accurate, risk becomes more controllable, and products become more competitive.",
       "textZh": "如此一來，定價更準確、風險更可控、商品更具競爭力。",
       "slidePage": 19
     },
     {
       "id": "p06s04u09",
-      "startTime": 742.75,
-      "endTime": 747.1,
+      "startTime": 740.088,
+      "endTime": 744.438,
       "textEn": "So we've seen how CAELIA extends into experience analysis and pricing.",
       "textZh": "我們已經看過 CAELIA 如何延伸到經驗分析和定價。",
       "slidePage": 19
     },
     {
       "id": "p06s04u10",
-      "startTime": 747.1,
-      "endTime": 755.9,
+      "startTime": 744.438,
+      "endTime": 753.238,
       "textEn": "And to make all of this work, CAELIA needs a solid knowledge foundation — so let me introduce how we build it and how the agents actually use it.",
       "textZh": "要讓這一切運作，CAELIA 需要一個紮實的知識基底——讓我介紹我們如何建立它以及各 Agent 如何使用它。",
       "slidePage": 19
     },
     {
       "id": "p07s01u01",
-      "startTime": 755.9,
-      "endTime": 758.538,
+      "startTime": 753.238,
+      "endTime": 755.875,
       "textEn": "So this is the Knowledge Foundation behind CAELIA.",
       "textZh": "這就是 CAELIA 背後的知識基底。",
       "slidePage": 20
     },
     {
       "id": "p07s01u02",
-      "startTime": 758.538,
-      "endTime": 768.013,
+      "startTime": 755.875,
+      "endTime": 765.35,
       "textEn": "For CAELIA, that knowledge comes from three sources — Claims Operations Policies, Product Terms and Rules, and the Medical Knowledge and Disease Library.",
       "textZh": "對 CAELIA 來說，這個知識來自三個來源——理賠作業準則、商品條款與規則，以及醫療知識與疾病資料庫。",
       "slidePage": 20
     },
     {
       "id": "p07s01u03",
-      "startTime": 768.013,
-      "endTime": 774.75,
+      "startTime": 765.35,
+      "endTime": 772.088,
       "textEn": "Each agent has its own knowledge base — so when it reasons through a case, it pulls directly from these sources.",
       "textZh": "每個 Agent 都有自己的知識庫——當它對案件進行推理時，直接從這些來源取用。",
       "slidePage": 20
     },
     {
       "id": "p07s01u04",
-      "startTime": 774.75,
-      "endTime": 780.675,
+      "startTime": 772.088,
+      "endTime": 778.013,
       "textEn": "When the AI uses a policy clause or a medical fact, we need to know exactly where it came from.",
       "textZh": "當 AI 引用保單條款或醫療事實時，我們需要確切知道它從哪裡來。",
       "slidePage": 20
     },
     {
       "id": "p07s01u05",
-      "startTime": 780.675,
-      "endTime": 788.375,
+      "startTime": 778.013,
+      "endTime": 785.713,
       "textEn": "That's what keeps the system controllable — the AI reasons from approved knowledge, not guesswork, which reduces hallucination.",
       "textZh": "這就是讓系統保持可控的關鍵——AI 從核准的知識推理，而不是猜測，這也減少了幻覺的發生。",
       "slidePage": 20
     },
     {
       "id": "p07s01u06",
-      "startTime": 788.375,
-      "endTime": 796.588,
+      "startTime": 785.713,
+      "endTime": 793.925,
       "textEn": "So CAELIA has this knowledge foundation — and we use it to build our agents. Let me show you how we build the Policy Interpretation Agent.",
       "textZh": "所以 CAELIA 有這個知識基底——我們用它來建立各個 Agent。讓我展示我們如何建立保單解讀 Agent。",
       "slidePage": 20
     },
     {
       "id": "p07s02u01",
-      "startTime": 796.588,
-      "endTime": 802.05,
+      "startTime": 793.925,
+      "endTime": 799.388,
       "textEn": "So this is the Policy Interpretation Agent — one of the most critical agents in CAELIA.",
       "textZh": "這就是保單解讀 Agent——CAELIA 中最關鍵的 Agent 之一。",
       "slidePage": 21
     },
     {
       "id": "p07s02u02",
-      "startTime": 802.05,
-      "endTime": 807.913,
+      "startTime": 799.388,
+      "endTime": 805.25,
       "textEn": "On this slide, you can see the full workflow — from input data all the way to structured output.",
       "textZh": "在這頁，你可以看到完整的工作流程——從輸入資料到結構化輸出。",
       "slidePage": 21
     },
     {
       "id": "p07s02u03",
-      "startTime": 807.913,
-      "endTime": 814.087,
+      "startTime": 805.25,
+      "endTime": 811.425,
       "textEn": "The agent takes in the claims information, the medical documents, and the applicant's policy details.",
       "textZh": "這個 Agent 接收理賠資訊、醫療文件和申請人的保單詳情。",
       "slidePage": 21
     },
     {
       "id": "p07s02u04",
-      "startTime": 814.087,
-      "endTime": 822.387,
+      "startTime": 811.425,
+      "endTime": 819.725,
       "textEn": "It then works through four steps — understand the claim, determine applicability, identify exclusions, and generate a structured output.",
       "textZh": "然後它執行四個步驟——理解理賠內容、確定適用性、辨識除外條款，以及產出結構化輸出。",
       "slidePage": 21
     },
     {
       "id": "p07s02u05",
-      "startTime": 822.387,
-      "endTime": 830.487,
+      "startTime": 819.725,
+      "endTime": 827.825,
       "textEn": "The output covers everything: applicable coverage, coverage determination, exclusion determination, and the full decision rationale.",
       "textZh": "輸出涵蓋一切：適用承保範圍、承保認定、除外條款認定，以及完整的決策依據。",
       "slidePage": 21
     },
     {
       "id": "p07s02u06",
-      "startTime": 830.487,
-      "endTime": 839.95,
+      "startTime": 827.825,
+      "endTime": 837.287,
       "textEn": "CAELIA's output clearly shows what's covered, what's excluded, and the full decision explanation — so the reviewer has everything they need in one place.",
       "textZh": "CAELIA 的輸出清楚顯示什麼被承保、什麼被除外，以及完整的決策說明——讓審查員在一個地方看到所有需要的資訊。",
       "slidePage": 21
     },
     {
       "id": "p07s02u07",
-      "startTime": 839.95,
-      "endTime": 850.112,
+      "startTime": 837.287,
+      "endTime": 847.45,
       "textEn": "So we've walked through CAELIA's architecture and how it feeds into actuarial analysis. To bring it all together — here's what CAELIA delivers for the organization.",
       "textZh": "我們已經介紹了 CAELIA 的架構以及它如何回饋到精算實務分析。綜合來說——這就是 CAELIA 為組織帶來的價值。",
       "slidePage": 21
     },
     {
       "id": "p07s03u01",
-      "startTime": 850.112,
-      "endTime": 855.612,
+      "startTime": 847.45,
+      "endTime": 852.95,
       "textEn": "The value shows up in four areas: operations, risk control, governance, and actuarial work.",
       "textZh": "這個價值體現在四個面向：營運、風險控管、治理，以及精算工作。",
       "slidePage": 22
     },
     {
       "id": "p07s03u02",
-      "startTime": 855.612,
-      "endTime": 865.6,
+      "startTime": 852.95,
+      "endTime": 862.937,
       "textEn": "For operations, CAELIA cuts review time and frees people up to focus on judgment — in our claims team, reviewers save roughly 30 percent of their time per case.",
       "textZh": "在營運方面，CAELIA 縮短審查時間，讓人可以專注在判斷上——在我們的理賠團隊中，審理人員每件案件約可節省 30% 的時間。",
       "slidePage": 22
     },
     {
       "id": "p07s03u03",
-      "startTime": 865.6,
-      "endTime": 869.987,
+      "startTime": 862.937,
+      "endTime": 867.325,
       "textEn": "For risk control, it catches inconsistencies and fraud signals earlier.",
       "textZh": "在風險控管方面，系統能更早發現不一致與詐欺訊號。",
       "slidePage": 22
     },
     {
       "id": "p07s03u04",
-      "startTime": 869.987,
-      "endTime": 878.325,
+      "startTime": 867.325,
+      "endTime": 875.662,
       "textEn": "For governance, traceable reasoning and human oversight make AI output explainable and auditable — essential in a regulated industry.",
       "textZh": "在治理方面，可追溯的推理與人工監督讓 AI 輸出可解釋、可稽核——在受監理的產業中不可或缺。",
       "slidePage": 22
     },
     {
       "id": "p07s03u05",
-      "startTime": 878.325,
-      "endTime": 889.475,
+      "startTime": 875.662,
+      "endTime": 886.812,
       "textEn": "And for actuarial work, claims data goes from unstructured records to something you can actually analyze — supporting experience studies, pricing, reserving, and product monitoring.",
       "textZh": "在精算工作方面，理賠資料從非結構化的記錄，變成真正可以分析的素材——支援經驗研究、定價、準備金與商品監控。",
       "slidePage": 22
     },
     {
       "id": "p07s03u06",
-      "startTime": 889.475,
-      "endTime": 896.65,
+      "startTime": 886.812,
+      "endTime": 893.987,
       "textEn": "And stepping back, that's the real lesson: AI in insurance creates value that goes far deeper than efficiency alone.",
       "textZh": "退一步來看，這就是真正的啟示：保險業的 AI 能創造的價值，遠比效率本身深遠得多。",
       "slidePage": 22
     },
     {
       "id": "p07s03u07",
-      "startTime": 896.65,
-      "endTime": 906.837,
+      "startTime": 893.987,
+      "endTime": 904.175,
       "textEn": "CAELIA is proof that claims AI can be more than a processing tool — it can be a foundation for better decisions, stronger governance, and richer actuarial insight.",
       "textZh": "CAELIA 證明了理賠 AI 可以不只是一個處理工具——它可以成為更好決策、更強治理與更豐富精算洞察的基礎。",
       "slidePage": 22
     },
     {
       "id": "p07s03u08",
-      "startTime": 906.837,
-      "endTime": 910.262,
+      "startTime": 904.175,
+      "endTime": 907.6,
       "textEn": "Thank you so much for your time — we'd love to take your questions.",
       "textZh": "非常感謝各位的時間——我們很樂意接受大家的提問。",
       "slidePage": 22
