@@ -1,0 +1,21 @@
+{
+  "name": "SOA Presentation Practice",
+  "short_name": "SOA Practice",
+  "description": "English presentation practice with synced slides, transcript, and audio playback.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#071019",
+  "theme_color": "#071019",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
